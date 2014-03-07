@@ -29,10 +29,11 @@
         controller.managedObjectContext = self.managedObjectContext;
     } else {
         UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-        WorldLoveNetwork_girl *controller = (WorldLoveNetwork_girl *)navigationController.topViewController;
+        WorldLoveNetwork *controller = (WorldLoveNetwork *)navigationController.topViewController;
         NSLog(@"%@",controller);
        // controller.managedObjectContext = self.managedObjectContext;
     }
+    self.showGenderConfirmation = YES;
     return YES;
 }
 							

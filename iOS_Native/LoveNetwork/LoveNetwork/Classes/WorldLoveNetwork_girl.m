@@ -9,6 +9,7 @@
 #import "WorldLoveNetwork_girl.h"
 
 #import "DetailViewController.h"
+#import "AppDelegate.h"
 
 @interface WorldLoveNetwork_girl ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -47,6 +48,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    //    if ([[segue identifier] isEqualToString:@"showDetail"]) {
+    //        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] objectAtIndex:0];
+    //        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
+    //        [[segue destinationViewController] setDetailItem:object];
+    //    }
+    
+    if ([segue.identifier isEqualToString:@"showGirlDetail"]) {
+        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+        DetailViewController *destViewController = segue.destinationViewController;
+        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+        destViewController.personName = [femaleCollection objectAtIndex:indexPath.row];
+        // destViewController.imageDetail.image = [UIImage imageNamed:[femaleCollection objectAtIndex:indexPath.row]];
+        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+    }
+}
+/*
 - (void)insertNewObject:(id)sender
 {
     NSManagedObjectContext *context = [self.fetchedResultsController managedObjectContext];
@@ -123,24 +142,6 @@
     }
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-//    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-//        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] objectAtIndex:0];
-//        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-//        [[segue destinationViewController] setDetailItem:object];
-//    }
-    
-    if ([segue.identifier isEqualToString:@"showGirlDetail"]) {
-        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-        DetailViewController *destViewController = segue.destinationViewController;
-        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
-        destViewController.personName = [femaleCollection objectAtIndex:indexPath.row];
-       // destViewController.imageDetail.image = [UIImage imageNamed:[femaleCollection objectAtIndex:indexPath.row]];
-        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
-    }
-}
-
 #pragma mark - Fetched results controller
 
 - (NSFetchedResultsController *)fetchedResultsController
@@ -178,7 +179,9 @@
 	}
     
     return self.fetchedResultsController;
-}    
+} 
+ 
+*/
 
 - (void)controllerWillChangeContent:(NSFetchedResultsController *)controller
 {
@@ -280,11 +283,13 @@
     if (kind == UICollectionElementKindSectionHeader) {
         WorldLoveNetworkHeaderView_girl *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView" forIndexPath:indexPath];
         
-        NSString *titleString = (indexPath.section == 0) ? @"Lovely Ladies" : @"Handsome Guys";
+        NSString *titleString = (indexPath.section == 0) ? @"Interested In Boys" : @"Handsome Guys";
         NSString *title = [[NSString alloc]initWithFormat:@"%@", titleString];
         headerView.title.text = title;
-        [headerView.title addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGesture:)]];
+        
+        [headerView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapChangeGesture:)]];
         [self.view addGestureRecognizer:[[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotationGesture:)]];
+        
         NSString *titleBackground = (indexPath.section == 0) ? @"rose_header.jpg" : @"boy_background.jpg";
         headerView.title.textColor =  (indexPath.section == 0) ? [UIColor whiteColor] : [UIColor blackColor];
         UIImage *headerImage = [UIImage imageNamed:titleBackground];
@@ -304,14 +309,31 @@
 
 //gesture recognizer
 
--(void)singleTapGesture:(UITapGestureRecognizer*)recognizer
+-(void)singleTapChangeGesture:(UITapGestureRecognizer*)recognizer
 {
-    NSLog(@" #################### jo chaha wo paya");
+    NSLog(@" #################### jo chaha wo paya girl will change to boy %@", appDelegate.window.rootViewController);
+    UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"boyNavigation"];
+    
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    [self presentViewController:vc animated:YES completion:^{
+        appDelegate.window.rootViewController = vc;
+        NSLog(@" #################### current %@", appDelegate.window.rootViewController);
+    }];
+    
 }
 
 -(void)rotationGesture:(UITapGestureRecognizer*)recognizer
 {
     NSLog(@" #################### jo chaha wo paya rotation");
+}
+
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    [self moveToNextScreen:collectionView shouldHighlightItemAtIndexPath:indexPath fromCollection:femaleCollection];
+    
+    return YES;
 }
 
 @end

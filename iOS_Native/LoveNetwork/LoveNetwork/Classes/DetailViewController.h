@@ -16,5 +16,18 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageDetail;
 @property (weak, nonatomic) NSString *personName;
 
-@property (retain, nonatomic) IBOutlet UILabel *testIBOutlet;;
+- (IBAction)AppCalling:(id)sender;
+- (IBAction)AppMessage:(id)sender;
+- (IBAction)whatsAppInvoke:(id)sender;
+
+- (IBAction)weChatInvoke:(id)sender;
+
+- (IBAction)fbInvoke:(id)sender;
+- (IBAction)googlePlusInvoke:(id)sender;
+- (IBAction)mobileMessage:(id)sender;
+- (IBAction)MobileMail:(id)sender;
+- (IBAction)MobileCall:(id)sender;
+
+
+
 @end

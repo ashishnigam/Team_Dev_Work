@@ -8,7 +8,9 @@
 
 #import "WorldLoveNetwork.h"
 
+
 #import "DetailViewController.h"
+#import "LibiOS.h"
 
 
 @interface WorldLoveNetwork ()
@@ -29,11 +31,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-   // self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-//    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-//    self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
     
     
@@ -44,17 +41,6 @@
     
     humanCollection = @[ladiesCollection,gentsCollection];
     
-    UIAlertView *genderConfirm = [[UIAlertView alloc] initWithTitle:@"Confirm Your Gender" message:@"Who You Are?" delegate:self cancelButtonTitle:@"Male" otherButtonTitles:@"Female", nil];
-    [genderConfirm show];
-    
-}
-
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    if (buttonIndex == 1) {
-        UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"wln_girl"];
-        
-        [self.navigationController.view addSubview:vc.view];
-    }
 }
 
 -(NSArray*)getFemaleCollection:(id)params
@@ -94,7 +80,7 @@
 //}
 
 #pragma mark - Table View
-
+/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return [[self.fetchedResultsController sections] count];
@@ -272,7 +258,7 @@
     cell.textLabel.text = [[object valueForKey:@"timeStamp"] description];
 }
 
-
+/*
 #pragma mark - Collection View Controller
 // collection view
 
@@ -309,7 +295,7 @@
         NSString *titleString = (indexPath.section == 0) ? @"Lovely Ladies" : @"Handsome Guys";
         NSString *title = [[NSString alloc]initWithFormat:@"%@", titleString];
         headerView.title.text = title;
-        [headerView.title addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGesture:)]];
+        [headerView.title addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapChangeGesture:)]];
         [self.view addGestureRecognizer:[[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotationGesture:)]];
         NSString *titleBackground = (indexPath.section == 0) ? @"rose_header.jpg" : @"boy_background.jpg";
         headerView.title.textColor =  (indexPath.section == 0) ? [UIColor whiteColor] : [UIColor blackColor];
@@ -327,17 +313,38 @@
     
     return reusableview;
 }
-
+*/
 //gesture recognizer
+//
+//-(void)singleTapChangeGesture:(UITapGestureRecognizer*)recognizer
+//{
+//    NSLog(@" #################### jo chaha wo paya");
+//}
+//
+//-(void)rotationGesture:(UITapGestureRecognizer*)recognizer
+//{
+//    NSLog(@" #################### jo chaha wo paya rotation");
+//}
 
--(void)singleTapGesture:(UITapGestureRecognizer*)recognizer
-{
-    NSLog(@" #################### jo chaha wo paya");
-}
 
--(void)rotationGesture:(UITapGestureRecognizer*)recognizer
+-(BOOL)moveToNextScreen:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath fromCollection:(NSArray*)genderCollection
 {
-    NSLog(@" #################### jo chaha wo paya rotation");
+    BOOL isLoggedIn = NO;
+    if (isLoggedIn) {
+        //  NSArray *indexPaths = [collectionView indexPathsForSelectedItems];
+        DetailViewController *destViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"DetailVC"]; //segue.destinationViewController;
+        // NSIndexPath *currentIndexPath = [indexPaths objectAtIndex:0];
+        destViewController.personName = [genderCollection objectAtIndex:indexPath.row];
+        // destViewController.imageDetail.image = [UIImage imageNamed:maleCollection objectAtIndex:indexPath.row]];
+        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+        [self.navigationController pushViewController:destViewController animated:YES];
+        //[self perform]
+    }else{
+        UIViewController *loginVC = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"LoginVC"];
+        [self.navigationController pushViewController:loginVC animated:YES];
+    }
+    
+    return YES;
 }
 
 @end

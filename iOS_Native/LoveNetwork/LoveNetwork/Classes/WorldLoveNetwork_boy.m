@@ -9,6 +9,7 @@
 #import "WorldLoveNetwork_boy.h"
 
 #import "DetailViewController.h"
+#import "AppDelegate.h"
 
 @interface WorldLoveNetwork_boy ()
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath;
@@ -25,9 +26,37 @@
     [super awakeFromNib];
 }
 
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0) {
+        UIViewController* vc = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"girlNavigation"];
+        
+        [vc.view setFrame:CGRectMake(320, 0, self.view.frame.size.width,self.view.frame.size.height)];
+        
+        [UIView animateWithDuration:0.5
+                              delay:0.0
+                            options:UIViewAnimationOptionTransitionNone
+                         animations:^{
+                             [vc.view setFrame:CGRectMake(0, 0, self.view.frame.size.width,self.view.frame.size.height)];
+                             appDelegate.window.rootViewController = vc;
+                         }
+                         completion:nil];
+        
+        //[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:vc.view cache:NO];
+//        appDelegate.window.rootViewController = vc;
+    }
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if (appDelegate.showGenderConfirmation) {
+        
+        UIAlertView *genderConfirmAlert = [[UIAlertView alloc] initWithTitle:@"Confirm your gender" message:@"Who you are?" delegate:self cancelButtonTitle:@"Male" otherButtonTitles:@"Female", nil];
+        [genderConfirmAlert show];
+    }
+    appDelegate.showGenderConfirmation = NO;
 	// Do any additional setup after loading the view, typically from a nib.
 //    self.navigationItem.leftBarButtonItem = self.editButtonItem;
 //
@@ -37,6 +66,13 @@
     
     
     maleCollection = [self getMaleCollection:@"male"];
+    
+    UIButton *rNavButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    
+    UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithCustomView:rNavButton];
+    
+    rNavButton.titleLabel.text = @"login";
+    self.navigationController.navigationItem.rightBarButtonItem = rightBarItem;
     
 }
 
@@ -66,6 +102,7 @@
 //    }
 //}
 
+/*
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -121,23 +158,26 @@
         self.detailViewController.detailItem = object;
     }
 }
+ 
+*/
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-//    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-//        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] objectAtIndex:0];
-//        NSManagedObject *object = [[self fetchedResultsController] objectAtIndexPath:indexPath];
-//        [[segue destinationViewController] setDetailItem:object];
+//    BOOL isLoggedIn = NO;
+//    if (isLoggedIn) {
+//    if ([segue.identifier isEqualToString:@"showBoyDetail"]) {
+//        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
+//        DetailViewController *destViewController = segue.destinationViewController;
+//        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
+//        destViewController.personName = [maleCollection objectAtIndex:indexPath.row];
+//       // destViewController.imageDetail.image = [UIImage imageNamed:maleCollection objectAtIndex:indexPath.row]];
+//        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+//        //[self perform]
 //    }
-    
-    if ([segue.identifier isEqualToString:@"showBoyDetail"]) {
-        NSArray *indexPaths = [self.collectionView indexPathsForSelectedItems];
-        DetailViewController *destViewController = segue.destinationViewController;
-        NSIndexPath *indexPath = [indexPaths objectAtIndex:0];
-        destViewController.personName = [maleCollection objectAtIndex:indexPath.row];
-       // destViewController.imageDetail.image = [UIImage imageNamed:maleCollection objectAtIndex:indexPath.row]];
-        [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
-    }
+//    }else{
+//        UIViewController *loginVC = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"LoginVC"];
+//        [self.navigationController pushViewController:loginVC animated:NO];
+//    }
 }
 
 #pragma mark - Fetched results controller
@@ -272,6 +312,28 @@
     return 1;
 }
 
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    //BOOL isLoggedIn = NO;
+//    if (isLoggedIn) {
+//          //  NSArray *indexPaths = [collectionView indexPathsForSelectedItems];
+//            DetailViewController *destViewController = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"DetailVC"]; //segue.destinationViewController;
+//           // NSIndexPath *currentIndexPath = [indexPaths objectAtIndex:0];
+//            destViewController.personName = [maleCollection objectAtIndex:indexPath.row];
+//            // destViewController.imageDetail.image = [UIImage imageNamed:maleCollection objectAtIndex:indexPath.row]];
+//            [self.collectionView deselectItemAtIndexPath:indexPath animated:NO];
+//        [self.navigationController pushViewController:destViewController animated:YES];
+//            //[self perform]
+//    }else{
+//        UIViewController *loginVC = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:[NSBundle mainBundle]] instantiateViewControllerWithIdentifier:@"LoginVC"];
+//        [self.navigationController pushViewController:loginVC animated:YES];
+//    }
+    
+    [self moveToNextScreen:collectionView shouldHighlightItemAtIndexPath:indexPath fromCollection:maleCollection];
+
+    return YES;
+}
+
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionReusableView *reusableview = nil;
@@ -279,11 +341,13 @@
     if (kind == UICollectionElementKindSectionHeader) {
         WorldLoveNetworkHeaderView_boy *headerView = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"HeaderView_Boy" forIndexPath:indexPath];
         
-        NSString *titleString = (indexPath.section == 0) ? @"Handsome Guys" : @"Unknown";
+        NSString *titleString = (indexPath.section == 0) ? @"Like Girls" : @"Unknown";
         NSString *title = [[NSString alloc]initWithFormat:@"%@", titleString];
         headerView.title.text = title;
-        [headerView.title addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapGesture:)]];
+        
+        [headerView addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(singleTapChangeGesture:)]];
         [self.view addGestureRecognizer:[[UIRotationGestureRecognizer alloc] initWithTarget:self action:@selector(rotationGesture:)]];
+        
         NSString *titleBackground = (indexPath.section == 0) ? @"boy_background.jpg" : @"boy_background.jpg";
         headerView.title.textColor =  (indexPath.section == 0) ? [UIColor blackColor] : [UIColor blackColor];
         UIImage *headerImage = [UIImage imageNamed:titleBackground];
@@ -303,9 +367,20 @@
 
 //gesture recognizer
 
--(void)singleTapGesture:(UITapGestureRecognizer*)recognizer
+-(void)singleTapChangeGesture:(UITapGestureRecognizer*)recognizer
 {
-    NSLog(@" #################### jo chaha wo paya");
+    NSLog(@" #################### jo chaha wo paya will change to girl %@", appDelegate.window.rootViewController);    
+    UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:Nil] instantiateViewControllerWithIdentifier:@"girlNavigation"];
+    
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    [self presentViewController:vc animated:YES completion:^{
+        appDelegate.window.rootViewController = vc;
+        NSLog(@" #################### current %@", appDelegate.window.rootViewController);
+    }];
+    
+    
+    //appDelegate.window.rootViewController = vc;
 }
 
 -(void)rotationGesture:(UITapGestureRecognizer*)recognizer

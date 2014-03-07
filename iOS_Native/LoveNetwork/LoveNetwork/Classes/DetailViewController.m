@@ -7,10 +7,15 @@
 //
 
 #import "DetailViewController.h"
+#import "FlyOutView.h"
 
 @interface DetailViewController ()
+{
+    NSTimer* myTimer;
+}
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 - (void)configureView;
+@property (weak, nonatomic) IBOutlet FlyOutView *flyOutView1;
 @end
 
 @implementation DetailViewController
@@ -18,7 +23,7 @@
 @synthesize imageDetail;
 @synthesize detailDescriptionLabel;
 @synthesize personName;
-@synthesize testIBOutlet = _testIBOutlet;
+
 
 #pragma mark - Managing the detail item
 
@@ -46,6 +51,10 @@
     if (self.imageDetail) {
         self.imageDetail.image = [UIImage imageNamed:self.personName];
     }
+    
+    myTimer = [NSTimer scheduledTimerWithTimeInterval: 6.0 target:self
+                                                      selector: @selector(showFlyOut:) userInfo: nil repeats: YES];
+    NSLog(@"Timer ticking %@",myTimer);
    
 }
 
@@ -54,6 +63,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    [myTimer invalidate];
+    [super viewDidDisappear:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -78,4 +94,89 @@
     self.masterPopoverController = nil;
 }
 
+#pragma mark - FlyOut Menu View
+
+-(void)showFlyOut:(id)callingArgs
+{
+    NSLog(@"Calling showFlyOut");
+    CGRect screeenRect = [[UIScreen mainScreen] bounds];
+    [UIView animateWithDuration:0.5
+                          delay:0.0
+                        options:UIViewAnimationOptionCurveEaseOut
+                     animations:^{
+                         [self.flyOutView1 setFrame:CGRectMake((screeenRect.size.width)-(self.flyOutView1.frame.size.width), self.flyOutView1.frame.origin.y, self.flyOutView1.frame.size.width,self.flyOutView1.frame.size.height)];
+                         
+                     }
+                     completion:nil];
+}
+
+-(void)hideFlyOut:(id)callingArgs
+{
+    CGRect screeenRect = [[UIScreen mainScreen] bounds];
+    [UIView animateWithDuration:0.5
+                          delay:0.0
+                        options:UIViewAnimationOptionCurveEaseOut
+                     animations:^{
+                         [self.flyOutView1 setFrame:CGRectMake(screeenRect.size.width-10, self.flyOutView1.frame.origin.y, self.flyOutView1.frame.size.width,self.flyOutView1.frame.size.height)];
+                         
+                     }
+                     completion:nil];
+}
+
+#pragma mark - FlyOut Menu Options
+
+- (IBAction)AppCalling:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+    
+}
+
+- (IBAction)AppMessage:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)whatsAppInvoke:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)weChatInvoke:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)fbInvoke:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)googlePlusInvoke:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)mobileMessage:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)MobileMail:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
+
+- (IBAction)MobileCall:(id)sender {
+    NSLog(@"Calling inapp");
+    
+    [self hideFlyOut:nil];
+}
 @end

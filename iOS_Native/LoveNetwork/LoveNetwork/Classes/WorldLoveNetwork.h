@@ -31,4 +31,7 @@
 
 -(NSArray*)getMaleCollection:(id)params;
 -(NSArray*)getFemaleCollection:(id)params;
+
+-(BOOL)moveToNextScreen:(UICollectionView *)collectionView shouldHighlightItemAtIndexPath:(NSIndexPath *)indexPath fromCollection:(NSArray*)genderCollection;
+
 @end
