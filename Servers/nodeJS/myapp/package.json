@@ -1,0 +1,28 @@
+{
+  "name": "ServerApp",
+  "version": "0.0.0",
+  "description": "my first server app",
+  "main": "app.js",
+  "dependencies": {
+    "mongojs": "~0.10.0",
+    "restify": "~2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "not yet"
+  },
+  "keywords": [
+    "rest",
+    "apis",
+    "server",
+    "with",
+    "mongo",
+    "db"
+  ],
+  "author": "ashish nigam",
+  "license": "MIT"
+}
