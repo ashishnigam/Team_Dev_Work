@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>payload</key>
+	<string>{&quot;aps&quot;:{&quot;alert&quot;:&quot;Apple Test Push Notification&quot;,&quot;badge&quot;:1,&quot;sound&quot;:&quot;default&quot;}}</string>
+	<key>tokens</key>
+	<array>
+		<dict>
+			<key>Identifiers</key>
+			<array>
+				<string>com.globallogic.Appcelerator</string>
+			</array>
+			<key>development</key>
+			<array>
+				<string>6d0229aaa4f7bcae083a64c7e4b98c0945a6133f32322dff85a5f5313f9f91ca iPhone5S</string>
+			</array>
+			<key>production</key>
+			<array>
+				<string>6d0229aaa4f7bcae083a64c7e4b98c0945a6133f32322dff85a5f5313f9f91ca iPhone5S</string>
+			</array>
+		</dict>
+		<dict>
+			<key>identifiers</key>
+			<array>
+				<string>com.globallogic.ZoeTrope</string>
+			</array>
+			<key>development</key>
+			<array>
+				<string>6d0229aaa4f7bcae083a64c7e4b98c0945a6133f32322dff85a5f5313f9f91ca iPhone5S</string>
+			</array>
+			<key>production</key>
+			<array>
+				<string>6d0229aaa4f7bcae083a64c7e4b98c0945a6133f32322dff85a5f5313f9f91ca iPhone5S</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
