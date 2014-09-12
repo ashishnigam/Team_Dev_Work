@@ -15,13 +15,21 @@
 		142C349119A48A21001DA6F5 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C349019A48A21001DA6F5 /* ANAppDelegate.m */; };
 		142C349419A48A21001DA6F5 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142C349219A48A21001DA6F5 /* Main_iPhone.storyboard */; };
 		142C349719A48A21001DA6F5 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142C349519A48A21001DA6F5 /* Main_iPad.storyboard */; };
-		142C349A19A48A21001DA6F5 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C349919A48A21001DA6F5 /* ANViewController.m */; };
+		142C349A19A48A21001DA6F5 /* ANViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 142C349919A48A21001DA6F5 /* ANViewController.mm */; };
 		142C349C19A48A21001DA6F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142C349B19A48A21001DA6F5 /* Images.xcassets */; };
 		142C34A319A48A21001DA6F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34A219A48A21001DA6F5 /* XCTest.framework */; };
 		142C34A419A48A21001DA6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C348019A48A21001DA6F5 /* Foundation.framework */; };
 		142C34A519A48A21001DA6F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C348419A48A21001DA6F5 /* UIKit.framework */; };
 		142C34AD19A48A21001DA6F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142C34AB19A48A21001DA6F5 /* InfoPlist.strings */; };
 		142C34AF19A48A21001DA6F5 /* HandsFreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C34AE19A48A21001DA6F5 /* HandsFreeTests.m */; };
+		142C34BA19A4CF2E001DA6F5 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34B919A4CF2E001DA6F5 /* opencv2.framework */; };
+		142C34BC19A5D331001DA6F5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34BB19A5D331001DA6F5 /* Accelerate.framework */; };
+		142C34BE19A5D342001DA6F5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34BD19A5D342001DA6F5 /* AssetsLibrary.framework */; };
+		142C34C019A5D349001DA6F5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34BF19A5D349001DA6F5 /* AVFoundation.framework */; };
+		142C34C219A5D359001DA6F5 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34C119A5D359001DA6F5 /* CoreImage.framework */; };
+		142C34C419A5D360001DA6F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34C319A5D360001DA6F5 /* CoreMedia.framework */; };
+		142C34C619A5D368001DA6F5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34C519A5D368001DA6F5 /* CoreVideo.framework */; };
+		142C34C819A5D371001DA6F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C34C719A5D371001DA6F5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +56,21 @@
 		142C349319A48A21001DA6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		142C349619A48A21001DA6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		142C349819A48A21001DA6F5 /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
-		142C349919A48A21001DA6F5 /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
+		142C349919A48A21001DA6F5 /* ANViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ANViewController.mm; sourceTree = "<group>"; };
 		142C349B19A48A21001DA6F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		142C34A119A48A21001DA6F5 /* HandsFreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandsFreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142C34A219A48A21001DA6F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		142C34AA19A48A21001DA6F5 /* HandsFreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HandsFreeTests-Info.plist"; sourceTree = "<group>"; };
 		142C34AC19A48A21001DA6F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		142C34AE19A48A21001DA6F5 /* HandsFreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsFreeTests.m; sourceTree = "<group>"; };
+		142C34B919A4CF2E001DA6F5 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		142C34BB19A5D331001DA6F5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		142C34BD19A5D342001DA6F5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		142C34BF19A5D349001DA6F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		142C34C119A5D359001DA6F5 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		142C34C319A5D360001DA6F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		142C34C519A5D368001DA6F5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		142C34C719A5D371001DA6F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +78,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142C34C819A5D371001DA6F5 /* QuartzCore.framework in Frameworks */,
+				142C34C619A5D368001DA6F5 /* CoreVideo.framework in Frameworks */,
+				142C34C419A5D360001DA6F5 /* CoreMedia.framework in Frameworks */,
+				142C34C219A5D359001DA6F5 /* CoreImage.framework in Frameworks */,
 				142C348319A48A21001DA6F5 /* CoreGraphics.framework in Frameworks */,
+				142C34C019A5D349001DA6F5 /* AVFoundation.framework in Frameworks */,
+				142C34BE19A5D342001DA6F5 /* AssetsLibrary.framework in Frameworks */,
+				142C34BC19A5D331001DA6F5 /* Accelerate.framework in Frameworks */,
 				142C348519A48A21001DA6F5 /* UIKit.framework in Frameworks */,
+				142C34BA19A4CF2E001DA6F5 /* opencv2.framework in Frameworks */,
 				142C348119A48A21001DA6F5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +127,14 @@
 		142C347F19A48A21001DA6F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				142C34C719A5D371001DA6F5 /* QuartzCore.framework */,
+				142C34C519A5D368001DA6F5 /* CoreVideo.framework */,
+				142C34C319A5D360001DA6F5 /* CoreMedia.framework */,
+				142C34C119A5D359001DA6F5 /* CoreImage.framework */,
+				142C34BF19A5D349001DA6F5 /* AVFoundation.framework */,
+				142C34BD19A5D342001DA6F5 /* AssetsLibrary.framework */,
+				142C34BB19A5D331001DA6F5 /* Accelerate.framework */,
+				142C34B819A4CF07001DA6F5 /* OtherFrameworks */,
 				142C348019A48A21001DA6F5 /* Foundation.framework */,
 				142C348219A48A21001DA6F5 /* CoreGraphics.framework */,
 				142C348419A48A21001DA6F5 /* UIKit.framework */,
@@ -119,7 +151,7 @@
 				142C349219A48A21001DA6F5 /* Main_iPhone.storyboard */,
 				142C349519A48A21001DA6F5 /* Main_iPad.storyboard */,
 				142C349819A48A21001DA6F5 /* ANViewController.h */,
-				142C349919A48A21001DA6F5 /* ANViewController.m */,
+				142C349919A48A21001DA6F5 /* ANViewController.mm */,
 				142C349B19A48A21001DA6F5 /* Images.xcassets */,
 				142C348719A48A21001DA6F5 /* Supporting Files */,
 			);
@@ -153,6 +185,14 @@
 				142C34AB19A48A21001DA6F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		142C34B819A4CF07001DA6F5 /* OtherFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				142C34B919A4CF2E001DA6F5 /* opencv2.framework */,
+			);
+			path = OtherFrameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142C348D19A48A21001DA6F5 /* main.m in Sources */,
-				142C349A19A48A21001DA6F5 /* ANViewController.m in Sources */,
+				142C349A19A48A21001DA6F5 /* ANViewController.mm in Sources */,
 				142C349119A48A21001DA6F5 /* ANAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +431,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OtherFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HandsFree/HandsFree-Prefix.pch";
 				INFOPLIST_FILE = "HandsFree/HandsFree-Info.plist";
@@ -404,6 +448,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OtherFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HandsFree/HandsFree-Prefix.pch";
 				INFOPLIST_FILE = "HandsFree/HandsFree-Info.plist";
@@ -471,6 +519,7 @@
 				142C34B419A48A22001DA6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		142C34B519A48A22001DA6F5 /* Build configuration list for PBXNativeTarget "HandsFreeTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +528,7 @@
 				142C34B719A48A22001DA6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

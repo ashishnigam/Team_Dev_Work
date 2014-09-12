@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <opencv2/videoio/cap_ios.h>
+#import <opencv2/imgproc/types_c.h>
 
-@interface ANViewController : UIViewController
+@interface ANViewController : UIViewController <CvVideoCameraDelegate>
+{
+    IBOutlet UIImageView* imageView;
+    IBOutlet UIButton* button;
+    CvVideoCamera* videoCamera;
+}
+
+@property (nonatomic, retain) CvVideoCamera* videoCamera;
+
+- (IBAction)actionStart:(id)sender;
 
 @end
