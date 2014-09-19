@@ -1,0 +1,121 @@
+TCompilerIdC
+v6
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution Run\ Script /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052784352000000000000044C
+t1383613266
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005278435200000000000001DB
+t1383613266
+s475
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c
+c0000000053F49497000000000000344F
+t1408537751
+s13391
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC
+t2
+s0
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t1408537755
+s3500
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c0000000053F4949A00000000000000AB
+t1408537754
+s171
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000053F4949A000000000000002A
+t1408537754
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd273571acca4b941^8d271a1bcca4b941^---0#1#1#--18"Check dependencies36"AF659F03-51D6-4753-B167-DB94FA74A535-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230555.173676
+e430230555.340122
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c168"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler1c982c1bcca4b941^091a571bcca4b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c0000000000000000^2657"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"06DD524D-38A8-4CD8-80B6-A8D080120CB8-
+b4CCD24F0-BB80-4921-A439-D882BEBCB6E3
+
+CLd /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC normal i386
+s430230555.389849
+e430230556.222331
+r1
+xLd
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC28"Ld ./CompilerIdC normal i38649f7631bcca4b941^63ec381ccca4b941^---0#0#1#--1111"Ld ./CompilerIdC normal i386    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC_dependency_info.dat -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC36"210612A7-3120-4AA6-A078-1FBA644F5A4C-
+b4CCD24F0-BB80-4921-A439-D882BEBCB6E3
+
+CPhaseScriptExecution Run\ Script /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s430230556.224633
+e430230556.238164
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'111"PhaseScriptExecution Run\ Script ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh37e2391ccca4b941^40f83c1ccca4b941^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-430230556#0#47#-0#-----0#0#1#--393"PhaseScriptExecution Run\ Script ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/3.0.1/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"837B147B-5F59-4648-A614-8413800D3EC6-
+b4CCD24F0-BB80-4921-A439-D882BEBCB6E3
+

@@ -1,0 +1,480 @@
+Tzlib
+v6
+r1
+cCheck dependencies
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000527843C500000000000003B5
+t1383613381
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000527843D100000000000001A0
+t1383613393
+s416
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a
+t2
+s0
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o
+t1408537813
+s1432
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o
+t1408537813
+s1280
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o
+t1408537813
+s10844
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o
+t1408537814
+s16760
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o
+t1408537813
+s632
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o
+t1408537813
+s4680
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o
+t1408537814
+s5704
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o
+t1408537814
+s5764
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o
+t1408537814
+s8240
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o
+t1408537814
+s2036
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o
+t1408537815
+s15000
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o
+t1408537814
+s2508
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o
+t1408537815
+s12336
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o
+t1408537814
+s916
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zlib.LinkFileList
+c0000000053F494D500000000000008F0
+t1408537813
+s2288
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o
+t1408537814
+s1088
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+c0000000053F31EB60000000000001368
+t1408442038
+s4968
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+c0000000053F31EB600000000000009E1
+t1408442038
+s2529
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+c0000000053F31EB60000000000003376
+t1408442038
+s13174
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+c0000000053F31EB60000000000011734
+t1408442038
+s71476
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+c0000000053F31EB600000000000002A6
+t1408442038
+s678
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+c0000000053F31EB6000000000000401F
+t1408442038
+s16415
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+c0000000053F31EB60000000000004906
+t1408442038
+s18694
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+c0000000053F31EB60000000000003F47
+t1408442038
+s16199
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+c0000000053F31EB600000000000058B5
+t1408442038
+s22709
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+c0000000053F31EB6000000000000348F
+t1408442038
+s13455
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+c0000000053F31EB6000000000000D108
+t1408442038
+s53512
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+c0000000053F31EB600000000000032E4
+t1408442038
+s13028
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+c0000000053F31EB6000000000000ACDF
+t1408442038
+s44255
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+c0000000053F31EB600000000000007D3
+t1408442038
+s2003
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+c0000000053F31EB60000000000001CF6
+t1408442038
+s7414
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd788fc54cca4b941^01bd1c55cca4b941^---0#1#1#--18"Check dependencies36"BDDA0774-0D5B-40ED-89D8-BC9A8AD63A26-
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.113984
+e430230613.873802
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o [1m3rdparty/zlib/adler32.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerac571d55cca4b941^29b1df55cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o [1m3rdparty/zlib/adler32.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/adler32.o36"8BE970E8-B992-4C51-9E5C-6A27F1483586-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.114563
+e430230613.669168
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c261"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o [1m3rdparty/zlib/compress.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerbaa11d55cca4b941^9c4dab55cca4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c0000000000000000^2936"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o [1m3rdparty/zlib/compress.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/compress.o36"C69E3712-490C-4C5E-90D3-47CB1B0773E8-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.121125
+e430230613.934637
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c255"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o [1m3rdparty/zlib/crc32.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler81251f55cca4b941^4c8aef55cca4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c0000000000000000^2918"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o [1m3rdparty/zlib/crc32.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/crc32.o36"72F0DB9D-3F5F-4C0F-9385-4E3724EFDF31-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.124525
+e430230614.774116
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o [1m3rdparty/zlib/deflate.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler925a2055cca4b941^dc2cc656cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o [1m3rdparty/zlib/deflate.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/deflate.o36"415B6D75-A50A-4301-BC70-40EB7214F665-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.124605
+e430230613.929961
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o [1m3rdparty/zlib/gzclose.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler71012055cca4b941^5d86ef55cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o [1m3rdparty/zlib/gzclose.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzclose.o36"9D3241FE-99EC-4BC9-A7A6-149B7B1AA354-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.124195
+e430230614.019484
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c255"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o [1m3rdparty/zlib/gzlib.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler2dee1f55cca4b941^1d3e0556cca4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c0000000000000000^2918"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o [1m3rdparty/zlib/gzlib.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzlib.o36"1DBB1781-4C9E-4045-9A47-A44EACCB5E21-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.125415
+e430230614.071995
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c257"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o [1m3rdparty/zlib/gzread.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerbd392055cca4b941^446e1256cca4b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c0000000000000000^2924"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o [1m3rdparty/zlib/gzread.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzread.o36"20F1DAF2-6A1B-4001-869E-5B970CE6AF05-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.612644
+e430230614.051073
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o [1m3rdparty/zlib/gzwrite.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler88f79c55cca4b941^1a180d56cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o [1m3rdparty/zlib/gzwrite.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/gzwrite.o36"E18E7903-16A8-4B99-94FC-5A76BCA4F24C-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.874243
+e430230614.495755
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o [1m3rdparty/zlib/infback.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler5ef2df55cca4b941^cde97e56cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o [1m3rdparty/zlib/infback.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/infback.o36"4D765475-3BE9-40E2-9962-4414135DD84D-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230613.934994
+e430230614.274465
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o [1m3rdparty/zlib/inffast.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler247cef55cca4b941^a6444656cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o [1m3rdparty/zlib/inffast.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inffast.o36"A40CFC63-2433-4CDF-A699-1B627169E168-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230614.072257
+e430230615.438694
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o [1m3rdparty/zlib/inflate.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler412c1356cca4b941^d5af7057cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o [1m3rdparty/zlib/inflate.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inflate.o36"F708026B-4A2E-4EFA-99CE-064108A7E0C3-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230614.220030
+e430230614.342645
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c261"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o [1m3rdparty/zlib/inftrees.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerb0723856cca4b941^80b85756cca4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c0000000000000000^2936"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o [1m3rdparty/zlib/inftrees.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/inftrees.o36"419072EE-64BA-4F15-BDF5-3AEE7256A1A7-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230614.342902
+e430230615.116271
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c255"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o [1m3rdparty/zlib/trees.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler9fe75756cca4b941^8ded1d57cca4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c0000000000000000^2918"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o [1m3rdparty/zlib/trees.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/trees.o36"62E00457-0938-4139-AEEF-2B9A2B2E7554-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230614.429374
+e430230614.468068
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c259"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o [1m3rdparty/zlib/uncompr.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerb30b6e56cca4b941^39d47756cca4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c0000000000000000^2930"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o [1m3rdparty/zlib/uncompr.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/uncompr.o36"1144D0E4-D90C-4BA8-A5E9-2CD4F2008E4D-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230614.468337
+e430230614.530914
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c255"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o [1m3rdparty/zlib/zutil.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compilerc0067856cca4b941^18eb8756cca4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c0000000000000000^2918"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o [1m3rdparty/zlib/zutil.c[0m normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphonesimulator\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -mios-simulator-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zutil.o36"760DED1B-F07C-469C-B1CB-B18A5E772F03-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+
+CLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a normal i386
+s430230615.445161
+e430230616.037738
+r1
+xLibtool
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a normal i386119"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a normal i3864d0f7257cca4b941^b2f40958cca4b941^---0#0#1#--1032"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a normal i386    cd /Users/ashish.nigam/Downloads/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/zlib/OpenCV.build/Release-iphonesimulator/zlib.build/Objects-normal/i386/zlib.LinkFileList -o /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/3rdparty/lib/Release/libzlib.a36"1313E404-DEA3-4009-96F1-C5B25E75DAA1-
+b0AB62440-2EC7-44C6-B800-401A5B56D7AC
+

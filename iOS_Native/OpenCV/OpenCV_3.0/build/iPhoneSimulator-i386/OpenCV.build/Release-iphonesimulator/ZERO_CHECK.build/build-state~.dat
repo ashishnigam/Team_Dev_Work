@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh
+c0000000053F494D500000000000000D3
+t1408537813
+s211
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese78cfc54cca4b941^8f510a55cca4b941^---0#1#1#--18"Check dependencies36"6263BEB3-2994-4D63-B3DE-DC25601A50D9-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh
+s430230613.045326
+e430230613.612323
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh
+oecho ""
+o
+omake -f /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'191"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh12310d55cca4b941^9cc09c55cca4b941^-223"echo ""make -f /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.makemake[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-430230613#0#8#-0#-----2@98"make -f /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make-430230613#9#98#-0#-----2@116"make[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/CMakeFiles/cmake.check_cache' is up to date.-430230613#107#116#-0#-----0#0#1#--401"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-83BD07CC0BC0462CACC08E38.sh36"3A164E9E-F4E6-48E6-9BD7-B4EBA2448A41-
+bCA09C9A4-B616-490F-8953-D2B3248D51B9
+

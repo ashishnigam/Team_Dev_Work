@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh
+c0000000053F4955A00000000000000D2
+t1408537946
+s210
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesabb33edacca4b941^cc7d46dacca4b941^---0#1#1#--18"Check dependencies36"4FB0E19E-6DF8-4868-8AB7-30F8428791DC-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh
+s430230746.276253
+e430230746.355228
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'190"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh4f0247dacca4b941^bff05adacca4b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-430230746#0#8#-0#-----2@26"echo Build\ all\ projects-430230746#9#26#-0#-----2@19"Build all projects-430230746#35#19#-0#-----0#0#1#--399"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-91020D88F73F41BDBC9613EB.sh36"E1D33B58-1CBF-41B4-BD8C-1D8BF9567D72-
+b76195204-1FA4-4D83-978B-1A897738D1EC
+

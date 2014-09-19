@@ -1,0 +1,593 @@
+Tzlib
+v6
+r1
+cCheck dependencies
+cSymLink /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a normal arm64
+cStripping /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+cSetOwnerAndGroup ashish.nigam:SYNAPSE\\Domain\ Users /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+cSetMode u+w,go-w,a+rX /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000527843AE000000000000036B
+t1383613358
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000527843AE00000000000001A0
+t1383613358
+s416
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a
+t1408537555
+s87616
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o
+t1408537553
+s1676
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o
+t1408537553
+s1064
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o
+t1408537553
+s10048
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o
+t1408537554
+s16456
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o
+t1408537553
+s444
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o
+t1408537553
+s4200
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o
+t1408537553
+s5280
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o
+t1408537553
+s5248
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o
+t1408537554
+s8180
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o
+t1408537553
+s2188
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o
+t1408537555
+s13984
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o
+t1408537553
+s2208
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o
+t1408537554
+s11256
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o
+t1408537553
+s816
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zlib.LinkFileList
+c0000000053F493D1000000000000083C
+t1408537553
+s2108
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o
+t1408537553
+s1356
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+t1408537732
+s87616
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+c0000000053F493C40000000000003CEA
+t1408537540
+s15594
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+c0000000053F31EB60000000000001368
+t1408442038
+s4968
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+c0000000053F31EB600000000000009E1
+t1408442038
+s2529
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+c0000000053F31EB60000000000003376
+t1408442038
+s13174
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h
+c0000000053F31EB60000000000007762
+t1408442038
+s30562
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+c0000000053F31EB60000000000011734
+t1408442038
+s71476
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h
+c0000000053F31EB600000000000031E6
+t1408442038
+s12774
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+c0000000053F31EB600000000000002A6
+t1408442038
+s678
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+c0000000053F31EB60000000000001998
+t1408442038
+s6552
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+c0000000053F31EB6000000000000401F
+t1408442038
+s16415
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+c0000000053F31EB60000000000004906
+t1408442038
+s18694
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+c0000000053F31EB60000000000003F47
+t1408442038
+s16199
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+c0000000053F31EB600000000000058B5
+t1408442038
+s22709
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+c0000000053F31EB6000000000000348F
+t1408442038
+s13455
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+c0000000053F31EB600000000000001AB
+t1408442038
+s427
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h
+c0000000053F31EB600000000000018BC
+t1408442038
+s6332
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+c0000000053F31EB6000000000000D108
+t1408442038
+s53512
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+c0000000053F31EB600000000000018FF
+t1408442038
+s6399
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+c0000000053F31EB600000000000032E4
+t1408442038
+s13028
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+c0000000053F31EB60000000000000B70
+t1408442038
+s2928
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+c0000000053F31EB6000000000000ACDF
+t1408442038
+s44255
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h
+c0000000053F31EB60000000000002118
+t1408442038
+s8472
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+c0000000053F31EB600000000000007D3
+t1408442038
+s2003
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+c0000000053F31EB6000000000001574B
+t1408442038
+s87883
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+c0000000053F31EB60000000000001CF6
+t1408442038
+s7414
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+c0000000053F31EB60000000000001A6E
+t1408442038
+s6766
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbe2d7804cca4b941^b9557804cca4b941^---0#1#1#--18"Check dependencies36"14521240-305D-4B55-BA30-8EAE93110EDC-
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.331593
+e430230353.552748
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o [1m3rdparty/zlib/adler32.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerc0095551cba4b941^c3f48d51cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o [1m3rdparty/zlib/adler32.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/adler32.o36"5DEAEF98-07ED-4302-A6EB-CBE87903C932-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.332923
+e430230353.480042
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c250"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o [1m3rdparty/zlib/compress.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler38145651cba4b941^fbe67a51cba4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c0000000000000000^2779"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o [1m3rdparty/zlib/compress.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/compress.o36"1A45991E-BFF5-460A-8994-DFB72001F7E7-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.337619
+e430230353.640611
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c244"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o [1m3rdparty/zlib/crc32.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler338d5651cba4b941^6001a451cba4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c0000000000000000^2761"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o [1m3rdparty/zlib/crc32.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/crc32.o36"EC54E481-253D-4915-8237-81E8E1E6984E-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.338601
+e430230354.881522
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o [1m3rdparty/zlib/deflate.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler936e5751cba4b941^9fabe152cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o [1m3rdparty/zlib/deflate.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/deflate.o36"C7D6317A-2543-4D7B-855A-D0100739FD48-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.340325
+e430230353.477882
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o [1m3rdparty/zlib/gzclose.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerab5d5751cba4b941^92587a51cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o [1m3rdparty/zlib/gzclose.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzclose.o36"CD046ADA-A51F-4AF2-B185-1E645BBA4698-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.341808
+e430230353.649431
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c244"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o [1m3rdparty/zlib/gzlib.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler33a35751cba4b941^be4aa651cba4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c0000000000000000^2761"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o [1m3rdparty/zlib/gzlib.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzlib.o36"B8D1CBC3-396A-4430-B3B3-034D9D9ADA7C-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.342743
+e430230353.758787
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c246"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o [1m3rdparty/zlib/gzread.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler1ede5751cba4b941^897dc251cba4b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c0000000000000000^2767"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o [1m3rdparty/zlib/gzread.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzread.o36"C1F924CA-B399-461D-B8BC-E5CA589D3413-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.481081
+e430230353.841592
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o [1m3rdparty/zlib/gzwrite.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerc3487b51cba4b941^8a74d751cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o [1m3rdparty/zlib/gzwrite.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/gzwrite.o36"F33081E6-29B3-440C-9953-B0D68CAF779F-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.481747
+e430230354.213498
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o [1m3rdparty/zlib/infback.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler2a737b51cba4b941^bda73652cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o [1m3rdparty/zlib/infback.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/infback.o36"7763A912-E8BE-4A03-BA6F-15124C39489B-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.553137
+e430230353.764565
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o [1m3rdparty/zlib/inffast.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerf1bb8d51cba4b941^041ec451cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o [1m3rdparty/zlib/inffast.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inffast.o36"A7F7E443-E06D-42DA-B603-DEAD1C70C031-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.649704
+e430230355.483562
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o [1m3rdparty/zlib/inflate.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilerf773a651cba4b941^d5cb7b53cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o [1m3rdparty/zlib/inflate.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inflate.o36"207E4043-9534-4AA6-9E1A-1EF4601F9D3C-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.722264
+e430230353.871793
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c250"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o [1m3rdparty/zlib/inftrees.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler1c5db951cba4b941^158bdf51cba4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c0000000000000000^2779"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o [1m3rdparty/zlib/inftrees.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/inftrees.o36"DBFBEEC0-224B-479E-8C71-4E2246810CED-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.764927
+e430230354.559475
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c244"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o [1m3rdparty/zlib/trees.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler5ef2c351cba4b941^dcd68e52cba4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c0000000000000000^2761"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o [1m3rdparty/zlib/trees.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/trees.o36"73AC4AA9-05FF-4CCE-B16E-286E69B08ABF-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.828788
+e430230353.873162
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c248"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o [1m3rdparty/zlib/uncompr.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compilere34fd451cba4b941^9694df51cba4b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c0000000000000000^2773"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o [1m3rdparty/zlib/uncompr.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/uncompr.o36"BC6EE6CD-4E81-423F-9631-35A62046169B-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+s430230353.872180
+e430230353.937387
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+xnormal
+xarm64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c244"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o [1m3rdparty/zlib/zutil.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler1570df51cba4b941^2bfaef51cba4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c0000000000000000^2761"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o [1m3rdparty/zlib/zutil.c[0m normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch arm64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DNO_FSEEKO -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/arm64 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zutil.o36"EC39DF8D-AAF4-4DE4-A645-AA7C07673787-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a normal arm64
+s430230355.616987
+e430230355.627691
+r1
+xLibtool
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a normal arm64114"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a normal arm64b60e9e53cba4b941^0820a153cba4b941^---0#0#1#--983"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a normal arm64    cd /Users/ashish.nigam/Downloads/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zlib.LinkFileList -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a36"33A5750C-26C3-42DE-8DCB-72695DD8FD08-
+bD04EFFE5-8776-4C87-A9E2-956BB1296AF5
+
+CLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a normal arm64
+s430230532.478576
+e430230532.484631
+r1
+xLibtool
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+xnormal
+xarm64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a normal arm64127"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a normal arm644b937a04cca4b941^2c117c04cca4b941^---0#0#1#--1009"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a normal arm64    cd /Users/ashish.nigam/Downloads/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/arm64/zlib.LinkFileList -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a36"180D1CFB-654F-41B6-B9CD-1E4462E2A323-
+bEAA60824-989D-4DFC-AB40-E17F02B9545A
+
+CSetMode u+w,go-w,a+rX /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+s430230532.567357
+e430230532.571214
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"[1mSetMode[0m u+w,go-w,a+rX [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m136"[1mSetMode[0m u+w,go-w,a+rX [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m98509104cca4b941^793b9204cca4b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^531"[1mSetMode[0m u+w,go-w,a+rX [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m    cd /Users/ashish.nigam/Downloads/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a36"95634438-4AD7-45AA-8377-1F997A3DB4A1-
+bEAA60824-989D-4DFC-AB40-E17F02B9545A
+
+CSetOwnerAndGroup ashish.nigam:SYNAPSE\\Domain\ Users /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+s430230532.561577
+e430230532.566999
+r1
+xSetOwnerAndGroup
+xashish.nigam:SYNAPSE\Domain Users
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"[1mSetOwnerAndGroup[0m ashish.nigam:SYNAPSE\\Domain\ Users [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m167"[1mSetOwnerAndGroup[0m ashish.nigam:SYNAPSE\\Domain\ Users [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m80d38f04cca4b941^6d379104cca4b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^589"[1mSetOwnerAndGroup[0m ashish.nigam:SYNAPSE\\Domain\ Users [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m    cd /Users/ashish.nigam/Downloads/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/sbin/chown -RH ashish.nigam:SYNAPSE\\Domain\ Users /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a36"D0FD69B8-0352-4F9E-A970-2342E856EBA2-
+bEAA60824-989D-4DFC-AB40-E17F02B9545A
+
+CStripping /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+s430230532.485297
+e430230532.561263
+r1
+xStripping
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"[1mStripping[0m [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m124"[1mStripping[0m [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m7b4c7c04cca4b941^96af8f04cca4b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^586"[1mStripping[0m [1m/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a[0m    cd /Users/ashish.nigam/Downloads/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a36"84688FEC-AED5-45D2-98CC-E2D1A22ABA43-
+bEAA60824-989D-4DFC-AB40-E17F02B9545A
+
+CSymLink /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+s430230532.470610
+e430230532.475098
+r1
+xSymLink
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a200"[1mSymLink[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a8f8d7804cca4b941^6f9f7904cca4b941^---0#0#1#--664"[1mSymLink[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/ashish.nigam/Downloads/opencv    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /bin/ln -sf /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/UninstalledProducts/libzlib.a /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release/libzlib.a36"53BFD313-9ECA-46E5-9D63-2A5D35A0F3D1-
+bEAA60824-989D-4DFC-AB40-E17F02B9545A
+

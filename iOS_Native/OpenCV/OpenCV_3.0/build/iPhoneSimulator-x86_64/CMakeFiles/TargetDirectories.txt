@@ -1,0 +1,8 @@
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib/CMakeFiles/ALL_BUILD.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib/CMakeFiles/ZERO_CHECK.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/3rdparty/libjpeg/CMakeFiles/libjpeg.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/3rdparty/libpng/CMakeFiles/libpng.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/CMakeFiles/opencv_modules.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/modules/world/CMakeFiles/opencv_world.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/CMakeFiles/uninstall.dir
+/Users/ashish.nigam/Downloads/ios/build/iPhoneSimulator-x86_64/3rdparty/zlib/CMakeFiles/zlib.dir

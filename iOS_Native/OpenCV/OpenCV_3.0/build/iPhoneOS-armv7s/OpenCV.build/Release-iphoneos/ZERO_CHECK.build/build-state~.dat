@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh
+c0000000053F492DF00000000000000C9
+t1408537311
+s201
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb134405fcaa4b941^f17f4b5fcaa4b941^---0#1#1#--18"Check dependencies36"0765F59F-2AA6-4281-B949-806A558DFE19-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh
+s430230111.331764
+e430230112.191947
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh
+oecho ""
+o
+omake -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'179"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh423e585fcaa4b941^2e593160caa4b941^-213"echo ""make -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.makemake[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-430230111#0#8#-0#-----2@93"make -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make-430230111#9#93#-0#-----2@111"make[1]: `/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/CMakeFiles/cmake.check_cache' is up to date.-430230112#102#111#-0#-----0#0#1#--377"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-B949D27BC6DA4DCEAFA7FC36.sh36"AAAB49EB-6F0C-4920-A456-E3FFC44D3D21-
+b9170E13A-9788-40BC-8039-36F4E7386AA6
+

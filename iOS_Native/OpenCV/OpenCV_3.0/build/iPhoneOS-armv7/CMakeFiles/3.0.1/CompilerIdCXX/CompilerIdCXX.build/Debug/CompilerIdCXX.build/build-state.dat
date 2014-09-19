@@ -1,0 +1,122 @@
+TCompilerIdCXX
+v6
+r1
+cCheck dependencies
+cCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX normal i386
+cPhaseScriptExecution Run\ Script /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052784352000000000000044C
+t1383613266
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005278435200000000000001DB
+t1383613266
+s475
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+c0000000053F491C400000000000033F5
+t1408537028
+s13301
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX
+t2
+s0
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+t1408537033
+s3460
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+c0000000053F491C800000000000000AD
+t1408537032
+s173
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000053F491C8000000000000002A
+t1408537032
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc0b32548c9a4b941^3927a648c9a4b941^---0#1#1#--18"Check dependencies36"3E73BCEC-A81D-4FC7-A3E2-E3A4CB45B36C-
+
+CCompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s430229832.653517
+e430229833.064877
+r1
+xCompileC
+x./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp180"CompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler247ca748c9a4b941^dd9a1049c9a4b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp0000000000000000^2794"CompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o36"57C7676F-458B-453E-9847-D2B97A123C31-
+bFCD3E05E-0A18-4777-B549-6A0A30F10903
+
+CLd /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX normal i386
+s430229833.065791
+e430229833.386140
+r1
+xLd
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX
+xnormal
+xi386
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX30"Ld ./CompilerIdCXX normal i38688f31049c9a4b941^23da6249c9a4b941^---0#0#1#--1105"Ld ./CompilerIdCXX normal i386    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX36"5257C129-5309-494E-93AE-BFCDB2D20F0F-
+bFCD3E05E-0A18-4777-B549-6A0A30F10903
+
+CPhaseScriptExecution Run\ Script /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s430229833.387759
+e430229833.441869
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'115"PhaseScriptExecution Run\ Script ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.shbf9e6349c9a4b941^641e7149c9a4b941^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-430229833#0#47#-0#-----0#0#1#--393"PhaseScriptExecution Run\ Script ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/CMakeFiles/3.0.1/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"BB392673-94C7-4343-88F9-7B59435DABE6-
+bFCD3E05E-0A18-4777-B549-6A0A30F10903
+

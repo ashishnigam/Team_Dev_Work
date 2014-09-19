@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh
+c0000000053F4948000000000000000C6
+t1408537728
+s198
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0ce78a0acca4b941^4f028b0acca4b941^---0#1#1#--18"Check dependencies36"3C9222D4-EED0-4606-8FD2-670FBBD68E75-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh
+s430230538.543788
+e430230538.562737
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'177"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.shb77d8b0acca4b941^0e10900acca4b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-430230538#0#8#-0#-----2@26"echo Build\ all\ projects-430230538#9#26#-0#-----2@19"Build all projects-430230538#35#19#-0#-----0#0#1#--373"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-818166AFEA214F0694637A19.sh36"CBB36A85-43EC-459A-99D0-AE6A4F3C7873-
+bDD70A9CE-58D0-4E8A-9896-06C107F0D894
+

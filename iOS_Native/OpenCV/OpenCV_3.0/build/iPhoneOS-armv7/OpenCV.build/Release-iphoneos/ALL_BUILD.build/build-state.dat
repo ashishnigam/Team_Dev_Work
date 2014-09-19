@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh
+c0000000053F492A100000000000000C6
+t1408537249
+s198
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7e012d27caa4b941^08202d27caa4b941^---0#1#1#--18"Check dependencies36"C88E27B0-D6C1-4E93-8366-459FC181D8F2-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh
+s430230055.177136
+e430230055.197278
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'177"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.shc79e2d27caa4b941^aa813227caa4b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-430230055#0#8#-0#-----2@26"echo Build\ all\ projects-430230055#9#26#-0#-----2@19"Build all projects-430230055#35#19#-0#-----0#0#1#--373"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-043FA28A272C4E24BC0DAF4E.sh36"63E0DDF4-B60B-47DF-85C9-CECA6E97E724-
+b612CE4AE-BADC-488A-840D-D0CB100BA6B0
+

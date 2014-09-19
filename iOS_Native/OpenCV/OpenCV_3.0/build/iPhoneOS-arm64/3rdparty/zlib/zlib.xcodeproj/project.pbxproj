@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              B592355CC4B947BDA061713D /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 39A7EB89874F4882968F98BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            0CC4FB127A1D4E2C94C96419 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            8F79181C47B54434875CD29A /* PBXTargetDependency */,
+                            3F71B2367DCB478887AB6E65 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              A257090CAC1F482A9F860943 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AC440C8D70EA489FA5CAB5DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            6D754B6A36DF45759AE335D0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              355D8FAD91BC465E94275422 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 853261D0EBD84D7E981D00A8 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            56FBB3D875FD4717A06185C1 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            AF57D695B7B34DC5A275291C /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              1120132F913B48758CBDB370 /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 66DBCC1EA27145A2954AC821 /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            705EC3316228488BBCE31F15 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            E162625FB1FF49DDAEAE6D45 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+CAF70932824648A8891AB19A /* /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 111FC5626B5A47AAA89B119D /* /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+25EB2E36674F4810B9A239D0 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5845EAE4B4454E00AE4106BE /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+374FFB5096D64C80932590E3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 314E0127FF464533A6227924 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c */; settings = { COMPILER_FLAGS = ""; }; };
+14A467793D7F488D9545EE54 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = 1131E38EE2544FAFB3025257 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c */; settings = { COMPILER_FLAGS = ""; }; };
+590A398ED3C64191A76A0F34 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = D40CFC9128A5445E8C380B86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c */; settings = { COMPILER_FLAGS = ""; }; };
+1906F14A3C7E433DB6A1BA19 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = 1FCD8B5C8743469C950642A7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h */; settings = { COMPILER_FLAGS = ""; }; };
+C2864758D2C04D78B5F52F73 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = B38645369A0E4D119834979E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+F31B0E4B72DA413C9F176C53 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = 386C348AB8794FE6978F3474 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+2633646782FE49E2AD8C4882 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 3C5A640AD124489CBDF856FB /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c */; settings = { COMPILER_FLAGS = ""; }; };
+7DFAFE031AB14121B97D1FE3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 47207F141DD34FD5A6ADED60 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h */; settings = { COMPILER_FLAGS = ""; }; };
+1BA6E4F8E36A49C690FE1426 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 0E73DF0FFDD4402FBB0F9ECC /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+61C930BD954E4F65A1D8FEFB /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = 301B20BE4ACA41F589B07997 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c */; settings = { COMPILER_FLAGS = ""; }; };
+1261503CBE90407BB6B74E5E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = 3731370EE4CD4DC79405A1C9 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+552218609590424B890A62CC /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = 41A27BFEDB05480F83F61C54 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c */; settings = { COMPILER_FLAGS = ""; }; };
+428E762FA50646AFB45A57C7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 9FC6E8E5FDD648528C4F9143 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c */; settings = { COMPILER_FLAGS = ""; }; };
+146777E2D37B468FB8A696B6 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = EF3477E6638345F39991A115 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h */; settings = { COMPILER_FLAGS = ""; }; };
+C5347D861E2440E1B728D933 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = 190E634C292641A982901247 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h */; settings = { COMPILER_FLAGS = ""; }; };
+22A1A2AE66444905BE40789F /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = FEEF8884AEFE4704A79B0A3E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+1E3788FDFCB341C79367F034 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 4BBFF358AF434E428BF33558 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+3FD405F1454242B5A8704B50 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = EF3883891FC149E98482BD23 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c */; settings = { COMPILER_FLAGS = ""; }; };
+CBBBC56082BD4F219CBFF02C /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = C1DA61035A5D4C19B4396CC5 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h */; settings = { COMPILER_FLAGS = ""; }; };
+5F6D2960DF0C4FFCB3A59BE7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 2D6FB3FA97DA4BF8A13B5BB3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c */; settings = { COMPILER_FLAGS = ""; }; };
+EE731D4270DA469FAD22C97C /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = 1B46E54556E1402E82885CE2 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h */; settings = { COMPILER_FLAGS = ""; }; };
+65AC7C1CAE674C14A352D41C /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = 12055FF9CF7142E5841ABB86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c */; settings = { COMPILER_FLAGS = ""; }; };
+91918C15EAC04F0B883B2C78 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = 7F6ED1FA27B844CDA43A3039 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h */; settings = { COMPILER_FLAGS = ""; }; };
+85D15B60A02F48338D2ABE76 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = 075191FFCE54437291F19CDA /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+44ED2A1845AF4CB189E8A126 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = 95CE45E15FC04D64B38D5161 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              0BED3317FC3C44AFAC7BA17F /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              8D911801E8BD416AA170DFC6 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              DD8A00CC0F5A43CBB7ED8076 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              73ACA7684CAB412F8C22850A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 11E3344232FF42E5A4B9B257 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 75EADF72F6A440BA986D4B7B;
+                     remoteInfo = zlib;
+              };
+              D16D0E00036A4041B7B6D4B6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 11E3344232FF42E5A4B9B257 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A257090CAC1F482A9F860943;
+                     remoteInfo = ZERO_CHECK;
+              };
+              351C954C89074A7AB400D66D /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 11E3344232FF42E5A4B9B257 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B592355CC4B947BDA061713D;
+                     remoteInfo = ALL_BUILD;
+              };
+              C8792DC6D25244A79558A67B /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 11E3344232FF42E5A4B9B257 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = B592355CC4B947BDA061713D;
+                     remoteInfo = ALL_BUILD;
+              };
+              ADDB9952E0974BF48BA8DD9E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 11E3344232FF42E5A4B9B257 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = A257090CAC1F482A9F860943;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+5845EAE4B4454E00AE4106BE /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+111FC5626B5A47AAA89B119D /* /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "zconf.h"; path = "../../../ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h"; sourceTree = SOURCE_ROOT; };
+314E0127FF464533A6227924 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "adler32.c"; path = "adler32.c"; sourceTree = SOURCE_ROOT; };
+1131E38EE2544FAFB3025257 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "compress.c"; path = "compress.c"; sourceTree = SOURCE_ROOT; };
+D40CFC9128A5445E8C380B86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "crc32.c"; path = "crc32.c"; sourceTree = SOURCE_ROOT; };
+1FCD8B5C8743469C950642A7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "crc32.h"; path = "crc32.h"; sourceTree = SOURCE_ROOT; };
+B38645369A0E4D119834979E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "deflate.c"; path = "deflate.c"; sourceTree = SOURCE_ROOT; };
+386C348AB8794FE6978F3474 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "deflate.h"; path = "deflate.h"; sourceTree = SOURCE_ROOT; };
+3C5A640AD124489CBDF856FB /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "gzclose.c"; path = "gzclose.c"; sourceTree = SOURCE_ROOT; };
+47207F141DD34FD5A6ADED60 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "gzguts.h"; path = "gzguts.h"; sourceTree = SOURCE_ROOT; };
+0E73DF0FFDD4402FBB0F9ECC /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "gzlib.c"; path = "gzlib.c"; sourceTree = SOURCE_ROOT; };
+301B20BE4ACA41F589B07997 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "gzread.c"; path = "gzread.c"; sourceTree = SOURCE_ROOT; };
+3731370EE4CD4DC79405A1C9 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "gzwrite.c"; path = "gzwrite.c"; sourceTree = SOURCE_ROOT; };
+41A27BFEDB05480F83F61C54 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "infback.c"; path = "infback.c"; sourceTree = SOURCE_ROOT; };
+9FC6E8E5FDD648528C4F9143 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "inffast.c"; path = "inffast.c"; sourceTree = SOURCE_ROOT; };
+EF3477E6638345F39991A115 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "inffast.h"; path = "inffast.h"; sourceTree = SOURCE_ROOT; };
+190E634C292641A982901247 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "inffixed.h"; path = "inffixed.h"; sourceTree = SOURCE_ROOT; };
+FEEF8884AEFE4704A79B0A3E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "inflate.c"; path = "inflate.c"; sourceTree = SOURCE_ROOT; };
+4BBFF358AF434E428BF33558 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "inflate.h"; path = "inflate.h"; sourceTree = SOURCE_ROOT; };
+EF3883891FC149E98482BD23 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "inftrees.c"; path = "inftrees.c"; sourceTree = SOURCE_ROOT; };
+C1DA61035A5D4C19B4396CC5 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "inftrees.h"; path = "inftrees.h"; sourceTree = SOURCE_ROOT; };
+2D6FB3FA97DA4BF8A13B5BB3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "trees.c"; path = "trees.c"; sourceTree = SOURCE_ROOT; };
+1B46E54556E1402E82885CE2 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "trees.h"; path = "trees.h"; sourceTree = SOURCE_ROOT; };
+12055FF9CF7142E5841ABB86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "uncompr.c"; path = "uncompr.c"; sourceTree = SOURCE_ROOT; };
+7F6ED1FA27B844CDA43A3039 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "zlib.h"; path = "zlib.h"; sourceTree = SOURCE_ROOT; };
+075191FFCE54437291F19CDA /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "zutil.c"; path = "zutil.c"; sourceTree = SOURCE_ROOT; };
+95CE45E15FC04D64B38D5161 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "zutil.h"; path = "zutil.h"; sourceTree = SOURCE_ROOT; };
+030EF6854CCB4423BE1618A6 /* zlib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libzlib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              1860BA21FE48457183371AD0  = {
+                     isa = PBXGroup;
+                     children = (
+                            ECAD1972D6C2450098B833D7 /* Sources */,
+                            9E6E12B1A4E5407D835B177A /* Resources */,
+                            C9598C38B0654F50806BA14A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              ECAD1972D6C2450098B833D7 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4F6B4644E73148989B81D020 /* ALL_BUILD */,
+                            DA992A0B0DE34E1086F5FF2E /* ZERO_CHECK */,
+                            C603FB34EFD84E3985B1C2C0 /* 3rdparty */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              9E6E12B1A4E5407D835B177A /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              4F6B4644E73148989B81D020 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EA57BFA1066042988C890EB3 /* CMake Rules */,
+                            5845EAE4B4454E00AE4106BE /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              EA57BFA1066042988C890EB3 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              DA992A0B0DE34E1086F5FF2E /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            26051E557A534191A2F38B95 /* CMake Rules */,
+                            5845EAE4B4454E00AE4106BE /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              26051E557A534191A2F38B95 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C603FB34EFD84E3985B1C2C0 /* 3rdparty */ = {
+                     isa = PBXGroup;
+                     children = (
+                            487B2DB49B404E7082EA7858 /* zlib */,
+                     );
+                     name = 3rdparty;
+                     sourceTree = "<group>";
+              };
+              487B2DB49B404E7082EA7858 /* zlib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B005278765FA42D69F96B6F9 /* Source Files */,
+                            2D862FB098D54F7C89C5BC90 /* Header Files */,
+                            5845EAE4B4454E00AE4106BE /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = zlib;
+                     sourceTree = "<group>";
+              };
+              B005278765FA42D69F96B6F9 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            314E0127FF464533A6227924 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c */,
+                            1131E38EE2544FAFB3025257 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c */,
+                            D40CFC9128A5445E8C380B86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c */,
+                            B38645369A0E4D119834979E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c */,
+                            3C5A640AD124489CBDF856FB /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c */,
+                            0E73DF0FFDD4402FBB0F9ECC /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c */,
+                            301B20BE4ACA41F589B07997 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c */,
+                            3731370EE4CD4DC79405A1C9 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c */,
+                            41A27BFEDB05480F83F61C54 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c */,
+                            9FC6E8E5FDD648528C4F9143 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c */,
+                            FEEF8884AEFE4704A79B0A3E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c */,
+                            EF3883891FC149E98482BD23 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c */,
+                            2D6FB3FA97DA4BF8A13B5BB3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c */,
+                            12055FF9CF7142E5841ABB86 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c */,
+                            075191FFCE54437291F19CDA /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              2D862FB098D54F7C89C5BC90 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            111FC5626B5A47AAA89B119D /* /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/zconf.h */,
+                            1FCD8B5C8743469C950642A7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.h */,
+                            386C348AB8794FE6978F3474 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.h */,
+                            47207F141DD34FD5A6ADED60 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzguts.h */,
+                            EF3477E6638345F39991A115 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.h */,
+                            190E634C292641A982901247 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffixed.h */,
+                            4BBFF358AF434E428BF33558 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.h */,
+                            C1DA61035A5D4C19B4396CC5 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.h */,
+                            1B46E54556E1402E82885CE2 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.h */,
+                            7F6ED1FA27B844CDA43A3039 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h */,
+                            95CE45E15FC04D64B38D5161 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              C9598C38B0654F50806BA14A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            030EF6854CCB4423BE1618A6 /* zlib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              75EADF72F6A440BA986D4B7B /* zlib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 43CBC520C7924587B6928C41 /* Build configuration list for PBXNativeTarget "zlib" */;
+                     buildPhases = (
+                            FFBE9702522A4B2685A90B5D /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            268264D945F346CAB5ABC844 /* PBXTargetDependency */,
+                     );
+                     name = zlib;
+                     productName = zlib;
+                     productReference = 030EF6854CCB4423BE1618A6 /* zlib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              11E3344232FF42E5A4B9B257 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 84F349AA067341E3BC81508C /* Build configuration list for PBXProject  "zlib" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            8D911801E8BD416AA170DFC6 /* Debug */,
+                            DD8A00CC0F5A43CBB7ED8076 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 1860BA21FE48457183371AD0;
+                     projectDirPath = "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib";
+                     projectRoot = "";
+                     targets = (
+                            B592355CC4B947BDA061713D /* ALL_BUILD */,
+                            A257090CAC1F482A9F860943 /* ZERO_CHECK */,
+                            355D8FAD91BC465E94275422 /* install */,
+                            1120132F913B48758CBDB370 /* package */,
+                            75EADF72F6A440BA986D4B7B /* zlib */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              23250482E328455D9F6ECDB2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0CC4FB127A1D4E2C94C96419 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              FAA9E936C9674E5285DBF4CF /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              6D754B6A36DF45759AE335D0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              93DAC6C6E1C644808D80968E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              56FBB3D875FD4717A06185C1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0982368E99F14D2DB03EC44E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              705EC3316228488BBCE31F15 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib -f /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              FFBE9702522A4B2685A90B5D /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            374FFB5096D64C80932590E3 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/adler32.c */,
+                            14A467793D7F488D9545EE54 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/compress.c */,
+                            590A398ED3C64191A76A0F34 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/crc32.c */,
+                            C2864758D2C04D78B5F52F73 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/deflate.c */,
+                            2633646782FE49E2AD8C4882 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzclose.c */,
+                            1BA6E4F8E36A49C690FE1426 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzlib.c */,
+                            61C930BD954E4F65A1D8FEFB /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzread.c */,
+                            1261503CBE90407BB6B74E5E /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/gzwrite.c */,
+                            552218609590424B890A62CC /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/infback.c */,
+                            428E762FA50646AFB45A57C7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inffast.c */,
+                            22A1A2AE66444905BE40789F /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inflate.c */,
+                            3FD405F1454242B5A8704B50 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/inftrees.c */,
+                            5F6D2960DF0C4FFCB3A59BE7 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/trees.c */,
+                            65AC7C1CAE674C14A352D41C /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/uncompr.c */,
+                            85D15B60A02F48338D2ABE76 /* /Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              8F79181C47B54434875CD29A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 75EADF72F6A440BA986D4B7B /* zlib */;
+                     targetProxy = 73ACA7684CAB412F8C22850A /* PBXContainerItemProxy */;
+              };
+              3F71B2367DCB478887AB6E65 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A257090CAC1F482A9F860943 /* ZERO_CHECK */;
+                     targetProxy = D16D0E00036A4041B7B6D4B6 /* PBXContainerItemProxy */;
+              };
+              AF57D695B7B34DC5A275291C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B592355CC4B947BDA061713D /* ALL_BUILD */;
+                     targetProxy = 351C954C89074A7AB400D66D /* PBXContainerItemProxy */;
+              };
+              E162625FB1FF49DDAEAE6D45 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = B592355CC4B947BDA061713D /* ALL_BUILD */;
+                     targetProxy = C8792DC6D25244A79558A67B /* PBXContainerItemProxy */;
+              };
+              268264D945F346CAB5ABC844 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = A257090CAC1F482A9F860943 /* ZERO_CHECK */;
+                     targetProxy = ADDB9952E0974BF48BA8DD9E /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              0C49413029324EABA73B4EF3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/build";
+                     };
+                     name = Debug;
+              };
+              32F1ECAD560F47B4806EEE2F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib/build";
+                     };
+                     name = Release;
+              };
+              9D8183C066A84BDFB0489763 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E59CF68A793B436E842851C1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              600394AC795B479293E9F747 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              BBA333C3025A4A9D9D49DAFE /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              78EA8625E49D4AE7AF68B0C3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3B632355745D445795202C58 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              AE2F04191E6045378A088A1D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E89C70FEA5E54EF9BC8E54A2 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              34D36335BDC24FD481157201 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wno-implicit-function-declaration -fPIC   -fPIC         -DDEBUG -D_DEBUG  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              18D1E9611460453AA5E5BFCF /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            COMBINE_HIDPI_IMAGES = YES;
+                            CONFIGURATION_BUILD_DIR = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", NO_FSEEKO, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib", "/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib", "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "-Wno-implicit-function-declaration -fPIC   -fPIC     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-arm64/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              84F349AA067341E3BC81508C /* Build configuration list for PBXProject  "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0C49413029324EABA73B4EF3 /* Debug */,
+                            32F1ECAD560F47B4806EEE2F /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              39A7EB89874F4882968F98BD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9D8183C066A84BDFB0489763 /* Debug */,
+                            E59CF68A793B436E842851C1 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AC440C8D70EA489FA5CAB5DE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            600394AC795B479293E9F747 /* Debug */,
+                            BBA333C3025A4A9D9D49DAFE /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              853261D0EBD84D7E981D00A8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            78EA8625E49D4AE7AF68B0C3 /* Debug */,
+                            3B632355745D445795202C58 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              66DBCC1EA27145A2954AC821 /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AE2F04191E6045378A088A1D /* Debug */,
+                            E89C70FEA5E54EF9BC8E54A2 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              43CBC520C7924587B6928C41 /* Build configuration list for PBXNativeTarget "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            34D36335BDC24FD481157201 /* Debug */,
+                            18D1E9611460453AA5E5BFCF /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 11E3344232FF42E5A4B9B257;
+}

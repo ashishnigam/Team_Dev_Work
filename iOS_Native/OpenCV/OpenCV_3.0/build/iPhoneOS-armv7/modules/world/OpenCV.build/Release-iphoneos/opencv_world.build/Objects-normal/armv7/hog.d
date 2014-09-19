@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/ashish.nigam/Downloads/opencv/modules/objdetect/src/hog.cpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/objdetect/src/precomp.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/objdetect/include/opencv2/objdetect.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/cvdef.h \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/version.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/base.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/cvstd.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/ptr.inl.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/traits.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/matx.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/types.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/mat.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/bufferpool.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/mat.inl.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/persistence.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/operations.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/utility.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/optim.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/imgproc/include/opencv2/imgproc.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/ml/include/opencv2/ml.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/ocl.hpp \
+  /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/opencv2/opencv_modules.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/highgui/include/opencv2/highgui.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/videoio/include/opencv2/videoio.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/private.hpp \
+  /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/cvconfig.h \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/core_c.h \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/types_c.h \
+  /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/modules/world/opencl_kernels_objdetect.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/ocl_genbase.hpp \
+  /Users/ashish.nigam/Downloads/opencv/modules/core/include/opencv2/core/opencl/ocl_defs.hpp

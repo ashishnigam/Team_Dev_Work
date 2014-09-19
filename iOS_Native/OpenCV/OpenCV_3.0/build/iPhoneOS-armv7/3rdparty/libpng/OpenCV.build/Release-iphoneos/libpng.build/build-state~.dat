@@ -1,0 +1,555 @@
+Tlibpng
+v6
+r1
+cCheck dependencies
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000527843AE000000000000036B
+t1383613358
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000527843AE00000000000001A0
+t1383613358
+s416
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a
+t2
+s0
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/libpng.LinkFileList
+c0000000053F491F9000000000000087E
+t1408537081
+s2174
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o
+t1408537082
+s19136
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o
+t1408537082
+s4712
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o
+t1408537082
+s6800
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o
+t1408537082
+s2060
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o
+t1408537082
+s9608
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o
+t1408537082
+s10296
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o
+t1408537082
+s1180
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o
+t1408537083
+s21360
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o
+t1408537083
+s30976
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o
+t1408537082
+s10780
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o
+t1408537082
+s3632
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o
+t1408537082
+s1336
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o
+t1408537082
+s11824
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o
+t1408537083
+s2668
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o
+t1408537083
+s26536
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c
+c0000000053F31EB60000000000016A66
+t1408442038
+s92774
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c
+c0000000053F31EB60000000000005007
+t1408442038
+s20487
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c
+c0000000053F31EB600000000000077C2
+t1408442038
+s30658
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c
+c0000000053F31EB6000000000000450A
+t1408442038
+s17674
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c
+c0000000053F31EB60000000000008F28
+t1408442038
+s36648
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c
+c0000000053F31EB6000000000000980A
+t1408442038
+s38922
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c
+c0000000053F31EB60000000000001466
+t1408442038
+s5222
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c
+c0000000053F31EB600000000000290C7
+t1408442038
+s168135
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c
+c0000000053F31EB6000000000001DF77
+t1408442038
+s122743
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c
+c0000000053F31EB60000000000009036
+t1408442038
+s36918
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c
+c0000000053F31EB60000000000005916
+t1408442038
+s22806
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c
+c0000000053F31EB60000000000001DD3
+t1408442038
+s7635
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c
+c0000000053F31EB6000000000000C780
+t1408442038
+s51072
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c
+c0000000053F31EB600000000000043C5
+t1408442038
+s17349
+
+N/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c
+c0000000053F31EB60000000000016687
+t1408442038
+s91783
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbb62be79c9a4b941^1101bf79c9a4b941^---0#1#1#--18"Check dependencies36"72B73287-E876-4242-AE07-CAAB1B468281-
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229881.748685
+e430229882.787250
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c246"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o [1m3rdparty/libpng/png.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler4ad0bf79c9a4b941^739ec97ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c0000000000000000^2846"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o [1m3rdparty/libpng/png.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/png.o36"2FBCAC74-26E0-47AE-BE3C-A21103B304F1-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229881.839682
+e430229882.175468
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o [1m3rdparty/libpng/pngerror.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilere65bd779c9a4b941^89eb2c7ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o [1m3rdparty/libpng/pngerror.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngerror.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngerror.o36"FFB8622B-522F-4174-A7FC-21289077951E-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229881.844860
+e430229882.309909
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c252"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o [1m3rdparty/libpng/pngget.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilerb16ad879c9a4b941^71574f7ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c0000000000000000^2864"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o [1m3rdparty/libpng/pngget.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngget.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngget.o36"9F2DB69E-6273-4D04-A0EA-BB80912A6556-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229881.922354
+e430229882.026061
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c252"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o [1m3rdparty/libpng/pngmem.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilerad8aec79c9a4b941^1dad067ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c0000000000000000^2864"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o [1m3rdparty/libpng/pngmem.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngmem.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngmem.o36"80A23D7C-372A-4F4A-B18C-903685469321-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.027420
+e430229882.522459
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o [1m3rdparty/libpng/pngpread.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler3128077ac9a4b941^76c0857ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o [1m3rdparty/libpng/pngpread.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpread.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngpread.o36"2D74F7DF-BD19-4FEC-B5A7-325BD83F90A8-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.177190
+e430229882.569224
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c254"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o [1m3rdparty/libpng/pngread.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler7c7d2d7ac9a4b941^4b75917ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c0000000000000000^2870"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o [1m3rdparty/libpng/pngread.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngread.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngread.o36"E8C12D52-D285-4589-99A8-9F853134EF80-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.209383
+e430229882.283840
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c252"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o [1m3rdparty/libpng/pngrio.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler02bc357ac9a4b941^ebaa487ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c0000000000000000^2864"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o [1m3rdparty/libpng/pngrio.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrio.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrio.o36"24D97C9F-4ED4-47B6-B49B-E55E08F0D5F1-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.286630
+e430229883.396853
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o [1m3rdparty/libpng/pngrtran.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler7782497ac9a4b941^1898657bc9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o [1m3rdparty/libpng/pngrtran.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrtran.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrtran.o36"4FA75D07-92B2-4BCF-B05A-01A250415CEA-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.311264
+e430229883.207510
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o [1m3rdparty/libpng/pngrutil.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilerccd14f7ac9a4b941^a31f357bc9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o [1m3rdparty/libpng/pngrutil.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngrutil.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngrutil.o36"5B9118A2-4B12-4D75-A80D-6453BC9266B7-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.384668
+e430229882.781041
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c252"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o [1m3rdparty/libpng/pngset.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler4a9b627ac9a4b941^80f2c77ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c0000000000000000^2864"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o [1m3rdparty/libpng/pngset.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngset.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngset.o36"350BED80-19A8-42DB-8EA2-C606A2DDD0AE-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.527384
+e430229882.719332
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o [1m3rdparty/libpng/pngtrans.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilerd924877ac9a4b941^b03cb87ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o [1m3rdparty/libpng/pngtrans.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngtrans.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngtrans.o36"7F14437D-4E15-4BB5-AEAF-F00E0C89530E-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.569657
+e430229882.653827
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c252"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o [1m3rdparty/libpng/pngwio.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilere0f5917ac9a4b941^7861a77ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c0000000000000000^2864"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o [1m3rdparty/libpng/pngwio.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwio.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwio.o36"1C9D20E0-DEC0-4FC5-BBA7-158CB7FD2791-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.655346
+e430229882.945611
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o [1m3rdparty/libpng/pngwrite.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler56f0a77ac9a4b941^7429f27ac9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o [1m3rdparty/libpng/pngwrite.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwrite.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwrite.o36"397C5A46-B4EA-45D1-96F0-2AD7218AA049-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229882.985960
+e430229883.131238
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o [1m3rdparty/libpng/pngwtran.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler5b99fc7ac9a4b941^1399217bc9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o [1m3rdparty/libpng/pngwtran.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwtran.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwtran.o36"69D62BD9-33FF-47B0-93FB-9F145AC8170D-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CCompileC /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s430229883.131562
+e430229883.551551
+r1
+xCompileC
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o
+x/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngpriv.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/png.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnglibconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pnginfo.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngstruct.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib/zlib.h
+d/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+d/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngdebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c256"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o [1m3rdparty/libpng/pngwutil.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compilerffcf217bc9a4b941^c6328d7bc9a4b941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c0000000000000000^2876"[1mCompileC[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o [1m3rdparty/libpng/pngwutil.c[0m normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ashish.nigam/Downloads/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Release-iphoneos\" -DPNG_CONFIGURE_LIBPNG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.0 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/zlib -I/Users/ashish.nigam/Downloads/opencv/3rdparty/libpng -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources/armv7 -I/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -Wno-implicit-function-declaration -fPIC -fPIC -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.d --serialize-diagnostics /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.dia -c /Users/ashish.nigam/Downloads/opencv/3rdparty/libpng/pngwutil.c -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/pngwutil.o36"1F2F77A0-4ED3-446B-AAF1-EB17FF8E6C11-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+
+CLibtool /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a normal armv7
+s430229883.552645
+e430229883.559922
+r1
+xLibtool
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a normal armv7116"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a normal armv705898d7bc9a4b941^60578f7bc9a4b941^---0#0#1#--993"[1mLibtool[0m /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a normal armv7    cd /Users/ashish.nigam/Downloads/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release -filelist /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/libpng/OpenCV.build/Release-iphoneos/libpng.build/Objects-normal/armv7/libpng.LinkFileList -o /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7/3rdparty/lib/Release/liblibpng.a36"41F6E3F5-5820-4D76-8C55-45A478169CD3-
+b8A05A506-A66C-41B2-BD7F-6346CB645944
+

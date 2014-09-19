@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh
+
+N/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh
+c0000000053F4939800000000000000C8
+t1408537496
+s200
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesee3ffe17cba4b941^84d31e18cba4b941^---0#1#1#--18"Check dependencies36"50444272-7CAC-446F-A2F8-EDCBA3E5F60B-
+
+CPhaseScriptExecution CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh
+s430230296.122102
+e430230296.225591
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'178"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh6ec41f18cba4b941^fdc03918cba4b941^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-430230296#0#8#-0#-----2@26"echo Build\ all\ projects-430230296#9#26#-0#-----2@19"Build all projects-430230296#35#19#-0#-----0#0#1#--375"[1mPhaseScriptExecution[0m CMake\ Rules /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh    cd /Users/ashish.nigam/Downloads/opencv    /bin/sh -c /Users/ashish.nigam/Downloads/ios/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-72DCA27977FC4FEBA2FDA9B8.sh36"C2D94246-910F-4480-A84D-00F01BA1D418-
+b80CACA0E-9AD6-4533-B401-18158C026AFC
+
