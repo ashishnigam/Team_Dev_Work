@@ -1,13 +1,13 @@
 //
-//  UIBubbleTypingTableCell.m
-//  UIBubbleTableViewExample
+//  UIBubbleTypingTableViewCell.m
+//  PatronApp
 //
-//  Created by Александр Баринов on 10/7/12.
-//  Copyright (c) 2012 Stex Group. All rights reserved.
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
 
 #import "UIBubbleTypingTableViewCell.h"
-
+#import "UIColor+Expanded.h"
 @interface UIBubbleTypingTableViewCell ()
 
 @property (nonatomic, retain) UIImageView *typingImageView;
@@ -51,6 +51,8 @@
     
     self.typingImageView.image = bubbleImage;
     self.typingImageView.frame = CGRectMake(x, 4, 73, 31);
+    
+    self.backgroundColor = [UIColor colorWithHexString:@"ececec"];
 }
 
 @end

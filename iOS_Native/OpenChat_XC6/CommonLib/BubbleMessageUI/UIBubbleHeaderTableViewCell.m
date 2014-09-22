@@ -1,12 +1,14 @@
 //
 //  UIBubbleHeaderTableViewCell.m
-//  UIBubbleTableViewExample
+//  PatronApp
 //
-//  Created by Александр Баринов on 10/7/12.
-//  Copyright (c) 2012 Stex Group. All rights reserved.
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
 
+
 #import "UIBubbleHeaderTableViewCell.h"
+#import "UIColor+Expanded.h"
 
 @interface UIBubbleHeaderTableViewCell ()
 
@@ -21,11 +23,12 @@
 
 + (CGFloat)height
 {
-    return 28.0;
+    return 28.0f;
 }
 
 - (void)setDate:(NSDate *)value
 {
+    /*
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
     [dateFormatter setTimeStyle:NSDateFormatterShortStyle];
@@ -50,6 +53,8 @@
     self.label.textColor = [UIColor darkGrayColor];
     self.label.backgroundColor = [UIColor clearColor];
     [self addSubview:self.label];
+     */
+    self.backgroundColor = [UIColor colorWithHexString:@"ececec"];
 }
 
 

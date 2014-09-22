@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "Constants.h"
+
+#import "UIBubbleTableViewDataSource.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UIViewController <NSFetchedResultsControllerDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface MasterViewController : UIViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate,UIBubbleTableViewDataSource>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
@@ -19,6 +22,11 @@
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+
+@property (nonatomic, weak) IBOutlet UICollectionView *collectionView;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem *editBtn;
+@property NSArray *items;
 
 @end
 

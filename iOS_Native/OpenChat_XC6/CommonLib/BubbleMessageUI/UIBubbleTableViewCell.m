@@ -1,16 +1,16 @@
 //
 //  UIBubbleTableViewCell.m
+//  PatronApp
 //
-//  Created by Alex Barinov
-//  Project home page: http://alexbarinov.github.com/UIBubbleTableView/
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
-//  This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
-//  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
-//
+
 
 #import <QuartzCore/QuartzCore.h>
 #import "UIBubbleTableViewCell.h"
 #import "NSBubbleData.h"
+#import "UIColor+Expanded.h"
 
 @interface UIBubbleTableViewCell ()
 
@@ -56,6 +56,7 @@
 - (void) setupInternalData
 {
     self.selectionStyle = UITableViewCellSelectionStyleNone;
+    self.backgroundColor = [UIColor colorWithHexString:@"ececec"];
     
     if (!self.bubbleImage)
     {
@@ -84,39 +85,46 @@
 #else
         self.avatarImage = [[UIImageView alloc] initWithImage:(self.data.avatar ? self.data.avatar : [UIImage imageNamed:@"missingAvatar.png"])];
 #endif
-        self.avatarImage.layer.cornerRadius = 9.0;
+        //self.avatarImage.layer.cornerRadius = 9.0;
         self.avatarImage.layer.masksToBounds = YES;
-        self.avatarImage.layer.borderColor = [UIColor colorWithWhite:0.0 alpha:0.2].CGColor;
+       // self.avatarImage.layer.borderColor = [UIColor colorWithWhite:0.0 alpha:0.2].CGColor;
         self.avatarImage.layer.borderWidth = 1.0;
         
-        CGFloat avatarX = (type == BubbleTypeSomeoneElse) ? 2 : self.frame.size.width - 52;
-        CGFloat avatarY = self.frame.size.height - 50;
+        CGFloat avatarX = (type == BubbleTypeSomeoneElse) ? 10 : self.frame.size.width - 40;
+        CGFloat avatarY = (self.frame.size.height - 30)/2;
         
-        self.avatarImage.frame = CGRectMake(avatarX, avatarY, 50, 50);
+        self.avatarImage.frame = CGRectMake(avatarX, avatarY, 30, 30);
         [self addSubview:self.avatarImage];
         
         CGFloat delta = self.frame.size.height - (self.data.insets.top + self.data.insets.bottom + self.data.view.frame.size.height);
         if (delta > 0) y = delta;
         
-        if (type == BubbleTypeSomeoneElse) x += 54;
-        if (type == BubbleTypeMine) x -= 54;
+        if (type == BubbleTypeSomeoneElse) x += 42;
+        if (type == BubbleTypeMine) x -= 42;
     }
 
     [self.customView removeFromSuperview];
     self.customView = self.data.view;
-    self.customView.frame = CGRectMake(x + self.data.insets.left, y + self.data.insets.top, width, height);
+    
+  //  self.customView.frame = CGRectMake(x + self.data.insets.left, y + self.data.insets.top, width, height);
+    
+    // ashish modification
+    self.customView.frame = CGRectMake(x + self.data.insets.left, y/2 + self.data.insets.top, width, height);
     [self.contentView addSubview:self.customView];
 
     if (type == BubbleTypeSomeoneElse)
-    {
-        self.bubbleImage.image = [[UIImage imageNamed:@"bubbleSomeone.png"] stretchableImageWithLeftCapWidth:21 topCapHeight:14];
+    {//bubbleSomeone.png
+        self.bubbleImage.image = [[UIImage imageNamed:@"chat_bubble_left.png"] stretchableImageWithLeftCapWidth:21 topCapHeight:0];
 
     }
-    else {
-        self.bubbleImage.image = [[UIImage imageNamed:@"bubbleMine.png"] stretchableImageWithLeftCapWidth:15 topCapHeight:14];
+    else {//bubbleMine.png
+        self.bubbleImage.image = [[UIImage imageNamed:@"chat_bubble_right.png"] stretchableImageWithLeftCapWidth:15 topCapHeight:0];
     }
 
     self.bubbleImage.frame = CGRectMake(x, y, width + self.data.insets.left + self.data.insets.right, height + self.data.insets.top + self.data.insets.bottom);
+    
+    // ashish modification
+    self.bubbleImage.frame = CGRectMake(x, y/2, width + self.data.insets.left + self.data.insets.right, height + self.data.insets.top + self.data.insets.bottom);
 }
 
 @end

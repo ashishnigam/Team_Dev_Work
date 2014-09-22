@@ -53,8 +53,21 @@
 		1480199D19CB07EC002EC8D2 /* lebron_james.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480199219CB07EC002EC8D2 /* lebron_james.png */; };
 		1480199E19CB07EC002EC8D2 /* paul_george.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480199319CB07EC002EC8D2 /* paul_george.png */; };
 		1480199F19CB07EC002EC8D2 /* iphone_settings_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480199419CB07EC002EC8D2 /* iphone_settings_view.xib */; };
+		14835B4719D025B000B3E0ED /* dwayne_wade.png in Resources */ = {isa = PBXBuildFile; fileRef = 14835B4619D025B000B3E0ED /* dwayne_wade.png */; };
 		14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */; };
 		14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFC19C976DA00C8BE4E /* UIColor+Expanded.m */; };
+		14FAFED019D0410500263258 /* BlueJIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECC19D0410500263258 /* BlueJIcon.png */; };
+		14FAFED119D0410500263258 /* BlueJIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECD19D0410500263258 /* BlueJIcon@2x.png */; };
+		14FAFED219D0410500263258 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECE19D0410500263258 /* me.png */; };
+		14FAFED319D0410500263258 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECF19D0410500263258 /* me@2x.png */; };
+		14FAFED819D045CB00263258 /* chat_bubble_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFED419D045CB00263258 /* chat_bubble_left.png */; };
+		14FAFED919D045CB00263258 /* chat_bubble_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFED519D045CB00263258 /* chat_bubble_left@2x.png */; };
+		14FAFEDA19D045CB00263258 /* chat_bubble_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFED619D045CB00263258 /* chat_bubble_right.png */; };
+		14FAFEDB19D045CB00263258 /* chat_bubble_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFED719D045CB00263258 /* chat_bubble_right@2x.png */; };
+		14FAFEE019D047AE00263258 /* Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFEDC19D047AE00263258 /* Page.png */; };
+		14FAFEE119D047AE00263258 /* Page@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFEDD19D047AE00263258 /* Page@2x.png */; };
+		14FAFEE219D047AE00263258 /* VCCarrotArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFEDE19D047AE00263258 /* VCCarrotArrow.png */; };
+		14FAFEE319D047AE00263258 /* VCCarrotArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFEDF19D047AE00263258 /* VCCarrotArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,11 +142,25 @@
 		1480199219CB07EC002EC8D2 /* lebron_james.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lebron_james.png; sourceTree = "<group>"; };
 		1480199319CB07EC002EC8D2 /* paul_george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paul_george.png; sourceTree = "<group>"; };
 		1480199419CB07EC002EC8D2 /* iphone_settings_view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iphone_settings_view.xib; sourceTree = "<group>"; };
+		14835B4619D025B000B3E0ED /* dwayne_wade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dwayne_wade.png; sourceTree = "<group>"; };
 		14FA5BF819C976DA00C8BE4E /* LibiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibiOS.h; sourceTree = "<group>"; };
 		14FA5BF919C976DA00C8BE4E /* ScheduleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimer.h; sourceTree = "<group>"; };
 		14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimer.m; sourceTree = "<group>"; };
 		14FA5BFB19C976DA00C8BE4E /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
 		14FA5BFC19C976DA00C8BE4E /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		14FAFECB19D03D6A00263258 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		14FAFECC19D0410500263258 /* BlueJIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueJIcon.png; sourceTree = "<group>"; };
+		14FAFECD19D0410500263258 /* BlueJIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueJIcon@2x.png"; sourceTree = "<group>"; };
+		14FAFECE19D0410500263258 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		14FAFECF19D0410500263258 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		14FAFED419D045CB00263258 /* chat_bubble_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bubble_left.png; sourceTree = "<group>"; };
+		14FAFED519D045CB00263258 /* chat_bubble_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_bubble_left@2x.png"; sourceTree = "<group>"; };
+		14FAFED619D045CB00263258 /* chat_bubble_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bubble_right.png; sourceTree = "<group>"; };
+		14FAFED719D045CB00263258 /* chat_bubble_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_bubble_right@2x.png"; sourceTree = "<group>"; };
+		14FAFEDC19D047AE00263258 /* Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Page.png; sourceTree = "<group>"; };
+		14FAFEDD19D047AE00263258 /* Page@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Page@2x.png"; sourceTree = "<group>"; };
+		14FAFEDE19D047AE00263258 /* VCCarrotArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VCCarrotArrow.png; sourceTree = "<group>"; };
+		14FAFEDF19D047AE00263258 /* VCCarrotArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VCCarrotArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +218,7 @@
 				14629C7A19C972190046D30A /* LaunchScreen.xib */,
 				14629C6C19C972190046D30A /* OpenChat.xcdatamodeld */,
 				14629C6519C972190046D30A /* Supporting Files */,
+				14FAFECB19D03D6A00263258 /* Constants.h */,
 			);
 			path = OpenChat;
 			sourceTree = "<group>";
@@ -243,6 +271,18 @@
 		1480194C19CAF351002EC8D2 /* BubbleImages */ = {
 			isa = PBXGroup;
 			children = (
+				14FAFEDC19D047AE00263258 /* Page.png */,
+				14FAFEDD19D047AE00263258 /* Page@2x.png */,
+				14FAFEDE19D047AE00263258 /* VCCarrotArrow.png */,
+				14FAFEDF19D047AE00263258 /* VCCarrotArrow@2x.png */,
+				14FAFED419D045CB00263258 /* chat_bubble_left.png */,
+				14FAFED519D045CB00263258 /* chat_bubble_left@2x.png */,
+				14FAFED619D045CB00263258 /* chat_bubble_right.png */,
+				14FAFED719D045CB00263258 /* chat_bubble_right@2x.png */,
+				14FAFECC19D0410500263258 /* BlueJIcon.png */,
+				14FAFECD19D0410500263258 /* BlueJIcon@2x.png */,
+				14FAFECE19D0410500263258 /* me.png */,
+				14FAFECF19D0410500263258 /* me@2x.png */,
 				1480194D19CAF351002EC8D2 /* bubbleMine.png */,
 				1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */,
 				1480194F19CAF351002EC8D2 /* bubbleSomeone.png */,
@@ -307,6 +347,7 @@
 		1480198D19CB07EC002EC8D2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				14835B4619D025B000B3E0ED /* dwayne_wade.png */,
 				1480198E19CB07EC002EC8D2 /* carmelo_anthony.png */,
 				1480198F19CB07EC002EC8D2 /* james_harden.png */,
 				1480199019CB07EC002EC8D2 /* kevin_durant.png */,
@@ -420,31 +461,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FAFED319D0410500263258 /* me@2x.png in Resources */,
 				1480199F19CB07EC002EC8D2 /* iphone_settings_view.xib in Resources */,
 				1480197519CAF351002EC8D2 /* missingAvatar@2x.png in Resources */,
 				1480197C19CAF351002EC8D2 /* typingSomeone.png in Resources */,
 				1480199819CB07EC002EC8D2 /* dialCell2.xib in Resources */,
 				1480197019CAF351002EC8D2 /* myBubble@2x.psd in Resources */,
 				1480196F19CAF351002EC8D2 /* bubbleSomeone@2x.png in Resources */,
+				14FAFED119D0410500263258 /* BlueJIcon@2x.png in Resources */,
 				1480196E19CAF351002EC8D2 /* bubbleSomeone.png in Resources */,
 				1480199E19CB07EC002EC8D2 /* paul_george.png in Resources */,
 				1480197719CAF351002EC8D2 /* halloween.jpg in Resources */,
+				14FAFEE019D047AE00263258 /* Page.png in Resources */,
 				1480196D19CAF351002EC8D2 /* bubbleMine@2x.png in Resources */,
+				14835B4719D025B000B3E0ED /* dwayne_wade.png in Resources */,
 				1480197D19CAF351002EC8D2 /* typingSomeone@2x.png in Resources */,
+				14FAFED019D0410500263258 /* BlueJIcon.png in Resources */,
 				14629C7719C972190046D30A /* Main.storyboard in Resources */,
 				1480199A19CB07EC002EC8D2 /* james_harden.png in Resources */,
+				14FAFEDA19D045CB00263258 /* chat_bubble_right.png in Resources */,
 				1480197219CAF351002EC8D2 /* someoneBubble@2x.psd in Resources */,
 				14629C7C19C972190046D30A /* LaunchScreen.xib in Resources */,
 				1480196C19CAF351002EC8D2 /* bubbleMine.png in Resources */,
+				14FAFEE219D047AE00263258 /* VCCarrotArrow.png in Resources */,
+				14FAFEDB19D045CB00263258 /* chat_bubble_right@2x.png in Resources */,
 				1480199619CB07EC002EC8D2 /* Contacts.json in Resources */,
+				14FAFED219D0410500263258 /* me.png in Resources */,
+				14FAFEE119D047AE00263258 /* Page@2x.png in Resources */,
 				1480199B19CB07EC002EC8D2 /* kevin_durant.png in Resources */,
+				14FAFEE319D047AE00263258 /* VCCarrotArrow@2x.png in Resources */,
 				1480197119CAF351002EC8D2 /* myTyping@2x.psd in Resources */,
 				1480199C19CB07EC002EC8D2 /* kyrie_irving.png in Resources */,
 				1480197A19CAF351002EC8D2 /* typingMine.png in Resources */,
 				1480199919CB07EC002EC8D2 /* carmelo_anthony.png in Resources */,
 				1480197619CAF351002EC8D2 /* avatar1.png in Resources */,
 				1480197919CAF351002EC8D2 /* icon_57.png in Resources */,
+				14FAFED919D045CB00263258 /* chat_bubble_left@2x.png in Resources */,
 				1480197B19CAF351002EC8D2 /* typingMine@2x.png in Resources */,
+				14FAFED819D045CB00263258 /* chat_bubble_left.png in Resources */,
 				1480197419CAF351002EC8D2 /* missingAvatar.png in Resources */,
 				1480197819CAF351002EC8D2 /* icon_114.png in Resources */,
 				1480197319CAF351002EC8D2 /* someoneTyping@2x.psd in Resources */,

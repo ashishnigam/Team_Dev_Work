@@ -1,9 +1,9 @@
 //
 //  UIBubbleHeaderTableViewCell.h
-//  UIBubbleTableViewExample
+//  PatronApp
 //
-//  Created by Александр Баринов on 10/7/12.
-//  Copyright (c) 2012 Stex Group. All rights reserved.
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

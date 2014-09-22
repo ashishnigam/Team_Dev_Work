@@ -1,15 +1,14 @@
 //
 //  NSBubbleData.m
+//  PatronApp
 //
-//  Created by Alex Barinov
-//  Project home page: http://alexbarinov.github.com/UIBubbleTableView/
-//
-//  This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
-//  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
 
 #import "NSBubbleData.h"
 #import <QuartzCore/QuartzCore.h>
+#import "UIColor+Expanded.h"
 
 @implementation NSBubbleData
 
@@ -39,8 +38,8 @@
 
 #pragma mark - Text bubble
 
-const UIEdgeInsets textInsetsMine = {5, 10, 11, 17};
-const UIEdgeInsets textInsetsSomeone = {5, 15, 11, 10};
+const UIEdgeInsets textInsetsMine = {5, 15, 5, 10};
+const UIEdgeInsets textInsetsSomeone = {5, 15, 5, 10};
 
 + (id)dataWithText:(NSString *)text date:(NSDate *)date type:(NSBubbleType)type
 {
@@ -53,15 +52,43 @@ const UIEdgeInsets textInsetsSomeone = {5, 15, 11, 10};
 
 - (id)initWithText:(NSString *)text date:(NSDate *)date type:(NSBubbleType)type
 {
-    UIFont *font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
-    CGSize size = [(text ? text : @"") sizeWithFont:font constrainedToSize:CGSizeMake(220, 9999) lineBreakMode:NSLineBreakByWordWrapping];
+    UIFont *font = USE_FONT_NAME_WITH_SIZE(@"Roboto-Regular", 14.0f);//[UIFont systemFontOfSize:[UIFont systemFontSize]];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
+ //   CGSize size = [(text ? text : @"") sizeWithFont:font constrainedToSize:CGSizeMake(236.0f, 9999.0f) lineBreakMode:NSLineBreakByWordWrapping];
+    
+//    NSLog(@"size %f",size.height);
+//    
+//    if (size.height<36) {
+//        size.height = 36.927734f;
+//    }
+//    size.width = size.width + 10;
+    
+    UILabel *label = [[UILabel alloc] init];
+    
+    //UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, size.width, size.height)];
+    
     label.numberOfLines = 0;
     label.lineBreakMode = NSLineBreakByWordWrapping;
     label.text = (text ? text : @"");
-    label.font = font;
+    //label.textAlignment = NSTextAlignmentCenter;
+    label.font = USE_FONT_NAME_WITH_SIZE(@"Roboto-Regular", 14.0f);
+    label.textColor = [UIColor colorWithHexString:@"#333333"];
     label.backgroundColor = [UIColor clearColor];
+    
+    CGSize maximumLabelSize = CGSizeMake(236.0f, 9999.0f);
+    
+    NSLog(@"size %f",maximumLabelSize.height);
+
+    if (maximumLabelSize.height<36) {
+        maximumLabelSize.height = 36.927734f;
+    }
+    maximumLabelSize.width = maximumLabelSize.width + 10;
+    
+    // not required as calling below size to fit method
+    
+   // CGSize expectSize = [label sizeThatFits:maximumLabelSize];
+    
+    [label sizeToFit];
     
 #if !__has_feature(objc_arc)
     [label autorelease];

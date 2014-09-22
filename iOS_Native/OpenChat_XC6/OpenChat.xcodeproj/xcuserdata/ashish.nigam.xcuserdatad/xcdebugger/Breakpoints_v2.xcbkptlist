@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenChat/MasterViewController.m"
-            timestampString = "432737407.809455"
+            timestampString = "433082280.167715"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-prepareForSegue:sender:"
-            landmarkType = "5">
+            startingLineNumber = "551"
+            endingLineNumber = "551"
+            landmarkName = "@implementation MasterViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

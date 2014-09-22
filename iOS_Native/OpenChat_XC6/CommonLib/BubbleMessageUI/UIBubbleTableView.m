@@ -1,11 +1,9 @@
 //
 //  UIBubbleTableView.m
+//  PatronApp
 //
-//  Created by Alex Barinov
-//  Project home page: http://alexbarinov.github.com/UIBubbleTableView/
-//
-//  This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
-//  To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/
+//  Created by Ashish Nigam on 10/03/14.
+//  Copyright (c) 2014 GlobalLogic. All rights reserved.
 //
 
 #import "UIBubbleTableView.h"
@@ -102,7 +100,7 @@
     self.bubbleSection = [[NSMutableArray alloc] init];
 #endif
     
-    if (self.bubbleDataSource && (count = [self.bubbleDataSource rowsForBubbleTable:self]) > 0)
+    if (self.bubbleDataSource && (count = (int)[self.bubbleDataSource rowsForBubbleTable:self]) > 0)
     {
 #if !__has_feature(objc_arc)
         NSMutableArray *bubbleData = [[[NSMutableArray alloc] initWithCapacity:count] autorelease];
@@ -156,7 +154,7 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    int result = [self.bubbleSection count];
+    int result = (int)[self.bubbleSection count];
     if (self.typingBubble != NSBubbleTypingTypeNobody) result++;
     return result;
 }
@@ -169,22 +167,24 @@
     return [[self.bubbleSection objectAtIndex:section] count] + 1;
 }
 
-- (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Now typing
 	if (indexPath.section >= [self.bubbleSection count])
     {
-        return MAX([UIBubbleTypingTableViewCell height], self.showAvatars ? 52 : 0);
+        return 0;//MAX([UIBubbleTypingTableViewCell height], self.showAvatars ? 52 : 0);
     }
     
     // Header
     if (indexPath.row == 0)
     {
-        return [UIBubbleHeaderTableViewCell height];
+        return 0;//[UIBubbleHeaderTableViewCell height];
     }
     
     NSBubbleData *data = [[self.bubbleSection objectAtIndex:indexPath.section] objectAtIndex:indexPath.row - 1];
-    return MAX(data.insets.top + data.view.frame.size.height + data.insets.bottom, self.showAvatars ? 52 : 0);
+    double rowHeight = MAX(data.insets.top + data.view.frame.size.height + data.insets.bottom, self.showAvatars ? 52 : 0);
+    NSLog(@"%f",rowHeight);
+    return rowHeight+10;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -226,7 +226,7 @@
     
     cell.data = data;
     cell.showAvatar = self.showAvatars;
-    
+   // cell.backgroundColor = [UIColor yellowColor];
     return cell;
 }
 
