@@ -56,7 +56,8 @@
 - (void) setupInternalData
 {
     self.selectionStyle = UITableViewCellSelectionStyleNone;
-    self.backgroundColor = [UIColor colorWithHexString:@"ececec"];
+    self.backgroundColor = [UIColor colorWithHexString:@"ccffcc"];
+   //  self.alpha = 0.2;
     
     if (!self.bubbleImage)
     {

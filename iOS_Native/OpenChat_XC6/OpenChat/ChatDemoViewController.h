@@ -1,17 +1,17 @@
 //
-//  DetailViewController.h
+//  ChatDemoViewController.h
 //  OpenChat
 //
-//  Created by Ashish Nigam on 17/09/14.
+//  Created by Ashish Nigam on 24/09/14.
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseViewController.h"
-
 #import "UIBubbleTableViewDataSource.h"
 
-@interface DetailViewController : BaseViewController <UIBubbleTableViewDataSource>
+#import "BaseViewController.h"
+
+@interface ChatDemoViewController : BaseViewController <UIBubbleTableViewDataSource>
 {
     IBOutlet UIBubbleTableView *bubbleTable;
     IBOutlet UIView *textInputView;
@@ -21,8 +21,8 @@
     BOOL sendMessage;
 }
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+-(void)reloadTableData:(NSArray*)chatData;
+-(NSArray*)userChatData:(id)args;
+-(NSArray*)chatDefaultData;
 
 @end
-

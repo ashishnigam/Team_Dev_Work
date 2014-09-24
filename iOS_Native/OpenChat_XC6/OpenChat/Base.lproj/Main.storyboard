@@ -20,6 +20,36 @@
             </objects>
             <point key="canvasLocation" x="-38" y="-630"/>
         </scene>
+        <!--Chat Demo View Controller-->
+        <scene sceneID="of0-9I-oxt">
+            <objects>
+                <viewController storyboardIdentifier="ChatDemoVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3xT-YP-vtA" customClass="ChatDemoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IGy-Ue-J1V"/>
+                        <viewControllerLayoutGuide type="bottom" id="k0X-f9-OMx"/>
+                    </layoutGuides>
+                    <view key="view" alpha="0.19999999999999968" contentMode="scaleToFill" id="3F2-Dl-Wol">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="kj1-Q3-CNr" customClass="UIBubbleTableView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.090196080509999998" green="0.66666668650000005" blue="0.46666669849999998" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="bubbleDataSource" destination="3xT-YP-vtA" id="gpd-ZN-15C"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="bubbleTable" destination="kj1-Q3-CNr" id="xYM-Ie-tms"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubG-Bk-gbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="783" y="-1291"/>
+        </scene>
         <!--Contacts List-->
         <scene sceneID="hxi-zW-pNs">
             <objects>
@@ -52,45 +82,7 @@
                                     <outlet property="delegate" destination="GFK-Ws-7lc" id="SLc-9M-tZl"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EfE-47-222">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
-                                <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="6bN-Dp-928" customClass="UIBubbleTableView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <connections>
-                                            <outlet property="bubbleDataSource" destination="GFK-Ws-7lc" id="ZrJ-Co-7mD"/>
-                                        </connections>
-                                    </tableView>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNk-oM-pgE">
-                                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                        <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u6b-Pb-hYA">
-                                                <rect key="frame" x="0.0" y="5" width="280" height="30"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dhw-Js-Iyp">
-                                                <rect key="frame" x="282" y="0.0" width="60" height="44"/>
-                                                <state key="normal" title="SayIt">
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="SendMessage:" destination="GFK-Ws-7lc" eventType="touchUpInside" id="IKG-da-V3j"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="cNk-oM-pgE"/>
-                                    </mask>
-                                </variation>
-                            </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="u2f-gc-Suf">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="u2f-gc-Suf">
                                 <rect key="frame" x="0.0" y="64" width="600" height="603"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YOp-y0-JSU">
@@ -117,12 +109,10 @@
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="boU-0w-mIv"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="bubbleTable" destination="6bN-Dp-928" id="UeC-AG-w27"/>
                         <outlet property="collectionView" destination="u2f-gc-Suf" id="Gzl-Pa-tRx"/>
                         <outlet property="editBtn" destination="boU-0w-mIv" id="wqO-Xq-44v"/>
                         <outlet property="tableView" destination="ase-dk-mwa" id="sFa-SC-juO"/>
-                        <outlet property="textField" destination="u6b-Pb-hYA" id="L9w-Ah-2Sm"/>
-                        <outlet property="textInputView" destination="cNk-oM-pgE" id="9J2-78-fq1"/>
+                        <segue destination="vC3-pB-5Vb" kind="showDetail" identifier="showChatVC" id="wnC-WN-jO4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C4p-Bm-f2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -148,6 +138,40 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MWH-oM-N58">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="667"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="jy6-G2-uf8" customClass="UIBubbleTableView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                        <color key="backgroundColor" red="0.090196080509999998" green="0.66666668650000005" blue="0.46666669849999998" alpha="1" colorSpace="deviceRGB"/>
+                                        <connections>
+                                            <outlet property="bubbleDataSource" destination="JEX-9P-axG" id="dCI-R2-AlQ"/>
+                                        </connections>
+                                    </tableView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AEw-9q-00E">
+                                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOb-nl-FOM">
+                                                <rect key="frame" x="0.0" y="5" width="280" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgd-fa-BtI">
+                                                <rect key="frame" x="282" y="0.0" width="60" height="44"/>
+                                                <state key="normal" title="SayIt">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SendMessage:" destination="JEX-9P-axG" eventType="touchUpInside" id="An1-M0-Zde"/>
+                                                    <action selector="SendMessage:" destination="GFK-Ws-7lc" eventType="touchUpInside" id="zWg-hu-PgN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -155,11 +179,19 @@
                             <constraint firstItem="0XM-y9-sOw" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" id="jWN-iV-94e"/>
                             <constraint firstAttribute="trailing" secondItem="0XM-y9-sOw" secondAttribute="trailing" constant="20" symbolic="YES" id="tHV-ZD-HQj"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="0XM-y9-sOw"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="mOI-FS-AaM"/>
                     <connections>
+                        <outlet property="bubbleTable" destination="jy6-G2-uf8" id="dvi-zA-3W3"/>
                         <outlet property="detailDescriptionLabel" destination="0XM-y9-sOw" id="deQ-Na-JPF"/>
+                        <outlet property="textField" destination="bOb-nl-FOM" id="dbO-Ve-SkH"/>
+                        <outlet property="textInputView" destination="AEw-9q-00E" id="08E-4w-nt1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
@@ -197,6 +229,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Lhb-SQ-Yqi"/>
+        <segue reference="wnC-WN-jO4"/>
     </inferredMetricsTieBreakers>
 </document>

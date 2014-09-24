@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
-#import "Constants.h"
+#import "BaseViewController.h"
 
-#import "UIBubbleTableViewDataSource.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UIViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate,UIBubbleTableViewDataSource>
+@interface MasterViewController : BaseViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 

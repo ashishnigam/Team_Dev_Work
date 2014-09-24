@@ -1,47 +1,34 @@
 //
-//  DetailViewController.m
+//  ChatDemoViewController.m
 //  OpenChat
 //
-//  Created by Ashish Nigam on 17/09/14.
+//  Created by Ashish Nigam on 24/09/14.
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "ChatDemoViewController.h"
+
+#import "UIColor+Expanded.h"
 
 #import "UIBubbleTableView.h"
 #import "NSBubbleData.h"
 
-@interface DetailViewController ()
+@interface ChatDemoViewController ()
+{
+}
 
 @end
 
-@implementation DetailViewController
-
-#pragma mark - Managing the detail item
-
-- (void)setDetailItem:(id)newDetailItem {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
-            
-        // Update the view.
-        [self configureView];
-    }
-}
-
-- (void)configureView {
-    // Update the user interface for the detail item.
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
-    }
-}
+@implementation ChatDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+    // Do any additional setup after loading the view.
     
     // Chat UI
+    
     [self updateChatUI];
+    
     // Chat UI End
 }
 
@@ -49,15 +36,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 /*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 -(NSArray*)chatDefaultData
 {
@@ -128,7 +116,7 @@
 
 -(void)updateChatUI
 {
-     bubbleData = [[self chatDefaultData] mutableCopy];
+   // bubbleData = [[self chatDefaultData] mutableCopy];
     
     bubbleTable.bubbleDataSource = self;
     
@@ -160,7 +148,7 @@
     
     bubbleTable.backgroundColor = [UIColor colorWithHexString:@"ccffcc"];
     
-    [self updateTableViewCells:0];
+   // [self updateTableViewCells:0];
     
 }
 
