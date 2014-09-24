@@ -9,29 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OpenChat/AppDelegate.m"
-            timestampString = "432639731.539333"
+            filePath = "OpenChat/ContactsListViewController.m"
+            timestampString = "433256864.557959"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "OpenChat/MasterViewController.m"
-            timestampString = "433246965.818116"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "402"
-            endingLineNumber = "402"
-            landmarkName = "@implementation MasterViewController"
+            startingLineNumber = "414"
+            endingLineNumber = "414"
+            landmarkName = "@implementation ContactsListViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

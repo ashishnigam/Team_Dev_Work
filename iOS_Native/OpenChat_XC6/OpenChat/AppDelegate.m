@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "DetailViewController.h"
-#import "MasterViewController.h"
+#import "IndividualChatViewController.h"
+#import "ContactsListViewController.h"
 #import "LibiOS.h"
 
 static BOOL isIOS8orGreater;
@@ -27,17 +27,19 @@ static BOOL isIOS8orGreater;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     isIOS8orGreater = isIOS8();
-    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    
+    UISplitViewController *splitViewController = [[tabBarController viewControllers] objectAtIndex:0];
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     if (isIOS8orGreater) {
          navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     }
     splitViewController.delegate = self;
     
-    MasterViewController *controller;
+    ContactsListViewController *controller;
     if (isIOS8orGreater) {
         UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-        controller = (MasterViewController *)masterNavigationController.topViewController;
+        controller = (ContactsListViewController *)masterNavigationController.topViewController;
     }else{
         controller = splitViewController.viewControllers[0];
     }
@@ -73,7 +75,7 @@ static BOOL isIOS8orGreater;
 #pragma mark - Split view
 
 - (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController {
-    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[DetailViewController class]] && ([(DetailViewController *)[(UINavigationController *)secondaryViewController topViewController] detailItem] == nil)) {
+    if ([secondaryViewController isKindOfClass:[UINavigationController class]] && [[(UINavigationController *)secondaryViewController topViewController] isKindOfClass:[IndividualChatViewController class]] && ([(IndividualChatViewController *)[(UINavigationController *)secondaryViewController topViewController] detailItem] == nil)) {
         // Return YES to indicate that we have handled the collapse by doing nothing; the secondary controller will be discarded.
         return YES;
     } else {

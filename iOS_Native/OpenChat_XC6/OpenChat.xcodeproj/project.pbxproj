@@ -10,14 +10,12 @@
 		14629C6819C972190046D30A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6719C972190046D30A /* main.m */; };
 		14629C6B19C972190046D30A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6A19C972190046D30A /* AppDelegate.m */; };
 		14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6C19C972190046D30A /* OpenChat.xcdatamodeld */; };
-		14629C7119C972190046D30A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C7019C972190046D30A /* MasterViewController.m */; };
-		14629C7419C972190046D30A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C7319C972190046D30A /* DetailViewController.m */; };
+		14629C7119C972190046D30A /* ContactsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C7019C972190046D30A /* ContactsListViewController.m */; };
+		14629C7419C972190046D30A /* IndividualChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C7319C972190046D30A /* IndividualChatViewController.m */; };
 		14629C7719C972190046D30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14629C7519C972190046D30A /* Main.storyboard */; };
 		14629C7919C972190046D30A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14629C7819C972190046D30A /* Images.xcassets */; };
 		14629C7C19C972190046D30A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14629C7A19C972190046D30A /* LaunchScreen.xib */; };
 		14629C8819C972190046D30A /* OpenChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C8719C972190046D30A /* OpenChatTests.m */; };
-		14629C9219C9725C0046D30A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14629C9119C9725C0046D30A /* Foundation.framework */; };
-		14629C9419C972640046D30A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14629C9319C972640046D30A /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		1480196C19CAF351002EC8D2 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194D19CAF351002EC8D2 /* bubbleMine.png */; };
 		1480196D19CAF351002EC8D2 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */; };
 		1480196E19CAF351002EC8D2 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194F19CAF351002EC8D2 /* bubbleSomeone.png */; };
@@ -56,6 +54,8 @@
 		14835B4719D025B000B3E0ED /* dwayne_wade.png in Resources */ = {isa = PBXBuildFile; fileRef = 14835B4619D025B000B3E0ED /* dwayne_wade.png */; };
 		14843B3319D2A956004E8187 /* ChatDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3219D2A956004E8187 /* ChatDemoViewController.m */; };
 		14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3519D2AA04004E8187 /* BaseViewController.m */; };
+		14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3819D2EE72004E8187 /* GroupChatViewController.m */; };
+		14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3B19D2F15C004E8187 /* SettingsViewController.m */; };
 		14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */; };
 		14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFC19C976DA00C8BE4E /* UIColor+Expanded.m */; };
 		14FAFED019D0410500263258 /* BlueJIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECC19D0410500263258 /* BlueJIcon.png */; };
@@ -89,18 +89,16 @@
 		14629C6919C972190046D30A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14629C6A19C972190046D30A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		14629C6D19C972190046D30A /* OpenChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenChat.xcdatamodel; sourceTree = "<group>"; };
-		14629C6F19C972190046D30A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		14629C7019C972190046D30A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		14629C7219C972190046D30A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		14629C7319C972190046D30A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		14629C6F19C972190046D30A /* ContactsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsListViewController.h; sourceTree = "<group>"; };
+		14629C7019C972190046D30A /* ContactsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsListViewController.m; sourceTree = "<group>"; };
+		14629C7219C972190046D30A /* IndividualChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndividualChatViewController.h; sourceTree = "<group>"; };
+		14629C7319C972190046D30A /* IndividualChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndividualChatViewController.m; sourceTree = "<group>"; };
 		14629C7619C972190046D30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14629C7819C972190046D30A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		14629C7B19C972190046D30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		14629C8119C972190046D30A /* OpenChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14629C8619C972190046D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14629C8719C972190046D30A /* OpenChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenChatTests.m; sourceTree = "<group>"; };
-		14629C9119C9725C0046D30A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		14629C9319C972640046D30A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1480194D19CAF351002EC8D2 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
 		1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
 		1480194F19CAF351002EC8D2 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
@@ -149,6 +147,10 @@
 		14843B3219D2A956004E8187 /* ChatDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDemoViewController.m; sourceTree = "<group>"; };
 		14843B3419D2AA04004E8187 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		14843B3519D2AA04004E8187 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		14843B3719D2EE72004E8187 /* GroupChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupChatViewController.h; sourceTree = "<group>"; };
+		14843B3819D2EE72004E8187 /* GroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatViewController.m; sourceTree = "<group>"; };
+		14843B3A19D2F15C004E8187 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		14843B3B19D2F15C004E8187 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		14FA5BF819C976DA00C8BE4E /* LibiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibiOS.h; sourceTree = "<group>"; };
 		14FA5BF919C976DA00C8BE4E /* ScheduleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimer.h; sourceTree = "<group>"; };
 		14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimer.m; sourceTree = "<group>"; };
@@ -174,8 +176,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14629C9419C972640046D30A /* UIKit.framework in Frameworks */,
-				14629C9219C9725C0046D30A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				14FA5B8F19C976DA00C8BE4E /* CommonLib */,
-				14629C9319C972640046D30A /* UIKit.framework */,
-				14629C9119C9725C0046D30A /* Foundation.framework */,
 				14629C6419C972190046D30A /* OpenChat */,
 				14629C8419C972190046D30A /* OpenChatTests */,
 				14629C6319C972190046D30A /* Products */,
@@ -215,10 +213,10 @@
 			children = (
 				14629C6919C972190046D30A /* AppDelegate.h */,
 				14629C6A19C972190046D30A /* AppDelegate.m */,
-				14629C6F19C972190046D30A /* MasterViewController.h */,
-				14629C7019C972190046D30A /* MasterViewController.m */,
-				14629C7219C972190046D30A /* DetailViewController.h */,
-				14629C7319C972190046D30A /* DetailViewController.m */,
+				14629C6F19C972190046D30A /* ContactsListViewController.h */,
+				14629C7019C972190046D30A /* ContactsListViewController.m */,
+				14629C7219C972190046D30A /* IndividualChatViewController.h */,
+				14629C7319C972190046D30A /* IndividualChatViewController.m */,
 				14629C7519C972190046D30A /* Main.storyboard */,
 				14629C7819C972190046D30A /* Images.xcassets */,
 				14629C7A19C972190046D30A /* LaunchScreen.xib */,
@@ -229,6 +227,10 @@
 				14843B3219D2A956004E8187 /* ChatDemoViewController.m */,
 				14843B3419D2AA04004E8187 /* BaseViewController.h */,
 				14843B3519D2AA04004E8187 /* BaseViewController.m */,
+				14843B3719D2EE72004E8187 /* GroupChatViewController.h */,
+				14843B3819D2EE72004E8187 /* GroupChatViewController.m */,
+				14843B3A19D2F15C004E8187 /* SettingsViewController.h */,
+				14843B3B19D2F15C004E8187 /* SettingsViewController.m */,
 			);
 			path = OpenChat;
 			sourceTree = "<group>";
@@ -534,10 +536,10 @@
 			files = (
 				1480199519CB07EC002EC8D2 /* AWCollectionViewDialLayout.m in Sources */,
 				1480197E19CAF351002EC8D2 /* NSBubbleData.m in Sources */,
-				14629C7419C972190046D30A /* DetailViewController.m in Sources */,
+				14629C7419C972190046D30A /* IndividualChatViewController.m in Sources */,
 				1480198619CB04EC002EC8D2 /* NetworkManager.m in Sources */,
 				1480198119CAF351002EC8D2 /* UIBubbleTableViewCell.m in Sources */,
-				14629C7119C972190046D30A /* MasterViewController.m in Sources */,
+				14629C7119C972190046D30A /* ContactsListViewController.m in Sources */,
 				1480198219CAF351002EC8D2 /* UIBubbleTypingTableViewCell.m in Sources */,
 				14629C6B19C972190046D30A /* AppDelegate.m in Sources */,
 				14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */,
@@ -546,7 +548,9 @@
 				1480197F19CAF351002EC8D2 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				14843B3319D2A956004E8187 /* ChatDemoViewController.m in Sources */,
 				14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */,
+				14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */,
 				14629C6819C972190046D30A /* main.m in Sources */,
+				14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */,
 				1480198019CAF351002EC8D2 /* UIBubbleTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

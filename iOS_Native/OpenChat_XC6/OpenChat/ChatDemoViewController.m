@@ -15,6 +15,7 @@
 
 @interface ChatDemoViewController ()
 {
+    NSMutableArray *bubbleData;
 }
 
 @end
@@ -141,11 +142,6 @@
     
     [bubbleTable reloadData];
     
-    // Keyboard events
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWasShown:) name:UIKeyboardWillShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardWillHideNotification object:nil];
-    
     bubbleTable.backgroundColor = [UIColor colorWithHexString:@"ccffcc"];
     
    // [self updateTableViewCells:0];
@@ -168,70 +164,6 @@
     return [bubbleData objectAtIndex:row];
 }
 
-#pragma mark - Keyboard events
-
-- (void)keyboardWasShown:(NSNotification*)aNotification
-{
-    sendMessage = YES;
-    //self.chatTextEntryTxtField.text = @"";
-    bubbleTable.typingBubble = NSBubbleTypingTypeMe;
-    NSDictionary* info = [aNotification userInfo];
-    CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    
-    [UIView animateWithDuration:0.2f animations:^{
-        
-        CGRect frame = textInputView.frame;
-        frame.origin.y -= kbSize.height;
-        textInputView.frame = frame;
-        
-        frame = bubbleTable.frame;
-        frame.size.height -= kbSize.height;
-        bubbleTable.frame = frame;
-    }];
-}
-
-- (void)keyboardWillBeHidden:(NSNotification*)aNotification
-{
-    // [self updateChatTextFieldUI];
-    NSDictionary* info = [aNotification userInfo];
-    CGSize kbSize = [[info objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
-    
-    [UIView animateWithDuration:0.2f animations:^{
-        
-        CGRect frame = textInputView.frame;
-        frame.origin.y += kbSize.height;
-        textInputView.frame = frame;
-        
-        frame = bubbleTable.frame;
-        frame.size.height += kbSize.height;
-        bubbleTable.frame = frame;
-    }];
-    
-}
-
-#pragma mark - Actions
-- (IBAction)SendMessage:(id)sender {
-    if (sendMessage) {
-        bubbleTable.typingBubble = NSBubbleTypingTypeNobody;
-        
-        NSString *chatText = nil;
-        if ([textField.text isEqualToString:@""]) {
-            chatText = @"Hi";
-        }else{
-            chatText = textField.text;
-        }
-        
-        NSBubbleData *sayBubble = [NSBubbleData dataWithText:chatText date:[NSDate dateWithTimeIntervalSinceNow:+300] type:BubbleTypeMine];
-        sayBubble.avatar = [UIImage imageNamed:CHAT_SCREEN_USER_ME_AVATAR_IMG];
-        
-        [bubbleData addObject:sayBubble];
-        [bubbleTable reloadData];
-        textField.text = @"";
-        [textField resignFirstResponder];
-        [self updateTableViewCells:0];
-        sendMessage = NO;
-    }
-}
 
 -(void)updateTableViewCells:(NSUInteger)rowNumber
 {

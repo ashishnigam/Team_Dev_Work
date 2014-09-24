@@ -2,7 +2,8 @@
  {
     "name": "Dwayne Wade",
     "picture": "dwayne_wade.png",
-    "team-color": "#98012E"
+    "team-color": "#98012E",
+    "group": "1"
  },
  {
     "name": "Kyrie Irving",
@@ -52,7 +53,8 @@
  {
  "name": "Lebron James",
  "picture": "lebron_james.png",
- "team-color": "#98012E"
+ "team-color": "#98012E",
+ "group": "1"
  },
  {
  "name": "Carmelo Anthony",
@@ -142,7 +144,8 @@
  {
  "name": "Dwayne Wade",
  "picture": "dwayne_wade.png",
- "team-color": "#98012E"
+ "team-color": "#98012E",
+ "group": "1"
  },
  {
  "name": "Kyrie Irving",
@@ -152,7 +155,8 @@
  {
  "name": "Paul George",
  "picture": "paul_george.png",
- "team-color": "#061642"
+ "team-color": "#061642",
+ "group": "1"
  },
  {
  "name": "Lebron James",

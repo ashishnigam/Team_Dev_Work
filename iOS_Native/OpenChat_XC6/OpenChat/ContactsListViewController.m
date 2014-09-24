@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
-#import "MasterViewController.h"
-#import "DetailViewController.h"
+#import "ContactsListViewController.h"
+#import "IndividualChatViewController.h"
 
 #import "AWCollectionViewDialLayout.h"
 #import "ChatDemoViewController.h"
@@ -16,7 +16,7 @@ static NSString *cellId = @"cellId";
 static NSString *cellId2 = @"cellId2";
 
 
-@interface MasterViewController ()
+@interface ContactsListViewController ()
 {
     NSMutableDictionary *thumbnailCache;
     BOOL showingSettings;
@@ -44,7 +44,7 @@ static NSString *cellId2 = @"cellId2";
 @end
 
 
-@implementation MasterViewController
+@implementation ContactsListViewController
 
 @synthesize items;
 
@@ -125,7 +125,7 @@ static NSString *cellId2 = @"cellId2";
     tappedRow = -1;
     self.tapTimer = nil;
     
-    self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    self.detailViewController = (IndividualChatViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
 // Circular Contacts UI
@@ -254,6 +254,20 @@ static NSString *cellId2 = @"cellId2";
     UILabel *nameLabel = (UILabel*)[cell viewWithTag:101];
     [nameLabel setText:playerName];
     
+    BOOL isGroup = [[item valueForKey:@"group"] boolValue];
+    
+    UILabel *groupLabel = (UILabel*)[cell viewWithTag:11];
+    
+    if (isGroup) {
+        [groupLabel setHidden:NO];
+        [groupLabel setText:@"G"];
+        [groupLabel setBackgroundColor:[UIColor grayColor]];
+    }
+    else
+    {
+        [groupLabel setHidden:YES];
+    }
+    
     
     NSString *hexColor = [item valueForKey:@"team-color"];
     
@@ -376,8 +390,6 @@ static NSString *cellId2 = @"cellId2";
 }
 
 // Circular Contacts UI Ends
-
-
 
 // Table UI & Core Data Implementation
 

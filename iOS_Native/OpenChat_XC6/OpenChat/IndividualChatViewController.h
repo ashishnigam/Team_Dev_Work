@@ -11,7 +11,7 @@
 
 #import "UIBubbleTableViewDataSource.h"
 
-@interface DetailViewController : BaseViewController <UIBubbleTableViewDataSource>
+@interface IndividualChatViewController : BaseViewController <UIBubbleTableViewDataSource>
 {
     IBOutlet UIBubbleTableView *bubbleTable;
     IBOutlet UIView *textInputView;

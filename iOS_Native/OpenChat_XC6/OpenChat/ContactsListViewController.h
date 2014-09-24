@@ -11,11 +11,11 @@
 #import "BaseViewController.h"
 
 
-@class DetailViewController;
+@class IndividualChatViewController;
 
-@interface MasterViewController : BaseViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate>
+@interface ContactsListViewController : BaseViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate>
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) IndividualChatViewController *detailViewController;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -28,4 +28,3 @@
 @property NSArray *items;
 
 @end
-

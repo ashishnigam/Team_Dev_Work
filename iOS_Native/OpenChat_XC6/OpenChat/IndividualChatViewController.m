@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "IndividualChatViewController.h"
 
 #import "UIBubbleTableView.h"
 #import "NSBubbleData.h"
 
-@interface DetailViewController ()
+@interface IndividualChatViewController ()
 
 @end
 
-@implementation DetailViewController
+@implementation IndividualChatViewController
 
 #pragma mark - Managing the detail item
 

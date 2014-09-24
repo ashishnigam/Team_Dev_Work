@@ -14,11 +14,6 @@
 @interface ChatDemoViewController : BaseViewController <UIBubbleTableViewDataSource>
 {
     IBOutlet UIBubbleTableView *bubbleTable;
-    IBOutlet UIView *textInputView;
-    IBOutlet UITextField *textField;
-    
-    NSMutableArray *bubbleData;
-    BOOL sendMessage;
 }
 
 -(void)reloadTableData:(NSArray*)chatData;
