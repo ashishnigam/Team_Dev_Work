@@ -56,6 +56,11 @@
 		14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3519D2AA04004E8187 /* BaseViewController.m */; };
 		14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3819D2EE72004E8187 /* GroupChatViewController.m */; };
 		14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3B19D2F15C004E8187 /* SettingsViewController.m */; };
+		14843B7419D3F0BF004E8187 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7319D3F0BF004E8187 /* NetworkRequest.m */; };
+		14843B7819D3F104004E8187 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7719D3F104004E8187 /* DatabaseManager.m */; };
+		14843B7B19D3F120004E8187 /* CoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7A19D3F120004E8187 /* CoredataManager.m */; };
+		14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7D19D3F14C004E8187 /* SqliteManager.m */; };
+		14843B8219D43074004E8187 /* DataParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B8119D43074004E8187 /* DataParseOperation.m */; };
 		14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */; };
 		14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFC19C976DA00C8BE4E /* UIColor+Expanded.m */; };
 		14FAFED019D0410500263258 /* BlueJIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECC19D0410500263258 /* BlueJIcon.png */; };
@@ -151,6 +156,16 @@
 		14843B3819D2EE72004E8187 /* GroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatViewController.m; sourceTree = "<group>"; };
 		14843B3A19D2F15C004E8187 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		14843B3B19D2F15C004E8187 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		14843B7219D3F0BF004E8187 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		14843B7319D3F0BF004E8187 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		14843B7619D3F104004E8187 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		14843B7719D3F104004E8187 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
+		14843B7919D3F120004E8187 /* CoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoredataManager.h; sourceTree = "<group>"; };
+		14843B7A19D3F120004E8187 /* CoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoredataManager.m; sourceTree = "<group>"; };
+		14843B7C19D3F14C004E8187 /* SqliteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteManager.h; sourceTree = "<group>"; };
+		14843B7D19D3F14C004E8187 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
+		14843B8019D43074004E8187 /* DataParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParseOperation.h; sourceTree = "<group>"; };
+		14843B8119D43074004E8187 /* DataParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParseOperation.m; sourceTree = "<group>"; };
 		14FA5BF819C976DA00C8BE4E /* LibiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibiOS.h; sourceTree = "<group>"; };
 		14FA5BF919C976DA00C8BE4E /* ScheduleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimer.h; sourceTree = "<group>"; };
 		14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimer.m; sourceTree = "<group>"; };
@@ -338,6 +353,10 @@
 			children = (
 				1480198419CB04EC002EC8D2 /* NetworkManager.h */,
 				1480198519CB04EC002EC8D2 /* NetworkManager.m */,
+				14843B7219D3F0BF004E8187 /* NetworkRequest.h */,
+				14843B7319D3F0BF004E8187 /* NetworkRequest.m */,
+				14843B8019D43074004E8187 /* DataParseOperation.h */,
+				14843B8119D43074004E8187 /* DataParseOperation.m */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -370,9 +389,23 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		14843B7519D3F0F1004E8187 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				14843B7619D3F104004E8187 /* DatabaseManager.h */,
+				14843B7719D3F104004E8187 /* DatabaseManager.m */,
+				14843B7919D3F120004E8187 /* CoredataManager.h */,
+				14843B7A19D3F120004E8187 /* CoredataManager.m */,
+				14843B7C19D3F14C004E8187 /* SqliteManager.h */,
+				14843B7D19D3F14C004E8187 /* SqliteManager.m */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
 		14FA5B8F19C976DA00C8BE4E /* CommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				14843B7519D3F0F1004E8187 /* DatabaseManager */,
 				1480198719CB07EC002EC8D2 /* CircularCollection */,
 				1480198319CB04A8002EC8D2 /* NetworkManager */,
 				1480194B19CAF351002EC8D2 /* BubbleMessageUI */,
@@ -536,11 +569,15 @@
 			files = (
 				1480199519CB07EC002EC8D2 /* AWCollectionViewDialLayout.m in Sources */,
 				1480197E19CAF351002EC8D2 /* NSBubbleData.m in Sources */,
+				14843B7419D3F0BF004E8187 /* NetworkRequest.m in Sources */,
 				14629C7419C972190046D30A /* IndividualChatViewController.m in Sources */,
 				1480198619CB04EC002EC8D2 /* NetworkManager.m in Sources */,
+				14843B8219D43074004E8187 /* DataParseOperation.m in Sources */,
+				14843B7B19D3F120004E8187 /* CoredataManager.m in Sources */,
 				1480198119CAF351002EC8D2 /* UIBubbleTableViewCell.m in Sources */,
 				14629C7119C972190046D30A /* ContactsListViewController.m in Sources */,
 				1480198219CAF351002EC8D2 /* UIBubbleTypingTableViewCell.m in Sources */,
+				14843B7819D3F104004E8187 /* DatabaseManager.m in Sources */,
 				14629C6B19C972190046D30A /* AppDelegate.m in Sources */,
 				14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */,
 				14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */,
@@ -550,6 +587,7 @@
 				14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */,
 				14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */,
 				14629C6819C972190046D30A /* main.m in Sources */,
+				14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */,
 				14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */,
 				1480198019CAF351002EC8D2 /* UIBubbleTableView.m in Sources */,
 			);
