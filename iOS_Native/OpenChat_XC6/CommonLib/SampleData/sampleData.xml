@@ -1,0 +1,19 @@
+<commands>
+<command id="0" name="GetAPPsProducts">
+    <command_parameters>
+        <command_parameter id="0" name="APPs_Code">ATAiOS</command_parameter>
+    </command_parameters>
+    <command_result>
+        <apps_products>
+            <apps_products id="1">
+                <apps_code>ATAiOS</apps_code>
+                <apps_product_id>2</apps_product_id>
+                <brand_id>2</brand_id>
+                <brand_desc>Generic</brand_desc>
+                <brand_product_id>2</brand_product_id>
+                <product_id>001-7</product_id>
+                <descrizione>MyTravelApp</descrizione>
+            </apps_products>
+        </apps_products>
+    </command_result>
+</command>

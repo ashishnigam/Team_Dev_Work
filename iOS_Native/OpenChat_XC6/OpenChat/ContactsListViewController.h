@@ -10,10 +10,17 @@
 #import <CoreData/CoreData.h>
 #import "BaseViewController.h"
 
+#import "NetworkManager.h"
+
 
 @class IndividualChatViewController;
 
 @interface ContactsListViewController : BaseViewController <NSFetchedResultsControllerDelegate, UICollectionViewDataSource,UICollectionViewDelegate>
+{
+    BOOL needAsyncDelegate;
+    BOOL needSyncDelegate;
+    BOOL willHandleConnectionDelegate;
+}
 
 @property (strong, nonatomic) IndividualChatViewController *detailViewController;
 

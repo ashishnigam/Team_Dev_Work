@@ -16,6 +16,15 @@
 		14629C7919C972190046D30A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14629C7819C972190046D30A /* Images.xcassets */; };
 		14629C7C19C972190046D30A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14629C7A19C972190046D30A /* LaunchScreen.xib */; };
 		14629C8819C972190046D30A /* OpenChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C8719C972190046D30A /* OpenChatTests.m */; };
+		1471ACCC19D55525004D0750 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACCB19D55525004D0750 /* NetworkRequest.m */; };
+		1471ACCF19D56C22004D0750 /* NetworkDataTypeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACCE19D56C22004D0750 /* NetworkDataTypeConversion.m */; };
+		1471ACD319D56DA8004D0750 /* sampleData.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1471ACD119D56DA8004D0750 /* sampleData.xml */; };
+		1471ACD419D56DA8004D0750 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1471ACD219D56DA8004D0750 /* TemplateIcon2x.png */; };
+		1471ACD719D5771E004D0750 /* XMLToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACD619D5771E004D0750 /* XMLToDictionary.m */; };
+		1471ACDA19D58CFE004D0750 /* AppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACD919D58CFE004D0750 /* AppRecord.m */; };
+		1471ACDE19D59372004D0750 /* SyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACDD19D59372004D0750 /* SyncManager.m */; };
+		1471ACE119D5948D004D0750 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE019D5948D004D0750 /* SocketManager.m */; };
+		1471ACE419D594A1004D0750 /* StreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE319D594A1004D0750 /* StreamManager.m */; };
 		1480196C19CAF351002EC8D2 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194D19CAF351002EC8D2 /* bubbleMine.png */; };
 		1480196D19CAF351002EC8D2 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */; };
 		1480196E19CAF351002EC8D2 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194F19CAF351002EC8D2 /* bubbleSomeone.png */; };
@@ -56,7 +65,7 @@
 		14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3519D2AA04004E8187 /* BaseViewController.m */; };
 		14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3819D2EE72004E8187 /* GroupChatViewController.m */; };
 		14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B3B19D2F15C004E8187 /* SettingsViewController.m */; };
-		14843B7419D3F0BF004E8187 /* NetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7319D3F0BF004E8187 /* NetworkRequest.m */; };
+		14843B7419D3F0BF004E8187 /* NetworkRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7319D3F0BF004E8187 /* NetworkRequestOperation.m */; };
 		14843B7819D3F104004E8187 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7719D3F104004E8187 /* DatabaseManager.m */; };
 		14843B7B19D3F120004E8187 /* CoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7A19D3F120004E8187 /* CoredataManager.m */; };
 		14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7D19D3F14C004E8187 /* SqliteManager.m */; };
@@ -104,6 +113,22 @@
 		14629C8119C972190046D30A /* OpenChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14629C8619C972190046D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14629C8719C972190046D30A /* OpenChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenChatTests.m; sourceTree = "<group>"; };
+		1471ACCA19D55525004D0750 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
+		1471ACCB19D55525004D0750 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		1471ACCD19D56C22004D0750 /* NetworkDataTypeConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDataTypeConversion.h; sourceTree = "<group>"; };
+		1471ACCE19D56C22004D0750 /* NetworkDataTypeConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDataTypeConversion.m; sourceTree = "<group>"; };
+		1471ACD119D56DA8004D0750 /* sampleData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sampleData.xml; sourceTree = "<group>"; };
+		1471ACD219D56DA8004D0750 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		1471ACD519D5771E004D0750 /* XMLToDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToDictionary.h; sourceTree = "<group>"; };
+		1471ACD619D5771E004D0750 /* XMLToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToDictionary.m; sourceTree = "<group>"; };
+		1471ACD819D58CFE004D0750 /* AppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRecord.h; sourceTree = "<group>"; };
+		1471ACD919D58CFE004D0750 /* AppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRecord.m; sourceTree = "<group>"; };
+		1471ACDC19D59372004D0750 /* SyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncManager.h; sourceTree = "<group>"; };
+		1471ACDD19D59372004D0750 /* SyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncManager.m; sourceTree = "<group>"; };
+		1471ACDF19D5948D004D0750 /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		1471ACE019D5948D004D0750 /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		1471ACE219D594A1004D0750 /* StreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamManager.h; sourceTree = "<group>"; };
+		1471ACE319D594A1004D0750 /* StreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamManager.m; sourceTree = "<group>"; };
 		1480194D19CAF351002EC8D2 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
 		1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
 		1480194F19CAF351002EC8D2 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
@@ -156,8 +181,8 @@
 		14843B3819D2EE72004E8187 /* GroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupChatViewController.m; sourceTree = "<group>"; };
 		14843B3A19D2F15C004E8187 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		14843B3B19D2F15C004E8187 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		14843B7219D3F0BF004E8187 /* NetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequest.h; sourceTree = "<group>"; };
-		14843B7319D3F0BF004E8187 /* NetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequest.m; sourceTree = "<group>"; };
+		14843B7219D3F0BF004E8187 /* NetworkRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequestOperation.h; sourceTree = "<group>"; };
+		14843B7319D3F0BF004E8187 /* NetworkRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestOperation.m; sourceTree = "<group>"; };
 		14843B7619D3F104004E8187 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
 		14843B7719D3F104004E8187 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		14843B7919D3F120004E8187 /* CoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoredataManager.h; sourceTree = "<group>"; };
@@ -276,6 +301,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1471ACD019D56D86004D0750 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				1471ACD119D56DA8004D0750 /* sampleData.xml */,
+				1471ACD219D56DA8004D0750 /* TemplateIcon2x.png */,
+				1471ACD819D58CFE004D0750 /* AppRecord.h */,
+				1471ACD919D58CFE004D0750 /* AppRecord.m */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		1471ACDB19D5935A004D0750 /* DataBaseSyncManager */ = {
+			isa = PBXGroup;
+			children = (
+				1471ACDC19D59372004D0750 /* SyncManager.h */,
+				1471ACDD19D59372004D0750 /* SyncManager.m */,
+			);
+			path = DataBaseSyncManager;
+			sourceTree = "<group>";
+		};
 		1480194B19CAF351002EC8D2 /* BubbleMessageUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,10 +398,20 @@
 			children = (
 				1480198419CB04EC002EC8D2 /* NetworkManager.h */,
 				1480198519CB04EC002EC8D2 /* NetworkManager.m */,
-				14843B7219D3F0BF004E8187 /* NetworkRequest.h */,
-				14843B7319D3F0BF004E8187 /* NetworkRequest.m */,
+				14843B7219D3F0BF004E8187 /* NetworkRequestOperation.h */,
+				14843B7319D3F0BF004E8187 /* NetworkRequestOperation.m */,
 				14843B8019D43074004E8187 /* DataParseOperation.h */,
 				14843B8119D43074004E8187 /* DataParseOperation.m */,
+				1471ACCA19D55525004D0750 /* NetworkRequest.h */,
+				1471ACCB19D55525004D0750 /* NetworkRequest.m */,
+				1471ACCD19D56C22004D0750 /* NetworkDataTypeConversion.h */,
+				1471ACCE19D56C22004D0750 /* NetworkDataTypeConversion.m */,
+				1471ACD519D5771E004D0750 /* XMLToDictionary.h */,
+				1471ACD619D5771E004D0750 /* XMLToDictionary.m */,
+				1471ACDF19D5948D004D0750 /* SocketManager.h */,
+				1471ACE019D5948D004D0750 /* SocketManager.m */,
+				1471ACE219D594A1004D0750 /* StreamManager.h */,
+				1471ACE319D594A1004D0750 /* StreamManager.m */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -405,6 +460,8 @@
 		14FA5B8F19C976DA00C8BE4E /* CommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				1471ACDB19D5935A004D0750 /* DataBaseSyncManager */,
+				1471ACD019D56D86004D0750 /* SampleData */,
 				14843B7519D3F0F1004E8187 /* DatabaseManager */,
 				1480198719CB07EC002EC8D2 /* CircularCollection */,
 				1480198319CB04A8002EC8D2 /* NetworkManager */,
@@ -534,12 +591,14 @@
 				14FAFED219D0410500263258 /* me.png in Resources */,
 				14FAFEE119D047AE00263258 /* Page@2x.png in Resources */,
 				1480199B19CB07EC002EC8D2 /* kevin_durant.png in Resources */,
+				1471ACD419D56DA8004D0750 /* TemplateIcon2x.png in Resources */,
 				14FAFEE319D047AE00263258 /* VCCarrotArrow@2x.png in Resources */,
 				1480197119CAF351002EC8D2 /* myTyping@2x.psd in Resources */,
 				1480199C19CB07EC002EC8D2 /* kyrie_irving.png in Resources */,
 				1480197A19CAF351002EC8D2 /* typingMine.png in Resources */,
 				1480199919CB07EC002EC8D2 /* carmelo_anthony.png in Resources */,
 				1480197619CAF351002EC8D2 /* avatar1.png in Resources */,
+				1471ACD319D56DA8004D0750 /* sampleData.xml in Resources */,
 				1480197919CAF351002EC8D2 /* icon_57.png in Resources */,
 				14FAFED919D045CB00263258 /* chat_bubble_left@2x.png in Resources */,
 				1480197B19CAF351002EC8D2 /* typingMine@2x.png in Resources */,
@@ -569,22 +628,29 @@
 			files = (
 				1480199519CB07EC002EC8D2 /* AWCollectionViewDialLayout.m in Sources */,
 				1480197E19CAF351002EC8D2 /* NSBubbleData.m in Sources */,
-				14843B7419D3F0BF004E8187 /* NetworkRequest.m in Sources */,
+				14843B7419D3F0BF004E8187 /* NetworkRequestOperation.m in Sources */,
+				1471ACE119D5948D004D0750 /* SocketManager.m in Sources */,
 				14629C7419C972190046D30A /* IndividualChatViewController.m in Sources */,
 				1480198619CB04EC002EC8D2 /* NetworkManager.m in Sources */,
 				14843B8219D43074004E8187 /* DataParseOperation.m in Sources */,
+				1471ACCC19D55525004D0750 /* NetworkRequest.m in Sources */,
 				14843B7B19D3F120004E8187 /* CoredataManager.m in Sources */,
 				1480198119CAF351002EC8D2 /* UIBubbleTableViewCell.m in Sources */,
+				1471ACDA19D58CFE004D0750 /* AppRecord.m in Sources */,
 				14629C7119C972190046D30A /* ContactsListViewController.m in Sources */,
+				1471ACCF19D56C22004D0750 /* NetworkDataTypeConversion.m in Sources */,
 				1480198219CAF351002EC8D2 /* UIBubbleTypingTableViewCell.m in Sources */,
 				14843B7819D3F104004E8187 /* DatabaseManager.m in Sources */,
 				14629C6B19C972190046D30A /* AppDelegate.m in Sources */,
 				14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */,
+				1471ACDE19D59372004D0750 /* SyncManager.m in Sources */,
 				14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */,
+				1471ACE419D594A1004D0750 /* StreamManager.m in Sources */,
 				14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */,
 				1480197F19CAF351002EC8D2 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				14843B3319D2A956004E8187 /* ChatDemoViewController.m in Sources */,
 				14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */,
+				1471ACD719D5771E004D0750 /* XMLToDictionary.m in Sources */,
 				14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */,
 				14629C6819C972190046D30A /* main.m in Sources */,
 				14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */,

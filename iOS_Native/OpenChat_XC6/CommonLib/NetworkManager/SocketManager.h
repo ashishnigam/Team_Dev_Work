@@ -1,5 +1,5 @@
 //
-//  NetworkRequest.h
+//  SocketManager.h
 //  OpenChat
 //
 //  Created by Ashish Nigam on 26/09/14.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NetworkRequest : NSObject
+@interface SocketManager : NSObject
 
 @end
