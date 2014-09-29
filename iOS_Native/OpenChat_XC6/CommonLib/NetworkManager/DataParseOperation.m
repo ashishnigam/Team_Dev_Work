@@ -14,9 +14,18 @@
 }
 @property (nonatomic, strong) NSArray *appRecordList;
 @property (nonatomic, strong) NSData *dataToParse;
+
 @property (nonatomic, strong) NSMutableArray *workingArray;
+@property (nonatomic, strong) NSMutableArray *workingArray1;
+@property (nonatomic, strong) NSMutableArray *workingArray2;
 
 @property (nonatomic, strong) AppRecord *workingEntry;
+
+@property (nonatomic, strong) NSMutableArray *xmlNodeValues;
+@property (nonatomic, strong) NSMutableDictionary *xmlNodeDict;
+
+@property (nonatomic, strong) NSArray *xmlNodesValueList;
+@property (nonatomic, strong) NSArray *xmlNodesValueDict;
 
 @property (nonatomic, strong) NSMutableString *workingPropertyString;
 @property (nonatomic, strong) NSArray *elementsToParse;
@@ -60,6 +69,9 @@
     // terminated.
     
     self.workingArray = [NSMutableArray array];
+    self.workingArray1 = [NSMutableArray array];
+    self.workingArray2 = [NSMutableArray array];
+    
     self.workingPropertyString = [NSMutableString string];
     
     // It's also possible to have NSXMLParser download the data, by passing it a URL, but this is not
@@ -74,9 +86,15 @@
     {
         // Set appRecordList to the result of our parsing
         self.appRecordList = [NSArray arrayWithArray:self.workingArray];
+        
+        self.xmlNodesValueList = [NSArray arrayWithArray:self.workingArray1];
+        self.xmlNodesValueDict = [NSArray arrayWithArray:self.workingArray2];
+        
     }
     
     self.workingArray = nil;
+    self.workingArray1 = nil;
+    self.workingArray2 = nil;
     self.workingPropertyString = nil;
     self.dataToParse = nil;
 }
@@ -96,6 +114,9 @@
     if ([elementName isEqualToString:kParentNodeName])
     {
         self.workingEntry = [[AppRecord alloc] init];
+        
+        self.xmlNodeValues = [[NSMutableArray alloc] init];
+        self.xmlNodeDict = [[NSMutableDictionary alloc] init];
     }
     self.storingCharacterData = [self.elementsToParse containsObject:elementName];
 }
@@ -107,7 +128,7 @@
   namespaceURI:(NSString *)namespaceURI
  qualifiedName:(NSString *)qName
 {
-    if (self.workingEntry)
+    if (self.workingEntry || self.xmlNodeValues || self.xmlNodeDict)
     {
         if (self.storingCharacterData)
         {
@@ -120,6 +141,8 @@
                 {
                     //self.workingEntry.appURLString = trimmedString;
                     [self.workingEntry.propertyNames addObject:trimmedString];
+                    
+                     [self.xmlNodeValues addObject:trimmedString];
                 }
             }
             
@@ -128,6 +151,8 @@
                 {
                     //self.workingEntry.appURLString = trimmedString;
                     [self.workingEntry.propertyNamesDict setObject:trimmedString forKey:obj];
+                    
+                    [self.xmlNodeDict setObject:trimmedString forKey:obj];
                 }
             }
             
@@ -136,7 +161,14 @@
         else if ([elementName isEqualToString:kParentNodeName])
         {
             [self.workingArray addObject:self.workingEntry];
+            
+            [self.workingArray1 addObject:self.xmlNodeValues];
+            
+            [self.workingArray2 addObject:self.xmlNodeDict];
+            
             self.workingEntry = nil;
+            self.xmlNodeValues = nil;
+            self.xmlNodeDict = nil;
         }
     }
     

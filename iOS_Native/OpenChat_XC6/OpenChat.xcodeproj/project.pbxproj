@@ -25,6 +25,9 @@
 		1471ACDE19D59372004D0750 /* SyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACDD19D59372004D0750 /* SyncManager.m */; };
 		1471ACE119D5948D004D0750 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE019D5948D004D0750 /* SocketManager.m */; };
 		1471ACE419D594A1004D0750 /* StreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE319D594A1004D0750 /* StreamManager.m */; };
+		1471ACE719D9763C004D0750 /* XMLToDictionaryOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE619D9763C004D0750 /* XMLToDictionaryOperation.m */; };
+		1471ACEA19D98417004D0750 /* DictionaryToXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACE919D98417004D0750 /* DictionaryToXML.m */; };
+		1471ACED19D98428004D0750 /* DictionaryToXMLOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471ACEC19D98428004D0750 /* DictionaryToXMLOperation.m */; };
 		1480196C19CAF351002EC8D2 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194D19CAF351002EC8D2 /* bubbleMine.png */; };
 		1480196D19CAF351002EC8D2 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */; };
 		1480196E19CAF351002EC8D2 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 1480194F19CAF351002EC8D2 /* bubbleSomeone.png */; };
@@ -129,6 +132,12 @@
 		1471ACE019D5948D004D0750 /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
 		1471ACE219D594A1004D0750 /* StreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamManager.h; sourceTree = "<group>"; };
 		1471ACE319D594A1004D0750 /* StreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamManager.m; sourceTree = "<group>"; };
+		1471ACE519D9763C004D0750 /* XMLToDictionaryOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLToDictionaryOperation.h; sourceTree = "<group>"; };
+		1471ACE619D9763C004D0750 /* XMLToDictionaryOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLToDictionaryOperation.m; sourceTree = "<group>"; };
+		1471ACE819D98417004D0750 /* DictionaryToXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryToXML.h; sourceTree = "<group>"; };
+		1471ACE919D98417004D0750 /* DictionaryToXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryToXML.m; sourceTree = "<group>"; };
+		1471ACEB19D98428004D0750 /* DictionaryToXMLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryToXMLOperation.h; sourceTree = "<group>"; };
+		1471ACEC19D98428004D0750 /* DictionaryToXMLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryToXMLOperation.m; sourceTree = "<group>"; };
 		1480194D19CAF351002EC8D2 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
 		1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
 		1480194F19CAF351002EC8D2 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
@@ -412,6 +421,12 @@
 				1471ACE019D5948D004D0750 /* SocketManager.m */,
 				1471ACE219D594A1004D0750 /* StreamManager.h */,
 				1471ACE319D594A1004D0750 /* StreamManager.m */,
+				1471ACE519D9763C004D0750 /* XMLToDictionaryOperation.h */,
+				1471ACE619D9763C004D0750 /* XMLToDictionaryOperation.m */,
+				1471ACE819D98417004D0750 /* DictionaryToXML.h */,
+				1471ACE919D98417004D0750 /* DictionaryToXML.m */,
+				1471ACEB19D98428004D0750 /* DictionaryToXMLOperation.h */,
+				1471ACEC19D98428004D0750 /* DictionaryToXMLOperation.m */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -629,6 +644,7 @@
 				1480199519CB07EC002EC8D2 /* AWCollectionViewDialLayout.m in Sources */,
 				1480197E19CAF351002EC8D2 /* NSBubbleData.m in Sources */,
 				14843B7419D3F0BF004E8187 /* NetworkRequestOperation.m in Sources */,
+				1471ACE719D9763C004D0750 /* XMLToDictionaryOperation.m in Sources */,
 				1471ACE119D5948D004D0750 /* SocketManager.m in Sources */,
 				14629C7419C972190046D30A /* IndividualChatViewController.m in Sources */,
 				1480198619CB04EC002EC8D2 /* NetworkManager.m in Sources */,
@@ -644,9 +660,11 @@
 				14629C6B19C972190046D30A /* AppDelegate.m in Sources */,
 				14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */,
 				1471ACDE19D59372004D0750 /* SyncManager.m in Sources */,
+				1471ACED19D98428004D0750 /* DictionaryToXMLOperation.m in Sources */,
 				14843B3619D2AA04004E8187 /* BaseViewController.m in Sources */,
 				1471ACE419D594A1004D0750 /* StreamManager.m in Sources */,
 				14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */,
+				1471ACEA19D98417004D0750 /* DictionaryToXML.m in Sources */,
 				1480197F19CAF351002EC8D2 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				14843B3319D2A956004E8187 /* ChatDemoViewController.m in Sources */,
 				14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */,

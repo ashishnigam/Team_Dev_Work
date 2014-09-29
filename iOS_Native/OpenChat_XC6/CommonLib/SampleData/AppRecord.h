@@ -10,13 +10,8 @@
 #import <UIKit/UIKit.h>
 
 @interface AppRecord : NSObject
-@property (nonatomic, strong) NSString *appName;
-@property (nonatomic, strong) UIImage *appIcon;
-@property (nonatomic, strong) NSString *artist;
-@property (nonatomic, strong) NSString *imageURLString;
-@property (nonatomic, strong) NSString *appURLString;
 
-@property (nonatomic,strong) NSMutableArray *propertyNames;
+@property (nonatomic,strong) NSMutableArray *propertyNames; // make these 2 property part of data parse operation class, as user may not create class like this
 @property (nonatomic,strong) NSMutableDictionary *propertyNamesDict;
 
 @end

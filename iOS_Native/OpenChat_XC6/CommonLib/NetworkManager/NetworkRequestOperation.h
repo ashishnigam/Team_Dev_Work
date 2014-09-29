@@ -6,6 +6,13 @@
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
+
+/*
+ Class level ToDo
+ 1: NSRequest which is currently formed inside the class, should not be the case. Reuest formation will be handled by the Developer using this.
+ 
+ 2: Consider only Query parameter request formation here, even that is a part of library needs discussion for pros & cons.
+ */
 #import <Foundation/Foundation.h>
 
 extern BOOL needAsyncDelegate;

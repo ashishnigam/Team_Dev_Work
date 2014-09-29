@@ -6,12 +6,55 @@
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
+
+// AppRecord.h interface, nothing to do in implementaiton
+
+/*
+//
+//  AppRecord.h
+//  OpenChat
+//
+//  Created by Ashish Nigam on 26/09/14.
+//  Copyright (c) 2014 Self. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface AppRecord : NSObject
+
+@property (nonatomic,strong) NSMutableArray *propertyNames; // make these 2 property part of data parse operation class, as user may not create class like this
+@property (nonatomic,strong) NSMutableDictionary *propertyNamesDict;
+
+@end
+*/
+
+
+
 // How to use
 
 /*
+ 
+ // -------------------------------------------------------------------------------
+ //	handleError:error
+ // -------------------------------------------------------------------------------
+ - (void)handleError:(NSError *)error
+ {
+ NSString *errorMessage = [error localizedDescription];
+ UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"message"
+ message:errorMessage
+ delegate:nil
+ cancelButtonTitle:@"OK"
+ otherButtonTitles:nil];
+ [alertView show];
+ }
+ 
+ // create the queue to run our ParseOperation
+ self.queue = [[NSOperationQueue alloc] init];
+ 
  // create an ParseOperation (NSOperation subclass) to parse the RSS feed data
  // so that the UI is not blocked
- ParseOperation *parser = [[ParseOperation alloc] initWithData:self.appListData];
+ DataParseOperation *parser = [[DataParseOperation alloc] initWithData:self.appListData];
  
  parser.errorHandler = ^(NSError *parseError) {
  dispatch_async(dispatch_get_main_queue(), ^{
@@ -21,7 +64,7 @@
  
  // Referencing parser from within its completionBlock would create a retain
  // cycle.
- __weak ParseOperation *weakParser = parser;
+ __weak DataParseOperation *weakParser = parser;
  
  parser.completionBlock = ^(void) {
  if (weakParser.appRecordList) {
@@ -49,8 +92,16 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "AppRecord.h"
 
+#ifndef AppRecordUsed
+    #define AppRecordUsed // will be removed in future build due to generic implementation
+#endif
+
+#ifdef AppRecordUsed
+
+#import "AppRecord.h" // this class will be implemented by developer using this lib, see example above as hint.
+
+#endif
 
 extern NSArray* xmlNodeNames;
 
@@ -76,7 +127,10 @@ extern NSString* kParentNodeName;
 // NSArray containing AppRecord instances for each entry parsed
 // from the input data.
 // Only meaningful after the operation has completed.
-@property (nonatomic, strong, readonly) NSArray *appRecordList;
+@property (nonatomic, strong, readonly) NSArray *appRecordList; // will be used when user provide separate AppRecord 
+
+@property (nonatomic, strong, readonly) NSArray *xmlNodesValueList;
+@property (nonatomic, strong, readonly) NSArray *xmlNodesValueDict;
 
 // The initializer for this NSOperation subclass.
 - (id)initWithData:(NSData *)data;

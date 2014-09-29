@@ -1,122 +1,82 @@
 //
-//  XMLToDictionary.m
+//  XMLToDictionaryOperation.m
 //  OpenChat
 //
-//  Created by Ashish Nigam on 26/09/14.
+//  Created by Ashish Nigam on 29/09/14.
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
+#import "XMLToDictionaryOperation.h"
 
-/*
- //
- // XML string from http://labs.adobe.com/technologies/spry/samples/data_region/NestedXMLDataSample.html
- //
- NSString *testXMLString = @"<items><item id=\"0001\" type=\"donut\"><name>Cake</name><ppu>0.55</ppu><batters><batter id=\"1001\">Regular</batter><batter id=\"1002\">Chocolate</batter><batter id=\"1003\">Blueberry</batter></batters><topping id=\"5001\">None</topping><topping id=\"5002\">Glazed</topping><topping id=\"5005\">Sugar</topping></item></items>";
- 
- // Parse the XML into a dictionary
- NSError *parseError = nil;
- NSDictionary *xmlDictionary = [XMLReader dictionaryForXMLString:testXMLString error:&parseError];
- 
- // Print the dictionary
- NSLog(@"%@", xmlDictionary);
- 
- //
- // testXMLString =
- //    <items>
- //        <item id=”0001″ type=”donut”>
- //            <name>Cake</name>
- //            <ppu>0.55</ppu>
- //            <batters>
- //                <batter id=”1001″>Regular</batter>
- //                <batter id=”1002″>Chocolate</batter>
- //                <batter id=”1003″>Blueberry</batter>
- //            </batters>
- //            <topping id=”5001″>None</topping>
- //            <topping id=”5002″>Glazed</topping>
- //            <topping id=”5005″>Sugar</topping>
- //        </item>
- //    </items>
- //
- // is converted into
- //
- // xmlDictionary = {
- //    items = {
- //        item = {
- //            id = 0001;
- //            type = donut;
- //            name = {
- //                text = Cake;
- //            };
- //            ppu = {
- //                text = 0.55;
- //            };
- //            batters = {
- //                batter = (
- //                    {
- //                        id = 1001;
- //                        text = Regular;
- //                    },
- //                    {
- //                        id = 1002;
- //                        text = Chocolate;
- //                    },
- //                    {
- //                        id = 1003;
- //                        text = Blueberry;
- //                    }
- //                );
- //            };
- //            topping = (
- //                {
- //                    id = 5001;
- //                    text = None;
- //                },
- //                {
- //                    id = 5002;
- //                    text = Glazed;
- //                },
- //                {
- //                    id = 5005;
- //                    text = Sugar;
- //                }
- //            );
- //        };
- //     };
- // }
- //
- */
+NSString *const kXMLToDictOperationTextNodeKey = @"text";
 
-#import "XMLToDictionary.h"
+@interface XMLToDictionaryOperation ()
+{
+    NSMutableArray *dictionaryStack;
+    NSMutableString *textInProgress;
+    NSError *errorPtr;
+}
 
-NSString *const kXMLToDictTextNodeKey = @"text";
-
-@interface XMLToDictionary (Internal)
+@property (nonatomic, strong) NSData *xmlDataToDict;
+@property (nonatomic, strong) NSDictionary *xmlDictionary;
 
 - (id)initWithError:(NSError **)error;
 - (NSDictionary *)objectWithData:(NSData *)data;
 
+//+ (NSDictionary *)dictionaryFromXMLData:(NSData *)data error:(NSError **)errorPointer;
+//+ (NSDictionary *)dictionaryFromXMLString:(NSString *)string error:(NSError **)errorPointer;
+
 @end
 
-@implementation XMLToDictionary
+@implementation XMLToDictionaryOperation
 
 #pragma mark -
 #pragma mark Public methods
 
-+ (NSDictionary *)dictionaryFromXMLData:(NSData *)data error:(NSError **)errorPointer
+// -------------------------------------------------------------------------------
+//	initWithData:
+// -------------------------------------------------------------------------------
+- (id)initWithXMLData:(NSData *)data
 {
-    XMLToDictionary *reader = [[XMLToDictionary alloc] initWithError:errorPointer];
-    NSDictionary *rootDictionary = [reader objectWithData:data];
-#if !__has_feature(objc_arc)
-    [reader release];
-#endif
-    return rootDictionary;
+    self = [super init];
+    if (self != nil)
+    {
+        self.xmlDataToDict = data;
+        
+    }
+    return self;
 }
 
-+ (NSDictionary *)dictionaryFromXMLString:(NSString *)string error:(NSError **)errorPointer
+// -------------------------------------------------------------------------------
+//	initWithString:
+// -------------------------------------------------------------------------------
+- (id)initWithXMLString:(NSString *)string
 {
-    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
-    return [XMLToDictionary dictionaryFromXMLData:data error:errorPointer];
+    self = [super init];
+    if (self != nil)
+    {
+        self.xmlDataToDict = [string dataUsingEncoding:NSUTF8StringEncoding];
+    }
+    return self;
 }
+
+
+
+//+ (NSDictionary *)dictionaryFromXMLData:(NSData *)data error:(NSError **)error
+//{
+//    XMLToDictionaryOperation *reader = [[XMLToDictionaryOperation alloc] initWithError:error];
+//    NSDictionary *rootDictionary = [reader objectWithData:data];
+//#if !__has_feature(objc_arc)
+//    [reader release];
+//#endif
+//    return rootDictionary;
+//}
+//
+//+ (NSDictionary *)dictionaryFromXMLString:(NSString *)string error:(NSError **)error
+//{
+//    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
+//    return [XMLToDictionaryOperation dictionaryFromXMLData:data error:error];
+//}
 
 #pragma mark -
 #pragma mark Parsing
@@ -139,6 +99,40 @@ NSString *const kXMLToDictTextNodeKey = @"text";
 #endif
 }
 
+-(void)main
+{
+    // The default implemetation of the -start method sets up an autorelease pool
+    // just before invoking -main however it does NOT setup an excption handler
+    // before invoking -main.  If an exception is thrown here, the app will be
+    // terminated.
+    
+    
+    // It's also possible to have NSXMLParser download the data, by passing it a URL, but this is not
+    // desirable because it gives less control over the network, particularly in responding to
+    // connection errors.
+    //
+    
+//    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:self.xmlDataToDict];
+//    [parser setDelegate:self];
+//    [parser parse];
+    
+     // return dictionary/value ignored as, after completion getting dictionary from dictionaryStack
+    NSDictionary *rootDictionary = [self objectWithData:self.xmlDataToDict];
+    
+    // Though it should be working find, but in case any issue in real time.
+    // - (NSDictionary *)objectWithData:(NSData *)data
+    // Method implementation can be removed or manipulated as if required
+    
+    if (![self isCancelled])
+    {
+        // Set appRecordList to the result of our parsing
+        self.xmlDictionary = [dictionaryStack objectAtIndex:0];
+        
+    }
+    
+    self.xmlDataToDict = nil;
+    
+}
 - (NSDictionary *)objectWithData:(NSData *)data
 {
 #if !__has_feature(objc_arc)
@@ -224,8 +218,8 @@ NSString *const kXMLToDictTextNodeKey = @"text";
     if ([textInProgress length] > 0)
     {
         // Get rid of leading + trailing whitespace
-        [dictInProgress setObject:textInProgress forKey:kXMLToDictTextNodeKey];
-
+        [dictInProgress setObject:textInProgress forKey:kXMLToDictOperationTextNodeKey];
+        
 #if !__has_feature(objc_arc)
         // Reset the text
         [textInProgress release];
@@ -249,6 +243,8 @@ NSString *const kXMLToDictTextNodeKey = @"text";
 {
     // Set the error pointer to the parser’s error object
     errorPtr = parseError;
+    if (self.errorHandler)
+        self.errorHandler(parseError);
 }
 
 @end

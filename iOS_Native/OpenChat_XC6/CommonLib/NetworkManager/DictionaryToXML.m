@@ -1,122 +1,46 @@
 //
-//  XMLToDictionary.m
+//  DictionaryToXML.m
 //  OpenChat
 //
-//  Created by Ashish Nigam on 26/09/14.
+//  Created by Ashish Nigam on 29/09/14.
 //  Copyright (c) 2014 Self. All rights reserved.
 //
 
+#import "DictionaryToXML.h"
 
-/*
- //
- // XML string from http://labs.adobe.com/technologies/spry/samples/data_region/NestedXMLDataSample.html
- //
- NSString *testXMLString = @"<items><item id=\"0001\" type=\"donut\"><name>Cake</name><ppu>0.55</ppu><batters><batter id=\"1001\">Regular</batter><batter id=\"1002\">Chocolate</batter><batter id=\"1003\">Blueberry</batter></batters><topping id=\"5001\">None</topping><topping id=\"5002\">Glazed</topping><topping id=\"5005\">Sugar</topping></item></items>";
- 
- // Parse the XML into a dictionary
- NSError *parseError = nil;
- NSDictionary *xmlDictionary = [XMLReader dictionaryForXMLString:testXMLString error:&parseError];
- 
- // Print the dictionary
- NSLog(@"%@", xmlDictionary);
- 
- //
- // testXMLString =
- //    <items>
- //        <item id=”0001″ type=”donut”>
- //            <name>Cake</name>
- //            <ppu>0.55</ppu>
- //            <batters>
- //                <batter id=”1001″>Regular</batter>
- //                <batter id=”1002″>Chocolate</batter>
- //                <batter id=”1003″>Blueberry</batter>
- //            </batters>
- //            <topping id=”5001″>None</topping>
- //            <topping id=”5002″>Glazed</topping>
- //            <topping id=”5005″>Sugar</topping>
- //        </item>
- //    </items>
- //
- // is converted into
- //
- // xmlDictionary = {
- //    items = {
- //        item = {
- //            id = 0001;
- //            type = donut;
- //            name = {
- //                text = Cake;
- //            };
- //            ppu = {
- //                text = 0.55;
- //            };
- //            batters = {
- //                batter = (
- //                    {
- //                        id = 1001;
- //                        text = Regular;
- //                    },
- //                    {
- //                        id = 1002;
- //                        text = Chocolate;
- //                    },
- //                    {
- //                        id = 1003;
- //                        text = Blueberry;
- //                    }
- //                );
- //            };
- //            topping = (
- //                {
- //                    id = 5001;
- //                    text = None;
- //                },
- //                {
- //                    id = 5002;
- //                    text = Glazed;
- //                },
- //                {
- //                    id = 5005;
- //                    text = Sugar;
- //                }
- //            );
- //        };
- //     };
- // }
- //
- */
+NSString *const kDictToXMLTextNodeKey = @"text";
 
-#import "XMLToDictionary.h"
-
-NSString *const kXMLToDictTextNodeKey = @"text";
-
-@interface XMLToDictionary (Internal)
-
+@interface DictionaryToXML () <NSXMLParserDelegate>
+{
+    
+}
 - (id)initWithError:(NSError **)error;
-- (NSDictionary *)objectWithData:(NSData *)data;
+- (NSString *)xmlStringFromDict:(NSDictionary *)dict;
 
 @end
 
-@implementation XMLToDictionary
+@implementation DictionaryToXML
 
 #pragma mark -
 #pragma mark Public methods
 
-+ (NSDictionary *)dictionaryFromXMLData:(NSData *)data error:(NSError **)errorPointer
++ (NSString *)XMLStringFromDictionary:(NSDictionary *)dict error:(NSError **)errorPointer
 {
-    XMLToDictionary *reader = [[XMLToDictionary alloc] initWithError:errorPointer];
-    NSDictionary *rootDictionary = [reader objectWithData:data];
+    DictionaryToXML *dataConvertor = [[DictionaryToXML alloc] initWithError:errorPointer];
+    NSString *xmlString = [dataConvertor xmlStringFromDict:dict];
 #if !__has_feature(objc_arc)
-    [reader release];
+    [dataConvertor release];
 #endif
-    return rootDictionary;
+    return xmlString;
 }
 
-+ (NSDictionary *)dictionaryFromXMLString:(NSString *)string error:(NSError **)errorPointer
++ (NSData *)XMLDataFromDictionary:(NSDictionary *)dict error:(NSError **)errorPointer
 {
-    NSData *data = [string dataUsingEncoding:NSUTF8StringEncoding];
-    return [XMLToDictionary dictionaryFromXMLData:data error:errorPointer];
+    NSString *xmlString = [DictionaryToXML XMLStringFromDictionary:dict error:errorPointer];
+    return [xmlString dataUsingEncoding:NSUTF8StringEncoding];
 }
+
+
 
 #pragma mark -
 #pragma mark Parsing
@@ -139,7 +63,7 @@ NSString *const kXMLToDictTextNodeKey = @"text";
 #endif
 }
 
-- (NSDictionary *)objectWithData:(NSData *)data
+- (NSString *)xmlStringFromDict:(NSDictionary *)dict
 {
 #if !__has_feature(objc_arc)
     // Clear out any old data
@@ -155,16 +79,13 @@ NSString *const kXMLToDictTextNodeKey = @"text";
     // Initialize the stack with a fresh dictionary
     [dictionaryStack addObject:[NSMutableDictionary dictionary]];
     
-    // Parse the XML
-    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
-    parser.delegate = self;
-    BOOL success = [parser parse]; // do it using NSOperation
+    
     
     // Return the stack’s root dictionary on success
-    if (success)
+    if (YES)
     {
-        NSDictionary *resultDict = [dictionaryStack objectAtIndex:0];
-        return resultDict;
+        NSString *resultStr = [dictionaryStack objectAtIndex:0];
+        return resultStr;
     }
     
     return nil;
@@ -224,8 +145,8 @@ NSString *const kXMLToDictTextNodeKey = @"text";
     if ([textInProgress length] > 0)
     {
         // Get rid of leading + trailing whitespace
-        [dictInProgress setObject:textInProgress forKey:kXMLToDictTextNodeKey];
-
+        [dictInProgress setObject:textInProgress forKey:kDictToXMLTextNodeKey];
+        
 #if !__has_feature(objc_arc)
         // Reset the text
         [textInProgress release];
@@ -250,5 +171,7 @@ NSString *const kXMLToDictTextNodeKey = @"text";
     // Set the error pointer to the parser’s error object
     errorPtr = parseError;
 }
+
+
 
 @end
