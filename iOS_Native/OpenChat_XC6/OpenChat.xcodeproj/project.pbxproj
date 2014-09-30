@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1428728819DAD7C700C0608C /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1428728719DAD7C700C0608C /* XMLWriter.m */; };
 		14629C6819C972190046D30A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6719C972190046D30A /* main.m */; };
 		14629C6B19C972190046D30A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6A19C972190046D30A /* AppDelegate.m */; };
 		14629C6E19C972190046D30A /* OpenChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6C19C972190046D30A /* OpenChat.xcdatamodeld */; };
@@ -100,6 +101,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1428728419DAD7C600C0608C /* XMLSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSerializable.h; sourceTree = "<group>"; };
+		1428728519DAD7C600C0608C /* XMLStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStreamWriter.h; sourceTree = "<group>"; };
+		1428728619DAD7C700C0608C /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
+		1428728719DAD7C700C0608C /* XMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLWriter.m; sourceTree = "<group>"; };
 		14629C6219C972190046D30A /* OpenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14629C6619C972190046D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14629C6719C972190046D30A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -238,6 +243,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1428728319DAD7C600C0608C /* DataHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1428728419DAD7C600C0608C /* XMLSerializable.h */,
+				1428728519DAD7C600C0608C /* XMLStreamWriter.h */,
+				1428728619DAD7C700C0608C /* XMLWriter.h */,
+				1428728719DAD7C700C0608C /* XMLWriter.m */,
+			);
+			path = DataHandler;
+			sourceTree = "<group>";
+		};
 		14629C5919C972190046D30A = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +421,7 @@
 		1480198319CB04A8002EC8D2 /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				1428728319DAD7C600C0608C /* DataHandler */,
 				1480198419CB04EC002EC8D2 /* NetworkManager.h */,
 				1480198519CB04EC002EC8D2 /* NetworkManager.m */,
 				14843B7219D3F0BF004E8187 /* NetworkRequestOperation.h */,
@@ -671,6 +688,7 @@
 				1471ACD719D5771E004D0750 /* XMLToDictionary.m in Sources */,
 				14843B3919D2EE72004E8187 /* GroupChatViewController.m in Sources */,
 				14629C6819C972190046D30A /* main.m in Sources */,
+				1428728819DAD7C700C0608C /* XMLWriter.m in Sources */,
 				14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */,
 				14843B3C19D2F15C004E8187 /* SettingsViewController.m in Sources */,
 				1480198019CAF351002EC8D2 /* UIBubbleTableView.m in Sources */,

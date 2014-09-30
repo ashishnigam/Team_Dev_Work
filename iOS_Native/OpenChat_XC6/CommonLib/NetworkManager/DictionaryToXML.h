@@ -10,8 +10,6 @@
 
 @interface DictionaryToXML : NSObject
 {
-    NSMutableArray *dictionaryStack;
-    NSMutableString *textInProgress;
     NSError *errorPtr;
 }
 

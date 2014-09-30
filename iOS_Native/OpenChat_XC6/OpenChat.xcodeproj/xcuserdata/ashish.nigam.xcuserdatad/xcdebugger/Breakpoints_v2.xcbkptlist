@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenChat/ContactsListViewController.m"
-            timestampString = "433256864.557959"
+            timestampString = "433776506.815171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "486"
+            endingLineNumber = "486"
             landmarkName = "@implementation ContactsListViewController"
             landmarkType = "3">
          </BreakpointContent>

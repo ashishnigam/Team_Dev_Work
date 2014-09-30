@@ -240,6 +240,40 @@ static NSString *cellId2 = @"cellId2";
     return YES;
 }
 
+//-(void)startParsingDictionary:(NSDictionary*)dict
+//{
+//    NSError *error = nil;
+//
+//    Getting plist type XML formed using Apple APIs from a dictionary
+//    NSData *xmlData = [NSPropertyListSerialization dataWithPropertyList:dict format:NSPropertyListXMLFormat_v1_0 options:0 error:&error];
+//    
+//    NSLog(@"%@",xmlData);
+//    
+//    NSLog(@"%@",[xmlData description]);
+//    
+//    NSString* newStr = [NSString stringWithUTF8String:[xmlData bytes]];
+//    
+//    NSString* newStr1 = [[NSString alloc] initWithData:xmlData encoding:NSUTF8StringEncoding];
+//    
+//    NSLog(@"%@",newStr);
+//    
+//    NSLog(@"%@",newStr1);
+//    
+//    NSLog(@"%@",newStr);
+//    
+//    NSError *error12;
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"sampleData" ofType:@"xml"];
+//    NSData * tempData = [[NSData alloc] initWithContentsOfFile:path];
+//    NSPropertyListFormat plistFormat;
+
+//    Getting back dictionary from plist type XML formed using Apple APIs
+//    NSDictionary *temp = [NSPropertyListSerialization propertyListWithData:tempData options:NSPropertyListImmutable format:&plistFormat error:&error12];
+//    
+//    NSLog(@"%@",temp);
+//    NSLog(@"%@",newStr);
+//}
+
+
 -(UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewCell *cell;
     if(type == 0){
@@ -250,7 +284,19 @@ static NSString *cellId2 = @"cellId2";
     
     NSDictionary *item = [self.items objectAtIndex:indexPath.item];
     
+//    NSMutableDictionary *temp = [NSMutableDictionary dictionaryWithDictionary:item];
+//    [temp setObject:@{@"123":@"isit val",@"myKey":@"my val"} forKey:@"dictAshish"];
+//    [temp setObject:[item allValues] forKey:@"val"];
+//    [temp setObject:[item allKeys] forKey:@"key"];
+//    
+//    NSDictionary *temp1 = [NSDictionary dictionaryWithDictionary:temp];
+//    
+//    NSLog(@"dic val in string %@ allKey %@ allVal %@ %@",temp1, [temp1 allKeys],[temp1 allValues],[item allKeys]);
+//    
+//    [self startParsingDictionary:temp1];
+    
     NSString *playerName = [item valueForKey:@"name"];
+    
     UILabel *nameLabel = (UILabel*)[cell viewWithTag:101];
     [nameLabel setText:playerName];
     

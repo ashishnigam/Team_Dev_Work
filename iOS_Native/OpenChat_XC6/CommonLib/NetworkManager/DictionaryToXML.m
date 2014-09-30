@@ -12,8 +12,14 @@ NSString *const kDictToXMLTextNodeKey = @"text";
 
 @interface DictionaryToXML () <NSXMLParserDelegate>
 {
+    NSMutableString *xmlCompleteString;
+    NSMutableString *xmlCurrentNode;
+    NSMutableString *xmlCurrentnodeValue;
     
+    NSMutableArray *allKeysOfDict;
+    NSMutableArray *allValuesOfDict;
 }
+
 - (id)initWithError:(NSError **)error;
 - (NSString *)xmlStringFromDict:(NSDictionary *)dict;
 
@@ -67,111 +73,105 @@ NSString *const kDictToXMLTextNodeKey = @"text";
 {
 #if !__has_feature(objc_arc)
     // Clear out any old data
-    [dictionaryStack release];
+    [xmlCompleteString release];
     [textInProgress release];
 #endif
-    dictionaryStack = nil;
-    textInProgress = nil;
     
-    dictionaryStack = [[NSMutableArray alloc] init];
-    textInProgress = [[NSMutableString alloc] init];
+    xmlCompleteString = nil;
     
-    // Initialize the stack with a fresh dictionary
-    [dictionaryStack addObject:[NSMutableDictionary dictionary]];
+    xmlCompleteString = [[NSMutableString alloc] init];
+    xmlCurrentNode = [[NSMutableString alloc] init];
     
+    xmlCurrentnodeValue = [[NSMutableString alloc] init];
     
-    
-    // Return the stack’s root dictionary on success
-    if (YES)
-    {
-        NSString *resultStr = [dictionaryStack objectAtIndex:0];
-        return resultStr;
-    }
+    allKeysOfDict = [[NSMutableArray alloc] init];
+    allValuesOfDict = [[NSMutableArray alloc] init];
     
     return nil;
 }
 
-#pragma mark -
-#pragma mark NSXMLParserDelegate methods
 
-- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict
+
+-(void)writeStartElement:(NSString*)elmtName
 {
-    // Get the dictionary for the current level in the stack
-    NSMutableDictionary *parentDict = [dictionaryStack lastObject];
+    if (xmlCurrentNode) {
+        [xmlCompleteString appendString:xmlCurrentNode];
+    }
+    xmlCurrentNode = nil;
+    xmlCurrentNode = [[NSMutableString alloc] init];
+    [xmlCurrentNode appendString:[NSString stringWithFormat:@"<%@>",elmtName]];
+}
+
+-(void)writeEndElement:(NSString*)elmtName
+{
+    [xmlCurrentNode appendString:[NSString stringWithFormat:@"</%@>",elmtName]];
+}
+
+-(void)writeAttribute:(NSString*)attrName Value:(NSString*)attrValue
+{
+    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:@">" withString:@""] mutableCopy];
     
-    // Create the child dictionary for the new element, and initilaize it with the attributes
-    NSMutableDictionary *childDict = [NSMutableDictionary dictionary];
-    [childDict addEntriesFromDictionary:attributeDict];
+    [xmlCompleteString appendString:[NSString stringWithFormat:@" %@=\"%@\" >",attrName,attrValue]];
+}
+
+-(void)writeAttributes:(NSDictionary*)attrDict
+{
+    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:@">" withString:@""] mutableCopy];
     
-    // If there’s already an item for this key, it means we need to create an array
-    id existingValue = [parentDict objectForKey:elementName];
-    if (existingValue)
-    {
-        NSMutableArray *array = nil;
-        if ([existingValue isKindOfClass:[NSMutableArray class]])
+    NSMutableString *tempStr = [[NSMutableString alloc] init];
+    for (NSString* attrName in attrDict) {
+        [tempStr appendString:[NSString stringWithFormat:@" %@=\"%@\"",attrName,[attrDict valueForKey:attrName]]];
+    }
+    [xmlCompleteString appendString:[NSString stringWithFormat:@"%@ >",tempStr]];
+}
+
+-(void)writeElementValue:(NSString*)elementVal
+{
+    [xmlCompleteString appendString:[NSString stringWithFormat:@"%@",elementVal]];
+}
+
+-(void)startParsingDictionary:(NSDictionary*)dict
+{
+   // [allKeysOfDict addObjectsFromArray:[dict allKeys]];
+    
+    NSMutableArray *dictAllKeys = [NSMutableArray arrayWithArray:[dict allKeys]];
+    
+    [self writeStartElement:@"Root"];
+    
+    [self writeStartElement:@"child2"];
+    
+    [self writeElementValue:@"Ashish is the value"];
+    [self writeEndElement:@"child2"];
+    
+    [self writeEndElement:@"Root"];
+
+    for (NSUInteger i=0; i < [dictAllKeys count]; i++) {
+        id objOfKey = [dict valueForKey:[dictAllKeys objectAtIndex:i]];
+        
+        if ([objOfKey isKindOfClass:[NSDictionary class]])
         {
-            // The array exists, so use it
-            array = (NSMutableArray *) existingValue;
-        }
-        else
-        {
-            // Create an array if it doesn’t exist
-            array = [NSMutableArray array];
-            [array addObject:existingValue];
+            [self startParsingDictionary:objOfKey];
             
-            // Replace the child dictionary with an array of children dictionaries
-            [parentDict setObject:array forKey:elementName];
+        }else if ([objOfKey isKindOfClass:[NSArray class]])
+        {
+            [self parseArrayComponent:objOfKey];
+            
+        }else
+        {
+            [self updateXMLStringWithString:objOfKey];
         }
-        
-        // Add the new child dictionary to the array
-        [array addObject:childDict];
-    }
-    else
-    {
-        // No existing value, so update the dictionary
-        [parentDict setObject:childDict forKey:elementName];
     }
     
-    // Update the stack
-    [dictionaryStack addObject:childDict];
 }
 
-- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName
+-(void)parseArrayComponent:(NSArray*)arrayObj
 {
-    // Update the parent dict with text info
-    NSMutableDictionary *dictInProgress = [dictionaryStack lastObject];
     
-    // Set the text property
-    if ([textInProgress length] > 0)
-    {
-        // Get rid of leading + trailing whitespace
-        [dictInProgress setObject:textInProgress forKey:kDictToXMLTextNodeKey];
-        
-#if !__has_feature(objc_arc)
-        // Reset the text
-        [textInProgress release];
-#endif
-        textInProgress = nil;
-        
-        textInProgress = [[NSMutableString alloc] init];
-    }
+}
+
+-(void)updateXMLStringWithString:(NSString*)str
+{
     
-    // Pop the current dict
-    [dictionaryStack removeLastObject];
 }
-
-- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string
-{
-    // Build the text value
-    [textInProgress appendString:string];
-}
-
-- (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError
-{
-    // Set the error pointer to the parser’s error object
-    errorPtr = parseError;
-}
-
-
 
 @end
