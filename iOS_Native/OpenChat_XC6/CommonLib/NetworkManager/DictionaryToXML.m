@@ -16,6 +16,8 @@ NSString *const kDictToXMLTextNodeKey = @"text";
     NSMutableString *xmlCurrentNode;
     NSMutableString *xmlCurrentnodeValue;
     
+    NSMutableArray *xmlNodes;
+    
     NSMutableArray *allKeysOfDict;
     NSMutableArray *allValuesOfDict;
 }
@@ -80,17 +82,29 @@ NSString *const kDictToXMLTextNodeKey = @"text";
     xmlCompleteString = nil;
     
     xmlCompleteString = [[NSMutableString alloc] init];
-    xmlCurrentNode = [[NSMutableString alloc] init];
+    xmlCurrentNode = nil;
     
     xmlCurrentnodeValue = [[NSMutableString alloc] init];
     
     allKeysOfDict = [[NSMutableArray alloc] init];
     allValuesOfDict = [[NSMutableArray alloc] init];
+    xmlNodes = [[NSMutableArray alloc] init];
     
+     [self startParsingDictionary:@{@"key":@"ashish is val"}];
     return nil;
 }
 
 
+
+-(void)chnageParentElement:(NSString*)elmtName
+{
+    NSMutableString *tempRoot = [[NSString stringWithFormat:@"<%@>",elmtName] mutableCopy];
+    
+    [xmlCompleteString appendString:[NSString stringWithFormat:@"/%@",tempRoot]];
+    [tempRoot appendString:xmlCompleteString];
+    xmlCompleteString = [tempRoot mutableCopy];
+    tempRoot = nil;
+}
 
 -(void)writeStartElement:(NSString*)elmtName
 {
@@ -100,39 +114,100 @@ NSString *const kDictToXMLTextNodeKey = @"text";
     xmlCurrentNode = nil;
     xmlCurrentNode = [[NSMutableString alloc] init];
     [xmlCurrentNode appendString:[NSString stringWithFormat:@"<%@>",elmtName]];
+    [xmlNodes addObject:elmtName];
 }
 
 -(void)writeEndElement:(NSString*)elmtName
 {
-    [xmlCurrentNode appendString:[NSString stringWithFormat:@"</%@>",elmtName]];
+    if (xmlCurrentNode) {
+        [xmlCompleteString appendString:xmlCurrentNode];
+    }
+    if (!elmtName) {
+        NSMutableString* endNodeName = [xmlNodes lastObject];
+        NSMutableString *tempStr = [[NSMutableString alloc] init];
+        [tempStr appendString:[NSString stringWithFormat:@"</%@>",endNodeName]];
+        
+        [xmlCompleteString appendString:tempStr];
+        endNodeName = nil;
+        tempStr = nil;
+        xmlCurrentNode = nil;
+        [xmlNodes removeLastObject];
+    }else{
+        
+        //[xmlCurrentNode appendString:[NSString stringWithFormat:@"</%@>",elmtName]];
+        NSMutableString *tempStr = [[NSMutableString alloc] init];
+        [tempStr appendString:[NSString stringWithFormat:@"</%@>",elmtName]];
+        
+        [xmlCompleteString appendString:tempStr];
+        tempStr = nil;
+        xmlCurrentNode = nil;
+        [xmlNodes removeLastObject];
+        // [xmlNodes removeAllObjects]; //either way is acceppted, not both simultaniously
+    }
 }
 
 -(void)writeAttribute:(NSString*)attrName Value:(NSString*)attrValue
 {
-    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:@">" withString:@""] mutableCopy];
+    xmlCurrentNode= [[xmlCurrentNode stringByReplacingOccurrencesOfString:@">" withString:[NSString stringWithFormat:@" %@=\"%@\">",attrName,attrValue]] mutableCopy];
     
-    [xmlCompleteString appendString:[NSString stringWithFormat:@" %@=\"%@\" >",attrName,attrValue]];
+    //[xmlCurrentNode appendString:[NSString stringWithFormat:@" %@=\"%@\" >",attrName,attrValue]];
+}
+
+// specify node name and attributes will be added to that only
+-(void)writeAttribute:(NSString*)attrName Value:(NSString*)attrValue toNode:(NSString*)nodeName
+{
+    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"<%@>",nodeName] withString:[NSString stringWithFormat:@"<%@ %@=\"%@\">",nodeName ,attrName,attrValue]] mutableCopy];
+    
 }
 
 -(void)writeAttributes:(NSDictionary*)attrDict
 {
-    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:@">" withString:@""] mutableCopy];
     
     NSMutableString *tempStr = [[NSMutableString alloc] init];
     for (NSString* attrName in attrDict) {
         [tempStr appendString:[NSString stringWithFormat:@" %@=\"%@\"",attrName,[attrDict valueForKey:attrName]]];
     }
-    [xmlCompleteString appendString:[NSString stringWithFormat:@"%@ >",tempStr]];
+    // [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@ >",tempStr]];
+    
+    xmlCurrentNode= [[xmlCurrentNode stringByReplacingOccurrencesOfString:@">" withString:[NSString stringWithFormat:@"%@>",tempStr]] mutableCopy];
+    
+}
+
+-(void)writeAttributes:(NSDictionary*)attrDict toNode:(NSString*)nodeName
+{
+    //xmlCurrentNode= [[xmlCurrentNode stringByReplacingOccurrencesOfString:@">" withString:@""] mutableCopy];
+    
+    NSMutableString *tempStr = [[NSMutableString alloc] init];
+    for (NSString* attrName in attrDict) {
+        [tempStr appendString:[NSString stringWithFormat:@" %@=\"%@\"",attrName,[attrDict valueForKey:attrName]]];
+    }
+    [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@",tempStr]];
+    
+    xmlCompleteString= [[xmlCompleteString stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"<%@>",nodeName] withString:[NSString stringWithFormat:@"<%@ %@>",nodeName ,tempStr]] mutableCopy];
+    
 }
 
 -(void)writeElementValue:(NSString*)elementVal
 {
-    [xmlCompleteString appendString:[NSString stringWithFormat:@"%@",elementVal]];
+    
+    [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@",elementVal]];
 }
+
+//Think about logic if required.
+
+//-(void)changeElement:(NSString*)elmtName value:(NSString*)elementVal
+//{
+//NSRange startRange = [xmlCurrentNode rangeOfString:@"<"];
+//NSRange endRange = [xmlCurrentNode rangeOfString:@">"];
+//
+//NSRange searchRange = NSMakeRange(startRange.location, endRange.location);
+//
+//    [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@",elementVal]];
+//}
 
 -(void)startParsingDictionary:(NSDictionary*)dict
 {
-   // [allKeysOfDict addObjectsFromArray:[dict allKeys]];
+    // [allKeysOfDict addObjectsFromArray:[dict allKeys]];
     
     NSMutableArray *dictAllKeys = [NSMutableArray arrayWithArray:[dict allKeys]];
     
@@ -140,27 +215,34 @@ NSString *const kDictToXMLTextNodeKey = @"text";
     
     [self writeStartElement:@"child2"];
     
-    [self writeElementValue:@"Ashish is the value"];
-    [self writeEndElement:@"child2"];
+    [self writeAttribute:@"attr1" Value:@"view1"];
     
-    [self writeEndElement:@"Root"];
-
-    for (NSUInteger i=0; i < [dictAllKeys count]; i++) {
-        id objOfKey = [dict valueForKey:[dictAllKeys objectAtIndex:i]];
-        
-        if ([objOfKey isKindOfClass:[NSDictionary class]])
-        {
-            [self startParsingDictionary:objOfKey];
-            
-        }else if ([objOfKey isKindOfClass:[NSArray class]])
-        {
-            [self parseArrayComponent:objOfKey];
-            
-        }else
-        {
-            [self updateXMLStringWithString:objOfKey];
-        }
-    }
+    [self writeElementValue:@"Ashish is the value"];
+    
+    [self writeAttribute:@"id" Value:@"view1"];
+    
+    [self writeEndElement:nil];
+    
+    [self writeEndElement:nil];
+    
+    NSLog(@"%@",xmlCompleteString);
+    
+    //    for (NSUInteger i=0; i < [dictAllKeys count]; i++) {
+    //        id objOfKey = [dict valueForKey:[dictAllKeys objectAtIndex:i]];
+    //
+    //        if ([objOfKey isKindOfClass:[NSDictionary class]])
+    //        {
+    //            [self startParsingDictionary:objOfKey];
+    //
+    //        }else if ([objOfKey isKindOfClass:[NSArray class]])
+    //        {
+    //            [self parseArrayComponent:objOfKey];
+    //
+    //        }else
+    //        {
+    //            [self updateXMLStringWithString:objOfKey];
+    //        }
+    //    }
     
 }
 
