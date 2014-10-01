@@ -22,8 +22,8 @@
 
 @end
 
-NSString *const kDictToXMLArrNode = @"array";
-NSString *const kDictToXMLDictNode = @"dict";
+NSString *const kDictToXMLArrNodeTest = @"array";
+NSString *const kDictToXMLDictNodeTest = @"dict";
 
 @implementation ViewController
 
@@ -234,11 +234,11 @@ NSString *const kDictToXMLDictNode = @"dict";
 {
     for (id obj in arrayObj) {
         if ([obj isKindOfClass:[NSArray class]]) {
-            [self parseArrayComponent:obj forXMLNodeName:kDictToXMLArrNode];
+            [self parseArrayComponent:obj forXMLNodeName:kDictToXMLArrNodeTest];
         }else if([obj isKindOfClass:[NSDictionary class]]){
-            [self writeStartElement:kDictToXMLDictNode];
-            [self parseDictComponent:obj forXMLNodeName:kDictToXMLDictNode];
-            [self writeEndElement:kDictToXMLDictNode];
+            [self writeStartElement:kDictToXMLDictNodeTest];
+            [self parseDictComponent:obj forXMLNodeName:kDictToXMLDictNodeTest];
+            [self writeEndElement:kDictToXMLDictNodeTest];
         }else{
             [self writeArrayCorrespondingXMLNode:dictKeyName value:[NSString stringWithFormat:@"%@",obj]];
             //[self writeElementValue:[NSString stringWithFormat:@"%@",obj]];

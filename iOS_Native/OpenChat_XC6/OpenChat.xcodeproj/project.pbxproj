@@ -145,6 +145,7 @@
 		1471ACEB19D98428004D0750 /* DictionaryToXMLOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryToXMLOperation.h; sourceTree = "<group>"; };
 		1471ACEC19D98428004D0750 /* DictionaryToXMLOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryToXMLOperation.m; sourceTree = "<group>"; };
 		147F680D19DC45E800B38DD6 /* XMLTesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLTesterViewController.m; sourceTree = "<group>"; };
+		147F680F19DC468B00B38DD6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1480194D19CAF351002EC8D2 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
 		1480194E19CAF351002EC8D2 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
 		1480194F19CAF351002EC8D2 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
@@ -331,6 +332,7 @@
 		1471ACD019D56D86004D0750 /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
+				147F680F19DC468B00B38DD6 /* ViewController.h */,
 				147F680D19DC45E800B38DD6 /* XMLTesterViewController.m */,
 				1471ACD119D56DA8004D0750 /* sampleData.xml */,
 				1471ACD219D56DA8004D0750 /* TemplateIcon2x.png */,
