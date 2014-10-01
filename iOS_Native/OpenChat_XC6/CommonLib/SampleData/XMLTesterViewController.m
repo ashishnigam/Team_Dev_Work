@@ -1,85 +1,35 @@
 //
-//  DictionaryToXML.m
-//  OpenChat
+//  ViewController.m
+//  XMLTester
 //
-//  Created by Ashish Nigam on 29/09/14.
-//  Copyright (c) 2014 Self. All rights reserved.
+//  Created by Ashish Nigam on 30/09/14.
+//  Copyright (c) 2014 OpenChat. All rights reserved.
 //
 
-#import "DictionaryToXML.h"
+#import "ViewController.h"
 
-NSString *const kDictToXMLArrNode = @"array";
-NSString *const kDictToXMLDictNode = @"dict";
-
-@interface DictionaryToXML () <NSXMLParserDelegate>
+@interface ViewController ()
 {
     NSMutableString *xmlCompleteString;
     NSMutableString *xmlCurrentNode;
     NSMutableString *xmlCurrentnodeValue;
     
-    NSMutableArray *xmlNodes;
+     NSMutableArray *xmlNodes;
     
     NSMutableArray *allKeysOfDict;
     NSMutableArray *allValuesOfDict;
 }
 
-- (id)initWithError:(NSError **)error;
-- (NSString *)xmlStringFromDict:(NSDictionary *)dict;
-
 @end
 
-@implementation DictionaryToXML
+NSString *const kDictToXMLArrNode = @"array";
+NSString *const kDictToXMLDictNode = @"dict";
 
-#pragma mark -
-#pragma mark Public methods
+@implementation ViewController
 
-+ (NSString *)XMLStringFromDictionary:(NSDictionary *)dict error:(NSError **)errorPointer
-{
-    DictionaryToXML *dataConvertor = [[DictionaryToXML alloc] initWithError:errorPointer];
-    NSString *xmlString = [dataConvertor xmlStringFromDict:dict];
-#if !__has_feature(objc_arc)
-    [dataConvertor release];
-#endif
-    return xmlString;
-}
-
-+ (NSData *)XMLDataFromDictionary:(NSDictionary *)dict error:(NSError **)errorPointer
-{
-    NSString *xmlString = [DictionaryToXML XMLStringFromDictionary:dict error:errorPointer];
-    return [xmlString dataUsingEncoding:NSUTF8StringEncoding];
-}
-
-
-
-#pragma mark -
-#pragma mark Parsing
-
-- (id)initWithError:(NSError **)error
-{
-    if (self = [super init])
-    {
-        errorPtr = *error; //check for solution if this does not work, as we can not store error in an instance variable
-    }
-    return self;
-}
-
-- (void)dealloc
-{
-#if !__has_feature(objc_arc)
-    [dictionaryStack release];
-    [textInProgress release];
-    [super dealloc];
-#endif
-}
-
-- (NSString *)xmlStringFromDict:(NSDictionary *)dict
-{
-#if !__has_feature(objc_arc)
-    // Clear out any old data
-    [xmlCompleteString release];
-    [textInProgress release];
-#endif
-    
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
     xmlCompleteString = nil;
     
     xmlCompleteString = [[NSMutableString alloc] init];
@@ -91,11 +41,13 @@ NSString *const kDictToXMLDictNode = @"dict";
     allValuesOfDict = [[NSMutableArray alloc] init];
     xmlNodes = [[NSMutableArray alloc] init];
     
-     [self startParsingDictionary:@{@"key":@"ashish is val"}];
-    return nil;
+    [self startParsingDictionary:@{@"key":@"ashish is val"}];
 }
 
-
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 -(void)chnageParentElement:(NSString*)elmtName
 {
@@ -143,7 +95,7 @@ NSString *const kDictToXMLDictNode = @"dict";
         tempStr = nil;
         xmlCurrentNode = nil;
         [xmlNodes removeLastObject];
-        // [xmlNodes removeAllObjects]; //either way is acceppted, not both simultaniously
+       // [xmlNodes removeAllObjects]; //either way is acceppted, not both simultaniously
     }
 }
 
@@ -168,7 +120,7 @@ NSString *const kDictToXMLDictNode = @"dict";
     for (NSString* attrName in attrDict) {
         [tempStr appendString:[NSString stringWithFormat:@" %@=\"%@\"",attrName,[attrDict valueForKey:attrName]]];
     }
-    // [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@ >",tempStr]];
+   // [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@ >",tempStr]];
     
     xmlCurrentNode= [[xmlCurrentNode stringByReplacingOccurrencesOfString:@">" withString:[NSString stringWithFormat:@"%@>",tempStr]] mutableCopy];
     
@@ -246,8 +198,8 @@ NSString *const kDictToXMLDictNode = @"dict";
         
         if ([objOfKey isKindOfClass:[NSDictionary class]])
         {
-            //            [self writeStartElement:[dictAllKeys objectAtIndex:i]];
-            //            [self startParsingDictionary:objOfKey];
+//            [self writeStartElement:[dictAllKeys objectAtIndex:i]];
+//            [self startParsingDictionary:objOfKey];
             [self writeStartElement:keyName];
             [self parseDictComponent:objOfKey forXMLNodeName:keyName];
             [self writeEndElement:keyName];
@@ -311,4 +263,5 @@ NSString *const kDictToXMLDictNode = @"dict";
 {
     
 }
+
 @end
