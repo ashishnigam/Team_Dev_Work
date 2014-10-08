@@ -18,8 +18,13 @@
     
     NSMutableArray *allKeysOfDict;
     NSMutableArray *allValuesOfDict;
+    
+    NSString *xmlEncoding;
+    
+    BOOL documentEnded;
 }
 
+@property (nonatomic, strong) NSString *xmlEncoding;
 @end
 
 NSString *const kDictToXMLArrNodeTest = @"array";
@@ -80,41 +85,101 @@ NSString *const kDictToXMLDictNodeTest = @"dict";
 
 - (void) writeStartDocument;
 {
-    
+    [self writeStartDocumentWithEncodingAndVersion:nil version:nil];
 }
 
 - (void) writeStartDocumentWithVersion:(NSString*)version
 {
-    
+    [self writeStartDocumentWithEncodingAndVersion:nil version:version];
 }
 
 - (void) writeStartDocumentWithEncodingAndVersion:(NSString*)encoding version:(NSString*)version
 {
+    if([xmlCompleteString length] != 0) {
+        // raise exception - Starting document which is not empty
+        @throw([NSException exceptionWithName:@"XMLWriteException" reason:@"Document has already been started" userInfo:@{@"info":@"Please use this at the start of document"}]);
+    }else {
+        [xmlCompleteString appendString:@"<?xml version=\""];
+        if(version) {
+            [xmlCompleteString appendString:version];
+        } else {
+            // default to 1.0
+            [xmlCompleteString appendString:@"1.0"];
+        }
+        [xmlCompleteString appendString:@"\""];
+        
+        if(encoding) {
+            [xmlCompleteString appendString:@" encoding=\""];
+            [xmlCompleteString appendString:encoding];
+            [xmlCompleteString appendString:@"\""];
+            
+            self.xmlEncoding = encoding;
+        }
+        [xmlCompleteString appendString:@" ?>"];
+        
+    }
     
 }
 
 - (void) writeEndDocument
 {
-    
+    documentEnded = YES;
+    // nothing to do till now, make more understandng for assurance
 }
 
-- (NSMutableString*) toString
+- (NSString*) toString
 {
-    return nil;
+    return [NSString stringWithString:xmlCompleteString]; // check it.
 }
 
 - (NSData*) toData
 {
-    return nil;
+    if ([[self.xmlEncoding lowercaseString] isEqualToString:[@"UTF-8" lowercaseString]]) {
+        return [xmlCompleteString dataUsingEncoding:NSUTF8StringEncoding];
+    }
+    return [xmlCompleteString dataUsingEncoding:NSUTF8StringEncoding];
 }
 
 - (void) writeComment:(NSString*)comment
 {
-    
+    [xmlCompleteString appendString:@"<!--"];
+    [xmlCompleteString appendString:comment]; // no escape
+    [xmlCompleteString appendString:@"-->"];
 }
+
+- (void) writeComment:(NSString*)comment beforeNode:(NSString*)nodeName
+{
+    NSRange startRange = [xmlCompleteString rangeOfString:[NSString stringWithFormat:@"<%@",nodeName]];
+    NSRange firstStrRange = NSMakeRange(0, startRange.location);
+    
+    NSLog(@"%ld %ld",firstStrRange.location,firstStrRange.length);
+    NSMutableString *str1 = [[xmlCompleteString substringWithRange:firstStrRange] mutableCopy];
+    NSLog(@"%@",str1);
+    
+    NSRange secondStrRange = NSMakeRange(startRange.location, [xmlCompleteString length]-startRange.location);
+    NSString *str2 = [xmlCompleteString substringWithRange:secondStrRange];
+    NSLog(@"%@",str2);
+    
+    
+    
+    [str1 appendString:@"<!--"];
+    [str1 appendString:comment]; // no escape
+    [str1 appendString:@"-->"];
+    [str1 appendString:str2];
+    
+    xmlCompleteString = str1;
+}
+
 - (void) writeEmptyElement:(NSString *)localName
 {
-    
+    [self writeStartElement:localName];
+    [self writeEndElement:nil];
+}
+
+- (void) writeEmptyElement:(NSString *)localName withAttributes:(NSDictionary*)attrDict
+{
+    [self writeStartElement:localName withAttributes:attrDict];
+    [self writeEndElement:nil];
 }
 
 -(void)chnageParentElement:(NSString*)elmtName
@@ -229,71 +294,101 @@ NSString *const kDictToXMLDictNodeTest = @"dict";
 //Think about logic if required.
 -(void)replaceNode:(NSString*)nodeName toValue:(NSString*)newValue
 {
+    NSRange startRange = [xmlCompleteString rangeOfString:[NSString stringWithFormat:@"<%@",nodeName]];
     
-}
-//-(void)changeElement:(NSString*)elmtName value:(NSString*)elementVal
-//{
-//NSRange startRange = [xmlCurrentNode rangeOfString:@"<"];
-//NSRange endRange = [xmlCurrentNode rangeOfString:@">"];
-//
-//NSRange searchRange = NSMakeRange(startRange.location, endRange.location);
-//
-//    [xmlCurrentNode appendString:[NSString stringWithFormat:@"%@",elementVal]];
-//}
-
--(void)startParsingDictionary:(NSDictionary*)dict withRootNodeName:(NSString*)nodeName
-{
-    // [allKeysOfDict addObjectsFromArray:[dict allKeys]];
+    NSRange endRange = [xmlCompleteString rangeOfString:[NSString stringWithFormat:@"</%@>",nodeName]];
     
-    // NSMutableArray *dictAllKeys = [NSMutableArray arrayWithArray:[dict allKeys]];
+    NSRange searchRange = NSMakeRange(startRange.location, (endRange.location-startRange.location)+endRange.length);
+    
+    NSMutableString *tempStr = [[xmlCompleteString substringWithRange:searchRange] mutableCopy];
+    
+    NSRange angBrLocation = [tempStr rangeOfString:@">"];
+    NSLog(@"%lu %ld",angBrLocation.location , angBrLocation.length);
+    
+    NSRange endRange2 = [tempStr rangeOfString:[NSString stringWithFormat:@"</%@>",nodeName]];
+    NSRange valueLength = NSMakeRange(angBrLocation.location+1, (endRange2.location-angBrLocation.location-1));
+    
+    NSString *nodeValue = [tempStr substringWithRange:valueLength];
+    
+    xmlCompleteString = [[xmlCompleteString stringByReplacingOccurrencesOfString:nodeValue withString:newValue] mutableCopy];
     /*
-     [self writeStartElement:@"Root"];
-     
-     [self writeStartElement:@"child2"];
-     
-     [self writeAttribute:@"attr1" Value:@"view1"];
-     
-     [self writeElementValue:@"Ashish is the value"];
-     
-     [self writeAttribute:@"id" Value:@"view1"];
-     
-     [self writeEndElement:nil];
-     
-     [self writeStartElement:@"child3"];
-     
-     [self writeAttribute:@"attr1" Value:@"view1"];
-     
-     [self writeElementValue:@"Ashish is the champ"];
-     
-     [self writeAttribute:@"id" Value:@"view1"];
-     
-     [self writeEndElement:nil];
-     
-     [self writeEndElement:nil];
-     
+     NSLog(@"%lu %ld",startRange.location , startRange.length);
+     NSLog(@"%lu %ld",endRange.location , endRange.length);
+     NSLog(@"%lu %ld",searchRange.location , searchRange.length);
+     NSLog(@"%@",tempStr);
+     NSLog(@"%@",nodeValue);
      NSLog(@"%@",xmlCompleteString);
      */
     
-    //NSUInteger i=0; i < [dictAllKeys count]; i++
+    NSString *string = [NSString stringWithString:xmlCompleteString];
+    NSError *error = NULL;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"node1" options:NSRegularExpressionCaseInsensitive error:&error];
+    NSUInteger numberOfMatches = [regex numberOfMatchesInString:string options:0 range:NSMakeRange(0, [string length])];
+    NSArray* allMatches = [regex matchesInString:string options:0 range:NSMakeRange(0, [string length])];
+    NSLog(@"Found %lu",(unsigned long)numberOfMatches);
+    
+    for (NSTextCheckingResult *match in allMatches) {
+        NSRange matchRange = [match range];
+        
+        NSLog(@"%@", [xmlCompleteString substringWithRange:matchRange]);
+    }
+    
+    NSLog(@"Found %@",allMatches);
+}
+
+
+-(void)writeMyTestXML:(id)args
+{
+    
+    [self writeStartElement:@"Root"];
+    
+    [self writeStartElement:@"child2"];
+    
+    [self writeAttribute:@"attr1" Value:@"view1"];
+    
+    [self writeElementValue:@"Ashish is the value"];
+    
+    [self writeAttribute:@"id" Value:@"view1"];
+    
+    [self writeEndElement:nil];
+    
+    [self writeStartElement:@"child3"];
+    
+    [self writeAttribute:@"attr1" Value:@"view1"];
+    
+    [self writeElementValue:@"Ashish is the champ"];
+    
+    [self writeAttribute:@"id" Value:@"view1"];
+    
+    [self writeEndElement:nil];
+    
+    [self writeEndElement:nil];
+    
+    NSLog(@"%@",xmlCompleteString);
+    
+}
+
+
+-(void)startParsingDictionary:(NSDictionary*)dict withRootNodeName:(NSString*)nodeName
+{
+    documentEnded = NO;
     [self writeStartElement:nodeName];
     
     for (NSString* keyName in dict) {
-        
-        // NSString *keyName = [dictAllKeys objectAtIndex:i];
         
         id objOfKey = [dict valueForKey:keyName];
         
         if ([objOfKey isKindOfClass:[NSDictionary class]])
         {
-            //            [self writeStartElement:[dictAllKeys objectAtIndex:i]];
-            //            [self startParsingDictionary:objOfKey];
             [self writeStartElement:keyName];
             [self parseDictComponent:objOfKey forXMLNodeName:keyName];
             [self writeEndElement:keyName];
             
         }else if ([objOfKey isKindOfClass:[NSArray class]])
         {
+            
             [self parseArrayComponent:objOfKey forXMLNodeName:keyName];
+            // [self writeComment:@"test comment Ashsih Nigam"];
             
         }else
         {
@@ -301,6 +396,10 @@ NSString *const kDictToXMLDictNodeTest = @"dict";
         }
     }
     [self writeEndElement:nil];
+    
+    [self replaceNode:@"node1" toValue:@"11111111111"];
+    
+    // [self writeComment:@"test comment beforenode Ashsih Nigam" beforeNode:@"node1"];
     NSLog(@"%@",xmlCompleteString);
 }
 
