@@ -13,15 +13,15 @@
 }
 
 -(id)XMLfromJSON:(id)jsonObj;
--(id)XMLfromDictionary:(id)dictObj;
--(id)XMLfromNSdata:(NSData*)dataObj;
+-(id)XMLStringfromDictionary:(id)dictObj;
+-(id)XMLDatafromDictionary:(id)dictObj;
 
--(id)JSONfromXML:(id)xmlOBJ;
+-(id)JSONfromXMLString:(id)xmlOBJ;
+-(id)JSONfromXMLData:(NSData*)dataObj;
 -(id)JSONfromDictionary:(id)dictObj;
--(id)JSONfromNSdata:(NSData*)dataObj;
 
--(id)DictionaryFromXML:(id)xmlOBJ;
+-(id)DictionaryFromXMLString:(id)xmlOBJ;
+-(id)DictionaryFromXMLData:(id)xmlOBJ;
 -(id)DictionaryFromJSON:(id)jsonOBJ;
--(id)DictionaryFromNSdata:(id)dataObj;
 
 @end

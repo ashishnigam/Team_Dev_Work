@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141199B619EACAAA00A59DC6 /* testDict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 141199B519EACAAA00A59DC6 /* testDict.txt */; };
+		141199BA19EB044100A59DC6 /* JSLibManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 141199B919EB044100A59DC6 /* JSLibManager.m */; };
+		141199BE19EB04AC00A59DC6 /* myJS.js in Resources */ = {isa = PBXBuildFile; fileRef = 141199BC19EB04AC00A59DC6 /* myJS.js */; };
+		141199BF19EB04AC00A59DC6 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 141199BD19EB04AC00A59DC6 /* TemplateIcon2x.png */; };
 		1428728819DAD7C700C0608C /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1428728719DAD7C700C0608C /* XMLWriter.m */; };
 		14629C6819C972190046D30A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6719C972190046D30A /* main.m */; };
 		14629C6B19C972190046D30A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14629C6A19C972190046D30A /* AppDelegate.m */; };
@@ -75,6 +79,7 @@
 		14843B7B19D3F120004E8187 /* CoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7A19D3F120004E8187 /* CoredataManager.m */; };
 		14843B7E19D3F14C004E8187 /* SqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B7D19D3F14C004E8187 /* SqliteManager.m */; };
 		14843B8219D43074004E8187 /* DataParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14843B8119D43074004E8187 /* DataParseOperation.m */; };
+		14BF40CF19EBEAF5008DE8CF /* TriangularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BF40CE19EBEAF5008DE8CF /* TriangularView.m */; };
 		14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */; };
 		14FA5C3319C976DA00C8BE4E /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FA5BFC19C976DA00C8BE4E /* UIColor+Expanded.m */; };
 		14FAFED019D0410500263258 /* BlueJIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FAFECC19D0410500263258 /* BlueJIcon.png */; };
@@ -102,6 +107,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		141199B519EACAAA00A59DC6 /* testDict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testDict.txt; sourceTree = "<group>"; };
+		141199B819EB044100A59DC6 /* JSLibManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLibManager.h; sourceTree = "<group>"; };
+		141199B919EB044100A59DC6 /* JSLibManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSLibManager.m; sourceTree = "<group>"; };
+		141199BC19EB04AC00A59DC6 /* myJS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = myJS.js; sourceTree = "<group>"; };
+		141199BD19EB04AC00A59DC6 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		1428728419DAD7C600C0608C /* XMLSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSerializable.h; sourceTree = "<group>"; };
 		1428728519DAD7C600C0608C /* XMLStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStreamWriter.h; sourceTree = "<group>"; };
 		1428728619DAD7C700C0608C /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
@@ -208,6 +218,8 @@
 		14843B7D19D3F14C004E8187 /* SqliteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteManager.m; sourceTree = "<group>"; };
 		14843B8019D43074004E8187 /* DataParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParseOperation.h; sourceTree = "<group>"; };
 		14843B8119D43074004E8187 /* DataParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParseOperation.m; sourceTree = "<group>"; };
+		14BF40CD19EBEAF5008DE8CF /* TriangularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangularView.h; sourceTree = "<group>"; };
+		14BF40CE19EBEAF5008DE8CF /* TriangularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangularView.m; sourceTree = "<group>"; };
 		14FA5BF819C976DA00C8BE4E /* LibiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibiOS.h; sourceTree = "<group>"; };
 		14FA5BF919C976DA00C8BE4E /* ScheduleTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTimer.h; sourceTree = "<group>"; };
 		14FA5BFA19C976DA00C8BE4E /* ScheduleTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTimer.m; sourceTree = "<group>"; };
@@ -246,6 +258,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141199B719EB041600A59DC6 /* JSLibManager */ = {
+			isa = PBXGroup;
+			children = (
+				141199BB19EB048200A59DC6 /* TestNPMLibs */,
+				141199B819EB044100A59DC6 /* JSLibManager.h */,
+				141199B919EB044100A59DC6 /* JSLibManager.m */,
+			);
+			path = JSLibManager;
+			sourceTree = "<group>";
+		};
+		141199BB19EB048200A59DC6 /* TestNPMLibs */ = {
+			isa = PBXGroup;
+			children = (
+				141199BC19EB04AC00A59DC6 /* myJS.js */,
+				141199BD19EB04AC00A59DC6 /* TemplateIcon2x.png */,
+			);
+			path = TestNPMLibs;
+			sourceTree = "<group>";
+		};
 		1428728319DAD7C600C0608C /* DataHandler */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +363,7 @@
 		1471ACD019D56D86004D0750 /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
+				141199B519EACAAA00A59DC6 /* testDict.txt */,
 				147F680F19DC468B00B38DD6 /* ViewController.h */,
 				147F680D19DC45E800B38DD6 /* XMLTesterViewController.m */,
 				1471ACD119D56DA8004D0750 /* sampleData.xml */,
@@ -494,9 +526,28 @@
 			path = DatabaseManager;
 			sourceTree = "<group>";
 		};
+		14BF40CB19EBEAC0008DE8CF /* AnimationCollection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimationCollection;
+			sourceTree = "<group>";
+		};
+		14BF40CC19EBEAC0008DE8CF /* ViewFactoryDesign */ = {
+			isa = PBXGroup;
+			children = (
+				14BF40CD19EBEAF5008DE8CF /* TriangularView.h */,
+				14BF40CE19EBEAF5008DE8CF /* TriangularView.m */,
+			);
+			path = ViewFactoryDesign;
+			sourceTree = "<group>";
+		};
 		14FA5B8F19C976DA00C8BE4E /* CommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				14BF40CB19EBEAC0008DE8CF /* AnimationCollection */,
+				14BF40CC19EBEAC0008DE8CF /* ViewFactoryDesign */,
+				141199B719EB041600A59DC6 /* JSLibManager */,
 				1471ACDB19D5935A004D0750 /* DataBaseSyncManager */,
 				1471ACD019D56D86004D0750 /* SampleData */,
 				14843B7519D3F0F1004E8187 /* DatabaseManager */,
@@ -613,13 +664,16 @@
 				1480197719CAF351002EC8D2 /* halloween.jpg in Resources */,
 				14FAFEE019D047AE00263258 /* Page.png in Resources */,
 				1480196D19CAF351002EC8D2 /* bubbleMine@2x.png in Resources */,
+				141199BF19EB04AC00A59DC6 /* TemplateIcon2x.png in Resources */,
 				14835B4719D025B000B3E0ED /* dwayne_wade.png in Resources */,
 				1480197D19CAF351002EC8D2 /* typingSomeone@2x.png in Resources */,
 				14FAFED019D0410500263258 /* BlueJIcon.png in Resources */,
 				14629C7719C972190046D30A /* Main.storyboard in Resources */,
 				1480199A19CB07EC002EC8D2 /* james_harden.png in Resources */,
 				14FAFEDA19D045CB00263258 /* chat_bubble_right.png in Resources */,
+				141199B619EACAAA00A59DC6 /* testDict.txt in Resources */,
 				1480197219CAF351002EC8D2 /* someoneBubble@2x.psd in Resources */,
+				141199BE19EB04AC00A59DC6 /* myJS.js in Resources */,
 				14629C7C19C972190046D30A /* LaunchScreen.xib in Resources */,
 				1480196C19CAF351002EC8D2 /* bubbleMine.png in Resources */,
 				14FAFEE219D047AE00263258 /* VCCarrotArrow.png in Resources */,
@@ -676,6 +730,7 @@
 				1480198119CAF351002EC8D2 /* UIBubbleTableViewCell.m in Sources */,
 				1471ACDA19D58CFE004D0750 /* AppRecord.m in Sources */,
 				14629C7119C972190046D30A /* ContactsListViewController.m in Sources */,
+				14BF40CF19EBEAF5008DE8CF /* TriangularView.m in Sources */,
 				1471ACCF19D56C22004D0750 /* NetworkDataTypeConversion.m in Sources */,
 				1480198219CAF351002EC8D2 /* UIBubbleTypingTableViewCell.m in Sources */,
 				14843B7819D3F104004E8187 /* DatabaseManager.m in Sources */,
@@ -687,6 +742,7 @@
 				147F680E19DC45E800B38DD6 /* XMLTesterViewController.m in Sources */,
 				1471ACE419D594A1004D0750 /* StreamManager.m in Sources */,
 				14FA5C3219C976DA00C8BE4E /* ScheduleTimer.m in Sources */,
+				141199BA19EB044100A59DC6 /* JSLibManager.m in Sources */,
 				1471ACEA19D98417004D0750 /* DictionaryToXML.m in Sources */,
 				1480197F19CAF351002EC8D2 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				14843B3319D2A956004E8187 /* ChatDemoViewController.m in Sources */,

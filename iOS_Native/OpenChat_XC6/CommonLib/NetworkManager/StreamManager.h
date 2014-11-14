@@ -10,4 +10,5 @@
 
 @interface StreamManager : NSObject
 
+// may require stream conection class as well
 @end

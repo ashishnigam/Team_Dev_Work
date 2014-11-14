@@ -8,6 +8,7 @@
 
 #import "NetworkDataTypeConversion.h"
 #import "XMLToDictionary.h"
+#import "DictionaryToXML.h"
 
 @interface NetworkDataTypeConversion ()
 
@@ -24,6 +25,23 @@
     // Print the dictionary
     NSLog(@"%@", xmlDictionary);
     return xmlDictionary;
+}
+
+-(id)XMLStringfromDictionary:(id)dictObj
+{
+    // Parse the XML into a dictionary
+    NSError *parseError = nil;
+    NSString *xmlString = [DictionaryToXML XMLStringFromDictionary:dictObj error:&parseError];
+    
+    // Print the dictionary
+    NSLog(@"%@", xmlString);
+    return xmlString;
+}
+
+-(id)XMLDatafromDictionary:(id)dictObj
+{
+    NSString* xmlString = [self XMLStringfromDictionary:dictObj];
+    return [xmlString dataUsingEncoding:NSUTF8StringEncoding];
 }
 
 -(NSData*)propertyListFromDict:(NSDictionary*)dict

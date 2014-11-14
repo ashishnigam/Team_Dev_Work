@@ -6,7 +6,75 @@
 //  Copyright (c) 2014 bitsAndbytes. All rights reserved.
 //
 
+//
+// testXMLString =
+//    <items>
+//        <item id=”0001″ type=”donut”>
+//            <name>Cake</name>
+//            <ppu>0.55</ppu>
+//            <batters>
+//                <batter id=”1001″>Regular</batter>
+//                <batter id=”1002″>Chocolate</batter>
+//                <batter id=”1003″>Blueberry</batter>
+//            </batters>
+//            <topping id=”5001″>None</topping>
+//            <topping id=”5002″>Glazed</topping>
+//            <topping id=”5005″>Sugar</topping>
+//        </item>
+//    </items>
+//
+// is converted into
+//
+// xmlDictionary = {
+//    items = {
+//        item = {
+//            id = 0001;
+//            type = donut;
+//            name = {
+//                text = Cake;
+//            };
+//            ppu = {
+//                text = 0.55;
+//            };
+//            batters = {
+//                batter = (
+//                    {
+//                        id = 1001;
+//                        text = Regular;
+//                    },
+//                    {
+//                        id = 1002;
+//                        text = Chocolate;
+//                    },
+//                    {
+//                        id = 1003;
+//                        text = Blueberry;
+//                    }
+//                );
+//            };
+//            topping = (
+//                {
+//                    id = 5001;
+//                    text = None;
+//                },
+//                {
+//                    id = 5002;
+//                    text = Glazed;
+//                },
+//                {
+//                    id = 5005;
+//                    text = Sugar;
+//                }
+//            );
+//        };
+//     };
+// }
+//
+
+
 #import <UIKit/UIKit.h>
+
+#define twoWayCompatibility
 
 @interface ViewController : UIViewController
 

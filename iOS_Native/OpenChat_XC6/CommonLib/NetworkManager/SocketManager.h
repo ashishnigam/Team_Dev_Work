@@ -10,4 +10,6 @@
 
 @interface SocketManager : NSObject
 
+
+// may require socket conection class as well
 @end
