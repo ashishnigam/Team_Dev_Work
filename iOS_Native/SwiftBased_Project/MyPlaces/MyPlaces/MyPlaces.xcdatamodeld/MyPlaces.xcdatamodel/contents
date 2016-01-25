@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="BusinessCard" syncable="YES">
+        <attribute name="capturedLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="capturedLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="capturedPlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="capturedTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cardID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardImgData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="cardStrData" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cardStrDataAsJSON" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Event">
+        <attribute name="pictureIdentifire" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placeLatitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="placeLongitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="placeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="261" positionY="189" width="128" height="120"/>
+        <element name="BusinessCard" positionX="261" positionY="225" width="128" height="165"/>
+    </elements>
+</model>

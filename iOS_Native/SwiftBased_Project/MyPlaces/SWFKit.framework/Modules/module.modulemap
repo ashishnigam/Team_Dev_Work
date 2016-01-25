@@ -1,0 +1,10 @@
+framework module SWFKit {
+  umbrella header "SWFKit.h"
+
+  export *
+  module * { export * }
+}
+
+module SWFKit.Swift {
+    header "SWFKit-Swift.h"
+}
