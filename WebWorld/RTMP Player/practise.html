@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<title>RTMP Live Streaming</title>
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="robots" content="index,follow">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <script type="text/javascript" src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.js"></script>
+    
+	
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		}
+		
+	</style>
+	
+	
+	<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			var flashvars = {};
+			flashvars.src = "rtmp://172.31.2.95:1935/live-webcam/webcammadhu";
+            flashvars.autoPlay = true;
+            flashvars.autoStart = true;
+			flashvars.controlBarMode = "floating";
+			var params = {};
+			params.allowfullscreen = "true";
+			params.allowscriptaccess = "always";
+            params.autoStart = true;
+            params.autoPlay = true;
+			var attributes = {};
+			swfobject.embedSWF("FlashMediaPlayback.swf", "videoDiv", "1680", "900", "10.1.0", "expressInstall.swf", flashvars, params, attributes);
+		</script>
+     
+	
+<script>
+$().ready(
+  function() {
+    // nascondo tutti i sottomenu
+    $("#s1").hide();
+     // mosoro i sottomenu del blocco principale 1
+    $("#p1").click(
+      function() {
+        if ($("#s1").is(":hidden")) $("#s1").slideDown(); else $("#s1").slideUp();
+	  }
+    );
+  
+  }
+);
+</script>
+	
+</head>
+
+<body>
+
+
+
+<object width="1680" height="900" type="application/x-shockwave-flash" data="FlashMediaPlayback.swf" id="videoDiv" style="visibility: visible;"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="flashvars" value="src=rtmp://172.31.2.95:1935/live-webcam/webcammadhu&amp;controlBarMode=floating"></object>
+
+<video id='media'/>
+<script>
+    window.onload = function() {
+      //  window.mediaElement = document.getElementById('media');
+       // window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+        window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+        window.castReceiverManager.start();
+    }
+
+    window.castReceiverManager.onSenderDisconnected = function(event) {
+        if(window.castReceiverManager.getSenders().length == 0 && event.reason == cast.receiver.system.DisconnectReason.REQUESTED_BY_SENDER)
+        {
+           // window.close();
+        }
+    }
+</script>
+
+</body>
+</html>
